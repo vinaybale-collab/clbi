@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Methodology | CLBI v1.1 draft</title>
+<meta name="description" content="Corporate Land and Biodiversity Index v1.1 (draft): India’s 500 largest listed companies compared with sector peers on reported environmental pressure, with every number traced to its source.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="" data-root="">
+<a class="skip" href="#main">Skip to content</a>
+<div class="draft-bar" role="note"><div class="wrap"><strong>Draft for review — not for publication.</strong> <span>Figures may change before release.</span></div></div>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html" aria-label="CLBI home">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="7" fill="var(--forest)"/><path d="M9 22c0-7 5-12 14-12-1 8-5 13-12 13" fill="none" stroke="var(--paper)" stroke-width="2.2" stroke-linecap="round"/><path d="M10 23l7-7" stroke="var(--paper)" stroke-width="2.2" stroke-linecap="round"/></svg>
+      <span class="brand-text"><span class="brand-name">Corporate Land &amp; Biodiversity Index</span><span class="brand-sub">CLBI v1.1 draft</span></span>
+    </a>
+    <div class="header-search" data-search></div>
+  </div>
+  <nav class="wrap site-nav" id="site-nav" aria-label="Main"><a href="index.html">Overview</a><a href="rankings.html">Rankings</a><a href="sectors.html">Sectors</a><a href="methodology.html" aria-current="page">Methodology</a><a href="data-quality.html">Data quality</a><a href="downloads.html">Downloads</a></nav>
+</header>
+<main id="main">
+
+<section class="page-head"><div class="wrap"><h1>Corporate Land and Biodiversity Index (CLBI) v1.1: how it works</h1><p class="lead">The methodology note, reproduced in full from its source. Download the <a href="data/CLBI_v1.1_Methodology_Note.md">Markdown version</a>.</p></div></section>
+<section class="section tight"><div class="wrap doc-grid">
+  <nav class="doc-toc" aria-label="Sections"><a href="#1-in-one-paragraph">1. In one paragraph</a><a href="#2-principles">2. Principles</a><a href="#3-which-companies">3. Which companies</a><a href="#4-what-is-measured">4. What is measured</a><a href="#5-how-a-score-is-worked-out">5. How a score is worked out</a><a href="#6-credit-for-positive-action-up-to-10-points">6. Credit for positive action (up to 10 points)</a><a href="#7-physical-output-for-cement-and-power">7. Physical output for cement and power</a><a href="#8-other-views-not-part-of-the-main-rank">8. Other views (not part of the main rank)</a><a href="#9-limits-to-keep-in-mind">9. Limits to keep in mind</a><a href="#10-sources">10. Sources</a><a href="#11-corrections">11. Corrections</a><a href="#annex-a-illustrative-nature-cost-not-part-of-the-ranking">Annex A. Illustrative nature cost (not part of the ranking)</a></nav>
+  <article class="prose doc"><p><strong>Draft for Landstack · Urvara.Life · 27 October 2026 · For discussion, not for publication</strong></p>
+<h2 id="1-in-one-paragraph">1. In one paragraph</h2>
+<p>CLBI compares India's 500 largest listed companies with others <strong>in the same sector</strong>. It asks one question: <em>how much pressure on nature does each company report, for every rupee it earns?</em> It looks at three pressures, greenhouse gases, water and waste, all for the year April 2025 to March 2026. Each value comes from what the company itself has published, and each one can be traced to its page and source. The maths is simple enough to check by hand.</p>
+<p><strong>What a rank means.</strong> Rank 1 means that, among its sector peers, the company reported the lowest pressure per rupee of revenue. It does <em>not</em> mean the company's footprint is small in absolute terms, or that it is good for biodiversity.</p>
+<p><strong>What CLBI is not:</strong></p>
+<ul>
+<li>a measure of biodiversity impact or of nature-related risk;</li>
+<li>an ESG rating;</li>
+<li>a ranking across sectors (a cement maker is never compared with a bank);</li>
+<li>a judgement that any company has done something wrong.</li>
+</ul>
+<h2 id="2-principles">2. Principles</h2>
+<ol>
+<li><strong>Company data only.</strong> Ranks use only what companies themselves report. Nothing estimated or modelled enters a rank, and a blank stays blank. The land ratios and prices in the pilot and annex are clearly labelled as research-based.</li>
+<li><strong>Every number traceable.</strong> Each value carries its source link, page or filing field, and confidence tier. Values from reports also carry the exact words quoted from the report.</li>
+<li><strong>Compare like with like.</strong> Companies are compared only within their sector, and only where at least 10 companies have complete data.</li>
+<li><strong>Simple, open maths.</strong> Anyone with the same data can reproduce every score. The dataset recomputes them with spreadsheet formulas.</li>
+<li><strong>Doubtful values are held back.</strong> A value that looks wrong is not scored until the company confirms it, even if it is printed in the filing.</li>
+<li><strong>Credit is small and never offsets pressure.</strong> Restoration, recycling and renewable electricity earn a few points; they do not cancel emissions or water use.</li>
+</ol>
+<h2 id="3-which-companies">3. Which companies</h2>
+<p>The universe is the <strong>500 NSE-listed companies with the highest average market capitalisation</strong> over January–June 2026, as published by AMFI. REITs, InvITs and trusts are excluded.</p>
+<p>Companies are grouped by the <strong>NSE's own 22-sector classification</strong>. Financial Services is split into sub-groups (banks, lenders, capital-market firms), because these businesses are too different to compare with each other.</p>
+<p>A group is ranked only if <strong>at least 10 of its companies</strong> have complete data. This gives <strong>373 ranked companies in 16 groups</strong>. The breakdown is below.</p>
+<div class="table-wrap"><table class="data">
+<thead>
+<tr>
+<th>Peer group</th>
+<th style="text-align: right;">Companies</th>
+<th style="text-align: right;">Ranked</th>
+<th style="text-align: right;">Also ranked on air</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Capital Goods</td>
+<td style="text-align: right;">68</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">26</td>
+</tr>
+<tr>
+<td>Healthcare</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">31</td>
+</tr>
+<tr>
+<td>Automobile &amp; Auto Components</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">24</td>
+</tr>
+<tr>
+<td>Fast Moving Consumer Goods</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">23</td>
+</tr>
+<tr>
+<td>Chemicals</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">21</td>
+</tr>
+<tr>
+<td>Consumer Services</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
+<td>Information Technology</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr>
+<td>Metals &amp; Mining</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr>
+<td>Consumer Durables</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>Oil, Gas &amp; Consumable Fuels</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>Power</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>Construction Materials (cement)</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr>
+<td>Services</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td><em>Financial Services, separate:</em> banks · lenders · capital markets</td>
+<td style="text-align: right;">27 · 32 · 16</td>
+<td style="text-align: right;">25 · 26 · 11</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>Scores shown, too few complete for a rank: Construction, Realty, insurers</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>Listed only (fewer than 10 companies): Telecom, Textiles, Diversified, Media, holding companies, others</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td style="text-align: right;"><strong>500</strong></td>
+<td style="text-align: right;"><strong>373</strong></td>
+<td style="text-align: right;"><strong>169</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Financial Services</strong> is shown on a separate sheet with a warning. A bank's own footprint is its offices and data centres. Its real effect on nature comes through what it lends to and invests in, and companies do not report that.</p>
+<h2 id="4-what-is-measured">4. What is measured</h2>
+<div class="table-wrap"><table class="data">
+<thead>
+<tr>
+<th>Pressure</th>
+<th>What companies report (BRSR, Principle 6)</th>
+<th>Unit</th>
+<th style="text-align: right;">Companies with a value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Climate</td>
+<td>Scope 1 + Scope 2 greenhouse-gas emissions</td>
+<td>tonnes CO2e</td>
+<td style="text-align: right;">473</td>
+</tr>
+<tr>
+<td>Water</td>
+<td>Total water withdrawal</td>
+<td>kilolitres</td>
+<td style="text-align: right;">474</td>
+</tr>
+<tr>
+<td>Waste</td>
+<td>Total waste generated</td>
+<td>tonnes</td>
+<td style="text-align: right;">473</td>
+</tr>
+<tr>
+<td>Air (separate rank)</td>
+<td>NOx + SOx + particulate matter</td>
+<td>tonnes</td>
+<td style="text-align: right;">245</td>
+</tr>
+</tbody>
+</table></div>
+<p>The main source is the <strong>Business Responsibility and Sustainability Report (BRSR)</strong> that every listed company files with the stock exchange. Revenue comes from the company's annual financial filing with NSE, on the same basis as its BRSR (standalone or consolidated). Scope 2 is taken <strong>as reported</strong> by every company.</p>
+<p><strong>Where the 1,897 values used come from:</strong></p>
+<div class="table-wrap"><table class="data">
+<thead>
+<tr>
+<th>Tier</th>
+<th>Source</th>
+<th style="text-align: right;">Share</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>The BRSR data file filed with NSE, with the unit stated</td>
+<td style="text-align: right;">70.2%</td>
+</tr>
+<tr>
+<td>2</td>
+<td>The same file, with the unit checked against the BRSR PDF</td>
+<td style="text-align: right;">17.2%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>The company's annual or sustainability report, or the BRSR PDF, used where the data file was blank. The exact words are recorded. An independent recheck of 40 of these values matched 38 exactly.</td>
+<td style="text-align: right;">10.2%</td>
+</tr>
+<tr>
+<td>4</td>
+<td>The data file, where the unit label "MtCO2e" was read as metric tonnes (the unit the BRSR form prescribes). Where the PDF could be checked, it agreed 96% of the time.</td>
+<td style="text-align: right;">2.2%</td>
+</tr>
+<tr>
+<td>5</td>
+<td>A filed value corrected to the company's own published figure (unit slips only)</td>
+<td style="text-align: right;">0.2%</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Values held back.</strong> These are listed in the dataset, and that element is not scored until the company confirms it:</p>
+<ul>
+<li><strong>Extreme values:</strong> more than 300 times above or below the peer-group median, per rupee of revenue. These are usually unit slips (kilograms entered as tonnes) or boundary problems (head office only). There are 29 such values. A company with an open query on climate, water or waste is not ranked until it is resolved.</li>
+<li><strong>Impossible values:</strong> a Scope 2 figure that would need more grid electricity than the company's whole revenue could buy (2 values).</li>
+<li><strong>Reported zeros:</strong> a reported zero, including a zero for Scope 1 or Scope 2 alone. For an operating company, zero usually means "not measured" rather than "none".</li>
+</ul>
+<h2 id="5-how-a-score-is-worked-out">5. How a score is worked out</h2>
+<ol>
+<li><strong>Divide by revenue.</strong> For each pressure, divide the reported amount by revenue in ₹ crore. This gives the <em>intensity</em>.</li>
+<li><strong>Compare with peers.</strong> Within the peer group, line up the companies that report that pressure, from lowest to highest intensity. The lowest scores 100, the highest scores 0, and the rest are spaced evenly in between.</li>
+</ol>
+<blockquote>
+<p>score = 100 × (number of companies − position) ÷ (number of companies − 1)
+3. <strong>Average the three.</strong> The pressure score is the simple average of the climate, water and waste scores. <strong>All three are required</strong>, so leaving something out can never help a company.
+4. <strong>Add credit</strong> (section 6): up to 10 points, with the total capped at 100.
+5. <strong>Rank</strong> within the peer group.</p>
+</blockquote>
+<p><strong>Worked example: ACC (cement, 11 companies ranked).</strong></p>
+<ul>
+<li><strong>Inputs.</strong> Revenue is ₹25,766 crore. Emissions are 15,293,369 tonnes CO2e, so the intensity is 593.5 tonnes per ₹ crore.</li>
+<li><strong>Climate.</strong> This is the 3rd lowest of 11 companies, so the climate score is 100 × (11 − 3) ÷ 10 = <strong>80</strong>.</li>
+<li><strong>Water.</strong> Also 3rd lowest of 11, so the water score is <strong>80</strong>.</li>
+<li><strong>Waste.</strong> 6th lowest, so the waste score is <strong>50</strong>.</li>
+<li><strong>Pressure score.</strong> (80 + 80 + 50) ÷ 3 = <strong>70.0</strong>.</li>
+<li><strong>Credit.</strong> ACC earns +5.6:</li>
+<li>+2 for tree planting;</li>
+<li>+3.0 because it recovers all its waste;</li>
+<li>+0.6 for a 28% renewable electricity share.</li>
+<li><strong>Result.</strong> Final score <strong>75.6, rank 2 of 11</strong>. The credit does not change its place.</li>
+<li><strong>Other views.</strong> ACC is also 3rd per tonne of cement and 3rd on air pollution.</li>
+</ul>
+<h2 id="6-credit-for-positive-action-up-to-10-points">6. Credit for positive action (up to 10 points)</h2>
+<div class="table-wrap"><table class="data">
+<thead>
+<tr>
+<th>Credit</th>
+<th>Rule</th>
+<th style="text-align: right;">Points</th>
+<th style="text-align: right;">Companies</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Restoration, Tier A</td>
+<td>At least 10 ha restored, afforested or conserved, stated as an area</td>
+<td style="text-align: right;">+5</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td>Restoration, Tier B</td>
+<td>Other measured restoration: tree planting, water bodies, smaller areas</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">75</td>
+</tr>
+<tr>
+<td>Recycling</td>
+<td>3 × share of waste recovered</td>
+<td style="text-align: right;">0–3</td>
+<td style="text-align: right;">416</td>
+</tr>
+<tr>
+<td>Renewable electricity</td>
+<td>2 × renewable share of electricity</td>
+<td style="text-align: right;">0–2</td>
+<td style="text-align: right;">410</td>
+</tr>
+</tbody>
+</table></div>
+<p>The following earn <strong>no</strong> restoration credit:</p>
+<ul>
+<li>plans and promises;</li>
+<li>unfinished work;</li>
+<li>farm or sourcing programmes;</li>
+<li>statements without a number;</li>
+<li>compensatory afforestation required by law for forest a company has cleared.</li>
+</ul>
+<p>Credit is deliberately small:</p>
+<ul>
+<li>The largest effect is 5 places, in Healthcare.</li>
+<li>In 13 of 16 ranked groups, no company gains more than 2 places.</li>
+<li>Rank order with and without credit is almost identical in every group (rank correlation 0.99 or higher).</li>
+</ul>
+<p>Most manufacturers recover most of their waste, so the recycling credit varies little between them. Credit does not measure whether restoration has actually worked.</p>
+<h2 id="7-physical-output-for-cement-and-power">7. Physical output for cement and power</h2>
+<p>Revenue is a fair yardstick across most sectors, but it favours expensive products. For cement and power, a physical yardstick was also tested: tonnes of cement and megawatt-hours generated. These are reported on a matching basis by nearly all peers and are used in international reporting standards (SASB/ISSB).</p>
+<ul>
+<li><strong>Cement:</strong> all 10 pure cement companies have production data. Their per-tonne ranks are shown as the headline cement view, next to the revenue rank, and the two agree closely (rank correlation 0.92). Grasim is left out of this view because its standalone business is mainly fibres and chemicals.</li>
+<li><strong>Power:</strong> generation figures were found for 10 generators. One of them (CESC) has a value held back (section 4), which leaves 9, below the 10 needed for a rank. The per-MWh intensities are shown, but not ranked. Transmission and distribution companies have no generation figure.</li>
+</ul>
+<p>No other sector has an output measure that companies report consistently enough. Steel, for example, mixes crude steel, sponge iron, ferro-alloys and mining. Those sectors stay on revenue.</p>
+<h2 id="8-other-views-not-part-of-the-main-rank">8. Other views (not part of the main rank)</h2>
+<p><strong>Air pollution.</strong> Companies that report the total tonnes of NOx, SOx and dust are ranked on air within their group where at least 10 report it: <strong>169 companies in 9 groups</strong>. Many companies report only how concentrated pollution is at the chimney, which cannot be turned into tonnes.</p>
+<p><strong>Per rupee of profit.</strong> As a check, each company is also scored per rupee of profit after tax (350 companies). Loss-making companies are left out. Revenue-based and profit-based ranks broadly agree (median rank correlation 0.79). They agree less in service sectors, where profit margins vary widely.</p>
+<p><strong>Land and biodiversity: a pilot.</strong></p>
+<blockquote>
+<p>net degraded hectares = land held (owned + leased, including mining leases) × how much nature that kind of land typically loses − land restored by the company on its own sites</p>
+</blockquote>
+<p>The "how much nature is lost" ratio comes from three independent scientific approaches (GLOBIO, PREDICTS and life-cycle land-use factors). It ranges from about 0.60 for most sectors to 0.75 for mining. Restored land is subtracted hectare for hectare, which assumes full recovery; this is a simplification.</p>
+<ul>
+<li><strong>Coverage.</strong> Companies do not report land area in their BRSR: we checked all 465 filings. So land was searched by hand for 106 companies in land-heavy sectors, in annual reports, mining-lease tables and environmental-clearance papers. A credible company-wide total was found for <strong>19 companies</strong> (14 of the 106, plus 5 found earlier). Most companies give land only as a rupee book value, or for single plants.</li>
+<li><strong>No rank.</strong> No group has 10 companies with land data, so this is a <strong>pilot, not a ranking</strong>.</li>
+<li><strong>Legacy figures.</strong> Land figures from Urvara's earlier Nature Impact Index are shown separately for reference only. Where both exist, they are typically 2.5 times the verified figure.</li>
+<li><strong>The fix is one disclosure.</strong> If companies reported <em>total land owned and leased, in hectares, including mining leases</em>, this method could rank every company.</li>
+</ul>
+<h2 id="9-limits-to-keep-in-mind">9. Limits to keep in mind</h2>
+<ul>
+<li><strong>Pressure, not impact.</strong> CLBI measures what drives biodiversity loss, not biodiversity itself.</li>
+<li><strong>Own operations only.</strong> Supply chains, the use of products and lending or investment are excluded.</li>
+<li><strong>Self-reported.</strong> Values are taken as published. Many are independently assured under BRSR Core, but CLBI does not audit them.</li>
+<li><strong>Mixed businesses.</strong> NSE sectors put different businesses together: thermal plants with hydro and transmission, drug makers with hospitals. The dataset flags companies whose main activity does not match their sector, for example Aditya Birla Real Estate's paper business, or companies that mostly trade.</li>
+<li><strong>Check before naming.</strong> 36 ranked companies carry a "check before naming" flag. Either their business is not like-for-like with their peers, or one of their scored values is 100–300 times from the peer median: inside the hold-back line, but unusual. Their rank stands, but they should not be singled out, for example as a sector leader, until the value is checked with the company.</li>
+<li><strong>Standalone and consolidated mixed.</strong> 286 ranked companies report their BRSR on a standalone basis and 86 on a consolidated basis, sometimes within the same peer group. Revenue always matches the company's own BRSR basis.</li>
+<li><strong>Weights and water.</strong> The three pressures are weighted equally. Water is withdrawal, which penalises plants cooled with seawater. Using water consumption instead changes ranks very little: rank correlation is 0.90 or higher in every group except banks (0.80).</li>
+<li><strong>Six ranked companies carry a revenue note.</strong> Examples are discontinued operations, or an unstated BRSR boundary. These are flagged in the dataset.</li>
+<li><strong>One year only.</strong> CLBI v1.1 is a snapshot and does not show improvement over time.</li>
+<li><strong>Not ranked:</strong> 64 of the 437 companies in ranked groups, and all companies in the smaller groups. The reasons:</li>
+<li>a missing value;</li>
+<li>a reported zero awaiting confirmation;</li>
+<li>a held-back value;</li>
+<li>a revenue period that does not match the BRSR year;</li>
+<li>a group too small to rank.</li>
+</ul>
+<h2 id="10-sources">10. Sources</h2>
+<div class="table-wrap"><table class="data">
+<thead>
+<tr>
+<th>Source</th>
+<th>Period</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BRSR data files and PDFs, NSE filings archive</td>
+<td>FY2025-26, collected 22–27 Oct 2026</td>
+</tr>
+<tr>
+<td>Revenue, profit, EBITDA: NSE annual financial filings</td>
+<td>FY2025-26</td>
+</tr>
+<tr>
+<td>Company annual and sustainability reports (gap-fill, land, cement and power output)</td>
+<td>FY2025-26 (land: latest available; FY2024-25 accepted and labelled)</td>
+</tr>
+<tr>
+<td>Market-cap list: AMFI average market capitalisation</td>
+<td>Jan–Jun 2026</td>
+</tr>
+<tr>
+<td>Sectors: NSE Indices industry classification</td>
+<td>as of 22 Oct 2026</td>
+</tr>
+</tbody>
+</table></div>
+<p>All results are produced by one set of scripts from these inputs. Every input file is fingerprinted, so any change can be detected.</p>
+<h2 id="11-corrections">11. Corrections</h2>
+<p>Every value is listed in the dataset and on the website with its source. A company that thinks a value is wrong can send a correction with the page reference in its published report. Corrections are applied only where they match a public document, and every change is logged.</p>
+<hr />
+<h2 id="annex-a-illustrative-nature-cost-not-part-of-the-ranking">Annex A. Illustrative nature cost (not part of the ranking)</h2>
+<p><strong>What it is.</strong> The annex multiplies each company's reported quantities by a price per unit of pressure, taken from published research. The result is a rough sense of the cost that the pressure puts on society and nature, shown as a share of revenue and of EBITDA.</p>
+<p><strong>What it is not:</strong></p>
+<ul>
+<li>a bill, a liability or a valuation of the company;</li>
+<li>a precise figure: read it as sector patterns, not company numbers.</li>
+</ul>
+<p><strong>Do not add companies together.</strong> One company's Scope 2 emissions are another's Scope 1, so a total would double-count.</p>
+<p><strong>Prices</strong> (2025 rupees). Each central value is the middle of 3–5 independent sources.</p>
+<div class="table-wrap"><table class="data">
+<thead>
+<tr>
+<th>Pressure</th>
+<th style="text-align: right;">Central</th>
+<th style="text-align: right;">Range</th>
+<th>Main basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Greenhouse gas, per tonne CO2e</td>
+<td style="text-align: right;">₹22,600</td>
+<td style="text-align: right;">₹13,900 – ₹38,400</td>
+<td>US EPA 2023 social cost of carbon; Rennert et al. 2022 (<em>Nature</em>)</td>
+</tr>
+<tr>
+<td>SOx, per tonne</td>
+<td style="text-align: right;">₹2,09,000</td>
+<td style="text-align: right;">₹85,000 – ₹13,69,000</td>
+<td>Middle of 4 health-damage estimates for India</td>
+</tr>
+<tr>
+<td>NOx, per tonne</td>
+<td style="text-align: right;">₹2,10,000</td>
+<td style="text-align: right;">₹1,11,000 – ₹9,93,000</td>
+<td>Middle of 3 estimates</td>
+</tr>
+<tr>
+<td>Particulate matter, per tonne</td>
+<td style="text-align: right;">₹3,06,000</td>
+<td style="text-align: right;">₹1,55,000 – ₹9,34,000</td>
+<td>CE Delft values, adjusted to India</td>
+</tr>
+<tr>
+<td>Water consumed, per kilolitre</td>
+<td style="text-align: right;">₹40</td>
+<td style="text-align: right;">₹10 – ₹200</td>
+<td>Kumar 2006 (<em>Water Policy</em>); IFVI 2026</td>
+</tr>
+<tr>
+<td>Degraded land, per hectare per year</td>
+<td style="text-align: right;">₹64,900</td>
+<td style="text-align: right;">₹8,200 – ₹1,19,900</td>
+<td>Ecosystem Services Valuation Database (India); de Groot et al. 2012; Brander et al. 2024</td>
+</tr>
+<tr>
+<td>Waste</td>
+<td style="text-align: right;">not valued</td>
+<td style="text-align: right;">–</td>
+<td>No reliable India-specific price found</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>How to read it:</strong></p>
+<ul>
+<li><strong>Greenhouse gas dominates.</strong> It is typically 98% of the total. Its price is the global cost of climate damage, not an India-only figure, so the dataset also shows the share borne in India (about a quarter).</li>
+<li><strong>Water</strong> is priced on consumption, not withdrawal; withdrawal is used only where consumption is not reported. Land is priced on net degraded hectares (pilot companies only).</li>
+<li><strong>Completeness.</strong> A total is shown only where greenhouse gas is included, so the totals can be compared.</li>
+</ul>
+<p><strong>Sector medians, as % of revenue:</strong></p>
+<ul>
+<li>cement ≈ 230%;</li>
+<li>power ≈ 120%;</li>
+<li>metals and mining ≈ 54%;</li>
+<li>textiles ≈ 21%;</li>
+<li>chemicals ≈ 17%;</li>
+<li>oil and gas ≈ 6%;</li>
+<li>most other manufacturing and services 1–5%;</li>
+<li>IT and financial services below 0.5%.</li>
+</ul>
+<p>A figure above 100% means that, at these prices, the unpriced cost to society is larger than the company's sales. This is a known result for carbon-heavy sectors, not an error. Sector medians are shown only where at least 5 companies are costed.</p></article>
+</div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p class="footer-line">CLBI v1.1 draft · Urvara.Life with Landstack · data FY2025-26 · build date 2026-10-27</p>
+    <p class="footer-links"><a href="downloads/CLBI_v1.1_Dataset.xlsx">Dataset (Excel)</a><a href="downloads/CLBI_v1.1_Methodology_Note.pdf">Methodology note (PDF)</a><a href="downloads/CLBI_v1.1_Methodology_Note.docx">Methodology note (Word)</a><a href="downloads/CLBI_v1.1_Presentation.pdf">Presentation (PDF)</a><a href="downloads/CLBI_v1.1_Presentation.html">Presentation (web)</a><a href="downloads.html">All downloads</a></p>
+    <p class="footer-note">Every value is a company's own disclosure unless labelled otherwise. Illustrative nature costs are not liabilities and are not used in any rank.</p>
+  </div>
+</footer>
+<script src="assets/companies.js"></script>
+<script src="assets/clbi.js"></script>
+</body>
+</html>

@@ -1,0 +1,396 @@
+symbol,metric,value,action,source_type,source_url,page,verbatim_quote
+FINCABLES,scope1_tco2e,2305.07,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500144_05092026181055.pdf,129,"Total Scope 1 emissions Metric tonnes of CO2 equivalent 2,305.07 6,145"
+FINCABLES,scope2_tco2e,44009.62,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500144_05092026181055.pdf,129,"Total Scope 2 emissions Metric tonnes of CO2 equivalent 44,009.62 55,108"
+KIRLOSENG,scope1_tco2e,9269.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_533293_13072026234309.pdf,,"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 9,269 7,414"
+KIRLOSENG,scope2_tco2e,13632.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_533293_13072026234309.pdf,,"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 13,632 10,483"
+TIMKEN,scope1_tco2e,4300.98,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/TIMKEN_21072026164141_SEIntimation_BRSR.pdf,,Total Scope 1 emissions ... MT of CO2 equivalent 4300.98 4482.77
+TIMKEN,scope2_tco2e,49481.79,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/TIMKEN_21072026164141_SEIntimation_BRSR.pdf,,Total Scope 2 emissions ... MT of CO2 equivalent 49481.79 32755.41
+HATSUN,scope1_tco2e,63903.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_531531_02092026204929.pdf,128,"Total Scope 1 ... Metric Tonnes of CO2 equivalent 63,903 64,643"
+IEX,waste_generated_tonnes,0.534,correct,BRSR_PDF,https://nsearchives.nseindia.com/corporate/IEX_14082026163113_Signed_Intimation_BRSR_FY25_26.pdf,,E-waste (In Kilograms) (B) 534 ... Total (A+B + C + D + E + F + G + H) 534
+ASTERDM,scope1_tco2e,1538.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ASTERDM2_05092026001528_SE_BRSR_2025-26.pdf,,"Total Scope 1 emissions ... MTCO2e 1,538 2,291"
+ASTERDM,scope2_tco2e,37920.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ASTERDM2_05092026001528_SE_BRSR_2025-26.pdf,,"Total Scope 2 emissions ... MTCO2e 37,920 45,510"
+ONGC,scope1_tco2e,8379783.82,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ONGC_07082026202100_brsrfiling07082026.pdf,,"Total Scope 1 emissions MTCO2e 8,379,783.82 9,002,041.39 (7,934,076.28 CO2; 445,707.54 CH4)"
+ONGC,scope2_tco2e,431535.83,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ONGC_07082026202100_brsrfiling07082026.pdf,,"Total Scope 2 emissions ... MTCO2e 431,535.83 498,786.61"
+GESHIP,scope1_tco2e,810210.573,fill,AR,https://greatship.com/upload/announcements/78th%20Annual%20Report.pdf,BRSR 150-151,Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 810210.573 MT 857135.21 MT
+GESHIP,scope2_tco2e,764.028,fill,AR,https://greatship.com/upload/announcements/78th%20Annual%20Report.pdf,BRSR 150-151,Total Scope 2 emissions - Market based ... 764.028 MT; Location based 817.713 MT 826.925 MT
+M&M,nox_tonnes,156.9,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500520_04072026182143.pdf,"IAR BRSR section, Principle 6 E6 (IAR p.33-35; exact page not confirmed)",NOx MT 156.9 14.15
+M&M,sox_tonnes,37.1,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500520_04072026182143.pdf,"IAR BRSR section, Principle 6 E6",Sox MT 37.1 9.8
+M&M,pm_tonnes,125.52,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500520_04072026182143.pdf,"IAR BRSR section, Principle 6 E6",Particulate matter (PM) MT 125.52 13.20
+TMCV,nox_tonnes,331.87,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/TMLCOMMERCIAL_06062026223350_NSEBSEBRSR.pdf,IAR BRSR p.191 (P6 E6),NOx MT 331.87 141.06
+TMCV,sox_tonnes,0.98,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/TMLCOMMERCIAL_06062026223350_NSEBSEBRSR.pdf,IAR BRSR p.191 (P6 E6),Sox MT 0.98 0.10
+TMCV,pm_tonnes,873.33,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/TMLCOMMERCIAL_06062026223350_NSEBSEBRSR.pdf,IAR BRSR p.191 (P6 E6),Particulate matter (PM) MT 873.33 386.06
+APTUS,nox_tonnes,0.00594,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_543335_13072026202221.pdf,IAR p.141 (BRSR P6 E6),NOx kg/year 5.94 3.67
+APTUS,sox_tonnes,0.00198,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_543335_13072026202221.pdf,IAR p.141 (BRSR P6 E6),Sox kg/year 1.98 1.22
+APTUS,pm_tonnes,0.0004,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_543335_13072026202221.pdf,IAR p.141 (BRSR P6 E6),Particulate Mater kg/year 0.40 0.24
+ASAHIINDIA,nox_tonnes,187.97,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ASAHIINDIA_28082026024239_brsr.pdf,P6 E-6 (page n/a),SOx NOx Particulate Matter (PM) ... 108.97 187.97 127.52 - - -  [unit: Tonns/year]
+ASAHIINDIA,sox_tonnes,108.97,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ASAHIINDIA_28082026024239_brsr.pdf,P6 E-6 (page n/a),SOx NOx Particulate Matter (PM) ... 108.97 187.97 127.52 - - -  [unit: Tonns/year]
+ASAHIINDIA,pm_tonnes,127.52,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ASAHIINDIA_28082026024239_brsr.pdf,P6 E-6 (page n/a),SOx NOx Particulate Matter (PM) ... 108.97 187.97 127.52 - - -  [unit: Tonns/year]
+GPIL,scope1_tco2e,2319604.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GPIL_25082026192151_GPILNSEBSEBRSR2526.pdf,AR p.137-138,Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 2319604 1553940
+GPIL,scope2_tco2e,6930.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GPIL_25082026192151_GPILNSEBSEBRSR2526.pdf,AR p.137-138,Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 6930 266491
+GPIL,nox_tonnes,1497.37,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GPIL_25082026192151_GPILNSEBSEBRSR2526.pdf,AR p.137,Nox Tons/year 1497.37 910.88
+GPIL,sox_tonnes,3090.67,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GPIL_25082026192151_GPILNSEBSEBRSR2526.pdf,AR p.137,Sox Tons/year 3090.67 2348.81
+GPIL,pm_tonnes,642.61,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GPIL_25082026192151_GPILNSEBSEBRSR2526.pdf,AR p.137,Particulate matter (PM) Tons/year 642.61 536.83
+PCBL,nox_tonnes,372.7,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/PCBL_25082026191910_IntimationofBRSRreport.pdf,Integrated Report p.40,NOx MT/Year 372.7
+PCBL,sox_tonnes,1175.3,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/PCBL_25082026191910_IntimationofBRSRreport.pdf,Integrated Report p.40,SOx MT/Year 1175.3
+PCBL,pm_tonnes,465.3,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/PCBL_25082026191910_IntimationofBRSRreport.pdf,Integrated Report p.40,Particulate matter (PM) MT/Year 465.3
+DIXON,scope1_tco2e,1756.16,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_540699_03092026223819.pdf,AR p.~48,"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 1,756.16 2,170.40"
+DIXON,scope2_tco2e,26761.37,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_540699_03092026223819.pdf,AR p.~48,"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 26,761.37 28,170.13"
+DCMSHRIRAM,scope1_tco2e,3681249.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_523367_21072026155601.pdf,AR p.53,"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent CO2:36,42,525 CH4: 11,635 N2O: 27,089 Total: 36,81,249"
+DCMSHRIRAM,scope2_tco2e,216179.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_523367_21072026155601.pdf,AR p.54,"Total Scope 2 emissions Metric tonnes of CO2 equivalent 2,16,179 1,82,301"
+DCMSHRIRAM,nox_tonnes,2695.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_523367_21072026155601.pdf,AR p.~52,"NOx Metric tonnes 2,695"
+DCMSHRIRAM,sox_tonnes,2032.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_523367_21072026155601.pdf,AR p.~52,"SOx Metric tonnes 2,032"
+DCMSHRIRAM,pm_tonnes,1736.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_523367_21072026155601.pdf,AR p.~52,"Particulate Matter (PM) Metric tonnes 1,736"
+MOTILALOFS,scope1_tco2e,203.46,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_532892_22062026231553.pdf,BRSR p.~66,Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 203.46 6.76
+MOTILALOFS,scope2_tco2e,8205.83,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_532892_22062026231553.pdf,BRSR p.~66,"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 8,205.83 6,369.77"
+ZYDUSLIFE,nox_tonnes,29.52,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/Cadilahc_10072026170624_SubmissionofBRSR_202526.pdf,AR p.~291,Nox MT 29.52
+ZYDUSLIFE,sox_tonnes,47.89,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/Cadilahc_10072026170624_SubmissionofBRSR_202526.pdf,AR p.~291,Sox MT 47.89
+ZYDUSLIFE,pm_tonnes,44.63,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/Cadilahc_10072026170624_SubmissionofBRSR_202526.pdf,AR p.~291,Particulate matter (PM) MT 44.63
+ZENSARTECH,nox_tonnes,0.04,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ZENSARTECH_08072026161318_Intimation_of_BRSR.pdf,AR p.~40,NOx tonnes/annum 0.04
+ZENSARTECH,sox_tonnes,0.03,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ZENSARTECH_08072026161318_Intimation_of_BRSR.pdf,AR p.~40,SOx tonnes/annum 0.03
+ZENSARTECH,pm_tonnes,0.003,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ZENSARTECH_08072026161318_Intimation_of_BRSR.pdf,AR p.~40,Particulate Matter (PM) tonnes/annum 0.003
+IGIL,scope1_tco2e,15.29,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/IGIINDIA_23072026183202_BRSR_SE_Upload.pdf,AR p.~191,Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 15.29 Not Recorded
+IGIL,scope2_tco2e,736.45,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/IGIINDIA_23072026183202_BRSR_SE_Upload.pdf,AR p.~191,Total Scope 2 emissions ... Metric tons of CO2 equivalent 736.45 420.31
+IGIL,water_withdrawal_m3,20154.83,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/IGIINDIA_23072026183202_BRSR_SE_Upload.pdf,AR p.189,"Total volume of water withdrawal (in kilolitres) (i + ii + iii + iv + v) 20,154.83* 10,504.17"
+NBCC,scope1_tco2e,3123.08,fill,BRSR_PDF,https://www.nbccindia.in/pdfdata/finance/AnnualReports/NBCC_BRSR_20.08.2026%20V1.pdf,BRSR (66th AR) P6 E-7,"Total Scope 1 emissions ... MT of CO2 Equivalent 3,123.08 2,052.10"
+NBCC,scope2_tco2e,971.36,fill,BRSR_PDF,https://www.nbccindia.in/pdfdata/finance/AnnualReports/NBCC_BRSR_20.08.2026%20V1.pdf,BRSR (66th AR) P6 E-7,Total Scope 2 emissions ... MT of CO2 Equivalent 971.36 887.04
+AUBANK,scope1_tco2e,186.81,fill,AR,https://www.au.bank.in/content-fragmnets/pdf/reports-presentation/annual-report-2026.pdf,IAR p.~256-257,Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 186.81 316.89
+AUBANK,scope2_tco2e,22854.39,fill,AR,https://www.au.bank.in/content-fragmnets/pdf/reports-presentation/annual-report-2026.pdf,IAR p.~256-257,"Total Scope 2 emissions ... 22,854.39 28,075.87"
+PIDILITIND,nox_tonnes,17.505,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500331_06072026175735.pdf,AR p.139 (BRSR Q6),"NOx Kg/Yr 17,505 20,809"
+PIDILITIND,sox_tonnes,12.494,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500331_06072026175735.pdf,AR p.139 (BRSR Q6),"SOx Kg/Yr 12,494 12,593"
+PIDILITIND,pm_tonnes,29.25,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500331_06072026175735.pdf,AR p.139 (BRSR Q6),"Particulate Matter (PM) Kg/Yr 29,250 30,073"
+INDHOTEL,nox_tonnes,43.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/bakhtawar_irani_tajhotels_com_04062026211431_BSENSEBRSR.pdf,BRSR Q6 (Integrated AR 2025-26),NOx Tonnes/year 43 44
+INDHOTEL,sox_tonnes,10.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/bakhtawar_irani_tajhotels_com_04062026211431_BSENSEBRSR.pdf,BRSR Q6,SOx Tonnes/year 10 11
+INDHOTEL,pm_tonnes,9.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/bakhtawar_irani_tajhotels_com_04062026211431_BSENSEBRSR.pdf,BRSR Q6,Particulate matter (PM) Tonnes/year 9 11
+BBOX,nox_tonnes,1.336,fill,BRSR_PDF,https://cdn.blackbox.com/cms/docs/esg/brsr-fy26.pdf,BRSR p.54 (Q6),NOx Tonnes/year 1.336 1.427 SOx Tonnes/year 0.00016 0.0004 Particulate matter (PM) Tonnes/year 0.148 0.128
+BBOX,sox_tonnes,0.00016,fill,BRSR_PDF,https://cdn.blackbox.com/cms/docs/esg/brsr-fy26.pdf,BRSR p.54 (Q6),SOx Tonnes/year 0.00016 0.0004
+BBOX,pm_tonnes,0.148,fill,BRSR_PDF,https://cdn.blackbox.com/cms/docs/esg/brsr-fy26.pdf,BRSR p.54 (Q6),Particulate matter (PM) Tonnes/year 0.148 0.128
+VAML,waste_recovered_tonnes,379977.0,fill,SR,https://www.vedantalimited.com/uploads/esg/esg-reporting/2026/sustainability-databook-fy-2025-26.pdf,Databook p.12 (Waste),"Aluminium* 3,95,367 3,79,977 1,91,334 ...  (Generation, Recycled/Reused, Landfilled)"
+VOGL,waste_recovered_tonnes,110.0,fill,SR,https://www.vedantalimited.com/uploads/esg/esg-reporting/2026/sustainability-databook-fy-2025-26.pdf,Databook p.12 (Waste),"Oil and Gas Business 47,117 110 673 2,571 67 13  (Generation, Recycled/Reused, Landfilled, Incinerated...)"
+BAJAJ-AUTO,nox_tonnes,6.9,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_25062026131638_SE_BRSR.pdf,38 (AR page),NOx MT/Annum 6.9 3.1
+BAJAJ-AUTO,sox_tonnes,8.3,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_25062026131638_SE_BRSR.pdf,38,SOx MT/Annum 8.3 16.4
+BAJAJ-AUTO,pm_tonnes,130.1,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_25062026131638_SE_BRSR.pdf,38,Particulate Matter (PM) MT/Annum 130.1 8.7
+GRINDWELL,scope1_tco2e,34946.0,fill,AR (value re-verified at source by independent check 27 Oct 2026; quote condensed),https://www.grindwellnorton.co.in/sites/grindwellnorton.co.in/files/2026-06/GNO%20Annual%20Report%202025-26.pdf,~112 (AR 2025-26 BRSR Q7),Total Scope 1 emissions ... 34946 21953
+GRINDWELL,scope2_tco2e,48087.0,fill,AR,https://www.grindwellnorton.co.in/sites/grindwellnorton.co.in/files/2026-06/GNO%20Annual%20Report%202025-26.pdf,~112,Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 48087 53183
+MARICO,scope1_tco2e,1653.3,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_531642_09072026151053.pdf,48,Total Scope 1 emissions ... MtCO2e 1653.3 1207.5
+MARICO,scope2_tco2e,6229.5,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_531642_09072026151053.pdf,48,Total Scope 2 emissions ... MtCO2e 6229.5 9534.9
+MARICO,nox_tonnes,2.17895,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_531642_09072026151053.pdf,47,NOx Kg/Year 2178.95 2680.961
+MARICO,sox_tonnes,0.14136,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_531642_09072026151053.pdf,47,SOx Kg/Year 141.36 175.674
+MARICO,pm_tonnes,1.62545,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_531642_09072026151053.pdf,47,Particulate matter (PM) Kg/Year 1625.45 1734.519
+SUNDARMFIN,scope1_tco2e,2616.91,fill,AR,https://nsearchives.nseindia.com/corporate/SUNDARMFIN_29062026185011_SFL_Annual_Report_2025-26.pdf,~100 (AR BRSR Q7),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 2,616.91 2,387.83"
+SUNDARMFIN,scope2_tco2e,2983.26,fill,AR,https://nsearchives.nseindia.com/corporate/SUNDARMFIN_29062026185011_SFL_Annual_Report_2025-26.pdf,~100,"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 2,983.26 4,153.59"
+SUNDARMFIN,nox_tonnes,0.11218,fill,AR,https://nsearchives.nseindia.com/corporate/SUNDARMFIN_29062026185011_SFL_Annual_Report_2025-26.pdf,99,NOx Kg/Year 112.18 160.84
+SUNDARMFIN,sox_tonnes,0.03739,fill,AR,https://nsearchives.nseindia.com/corporate/SUNDARMFIN_29062026185011_SFL_Annual_Report_2025-26.pdf,99,Sox Kg/Year 37.39 53.61
+SUNDARMFIN,pm_tonnes,0.00748,fill,AR,https://nsearchives.nseindia.com/corporate/SUNDARMFIN_29062026185011_SFL_Annual_Report_2025-26.pdf,99,Particulate matter (PM) Kg/Year 7.48 10.72
+NIACL,scope1_tco2e,2665.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_540769_29072026164450.pdf,134 (AR page),"Metric tonnes of CO2 equivalent 2,665 2,669"
+NIACL,scope2_tco2e,15040.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_540769_29072026164450.pdf,134,"Metric tonnes of CO2 equivalent 15,040 16,190"
+LUPIN,nox_tonnes,191.4,fill,BRSR_PDF,https://www.lupin.com/integrated-report-2026/img/reports/business-responsibility_sustainability-report.pdf,293 (IR page),NOx tonnes/annum 191.40 225.97
+LUPIN,sox_tonnes,52.61,fill,BRSR_PDF,https://www.lupin.com/integrated-report-2026/img/reports/business-responsibility_sustainability-report.pdf,293,SOx tonnes/annum 52.61 58.37
+BALKRISIND,scope1_tco2e,727419.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BALKRISIND_06072026182325_LetterforBRRsignedfinal.pdf,AR p.~154 (BRSR P6 Q7),"MtCO2e 7,27,419 6,75,773"
+BALKRISIND,scope2_tco2e,81487.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BALKRISIND_06072026182325_LetterforBRRsignedfinal.pdf,AR p.~154 (BRSR P6 Q7),"MtCO2e 81,487 83,684"
+GRSE,scope2_tco2e,5520.58,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GRSE_03092026172554_BRSR_FY_2025_26_GRSE.pdf,BRSR p.~140 (AR),"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 5,520.58 per year 7,972 per year"
+IRCTC,scope1_tco2e,98.64,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_542830_07092026131010.pdf,206,Total Scope 1 emissions ... Metric tonnes OF CO2 equivalent 98.64 233.71
+IRCTC,scope2_tco2e,20725.2,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_542830_07092026131010.pdf,206,"Total Scope 2 emissions ... Metric tonnes OF CO2 equivalent 20,725.20 18,630.80"
+AVANTIFEED,nox_tonnes,300.96,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_512573_22072026204942.pdf,128,NOx MT 300.96 282.91
+AVANTIFEED,sox_tonnes,251.28,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_512573_22072026204942.pdf,128,SOx MT 251.28 196.54
+AVANTIFEED,pm_tonnes,339.51,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_512573_22072026204942.pdf,128,Particulate matter (PM) MT 339.51 351.73
+MANKIND,scope1_tco2e,10108.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/MANKIND1_09072026170010_BRSRFY2025_26_sd.pdf,AR p.39,"Total Scope 1 emissions* ... MTCO2eq 10,108 8,068 ##"
+MANKIND,scope2_tco2e,29954.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/MANKIND1_09072026170010_BRSRFY2025_26_sd.pdf,AR p.39,"Total Scope 2 emissions # ... MTCO2eq 29,954 29,205"
+NESTLEIND,nox_tonnes,117.605,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/NESTLEIND1_05062026220621_Nestle_India_BRSR_2025-26.pdf,AR p.~271-293 (BRSR P6 Q9/E6),"NOx kgSOxe 117,605 211,911"
+NESTLEIND,sox_tonnes,196.841,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/NESTLEIND1_05062026220621_Nestle_India_BRSR_2025-26.pdf,AR p.~271-293,"SOx kgSOxe 196,841* 806,382"
+DLF,scope1_tco2e,27728.57,fill,AR,https://www.dlf.in/annual_docket/Annual-report-2025-26.pdf,AR Annexure G (BRSR P6 Q7),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 27,728.57 22,343.18"
+DLF,scope2_tco2e,163181.34,fill,AR,https://www.dlf.in/annual_docket/Annual-report-2025-26.pdf,AR Annexure G (BRSR P6 Q7),"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 1,63,181.34 1,52,168.43"
+PRIVISCL,scope1_tco2e,243070.0,fill,BRSR_PDF,https://privi.com/Downloads/PSCL-BRSR-FY-2026.pdf,BRSR P6 Q7,"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 243070 MTCO2e 2,12,476 MTCO2e"
+PRIVISCL,scope2_tco2e,25456.0,fill,BRSR_PDF,https://privi.com/Downloads/PSCL-BRSR-FY-2026.pdf,BRSR P6 Q7,Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 25456 MTCO2e 35568 MTCO2e
+PRIVISCL,water_withdrawal_m3,756344.244,correct,BRSR_PDF,https://privi.com/Downloads/PSCL-BRSR-FY-2026.pdf,BRSR P6 Q3,"Total volume of water withdrawal (in litres) (i + ii + iii + iv + v+ vi) 75,63,44,244 67,70,80,000"
+PRIVISCL,nox_tonnes,19.2,fill,BRSR_PDF,https://privi.com/Downloads/PSCL-BRSR-FY-2026.pdf,BRSR P6 Q6,NOx MT/Year 19.20 0.0032
+PRIVISCL,sox_tonnes,57.31,fill,BRSR_PDF,https://privi.com/Downloads/PSCL-BRSR-FY-2026.pdf,BRSR P6 Q6,SOx MT/Year 57.31 18.77
+PRIVISCL,pm_tonnes,11.16,fill,BRSR_PDF,https://privi.com/Downloads/PSCL-BRSR-FY-2026.pdf,BRSR P6 Q6,Particulate matter (PM) MT/Year 11.16 10.03
+KAJARIACER,scope1_tco2e,414938.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/KAJARIACER_21082026130542_BRSR_Disclosure.pdf,AR p.135 (BRSR P6 Q7),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 4,14,938 4,37,311"
+KAJARIACER,scope2_tco2e,172370.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/KAJARIACER_21082026130542_BRSR_Disclosure.pdf,AR p.135,"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 1,72,370 1,87,602"
+SOLARINDS,nox_tonnes,10.2,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/SOLARINDS_20072026213350_BRSR_Signeddd.pdf,BRSR p.35 (AR p.~35),NOx MT/A 10.20 11.86 SOx MT/A 14.28 11.36 Particulate matter (PM) MT/A 5.61 7.05
+SOLARINDS,sox_tonnes,14.28,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/SOLARINDS_20072026213350_BRSR_Signeddd.pdf,BRSR p.35 (AR p.~35),NOx MT/A 10.20 11.86 SOx MT/A 14.28 11.36 Particulate matter (PM) MT/A 5.61 7.05
+SOLARINDS,pm_tonnes,5.61,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/SOLARINDS_20072026213350_BRSR_Signeddd.pdf,BRSR p.35 (AR p.~35),NOx MT/A 10.20 11.86 SOx MT/A 14.28 11.36 Particulate matter (PM) MT/A 5.61 7.05
+MAXHEALTH,nox_tonnes,2.59,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_543220_08072026204839.pdf,IAR p.~54-55 (BRSR Principle 6 E6),NOx MT/Annum 2.59 1.19 SOx MT/Annum 0.17 0.14 Particulate Matter (PM) MT/Annum 0.30 0.19
+MAXHEALTH,sox_tonnes,0.17,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_543220_08072026204839.pdf,IAR p.~54-55 (BRSR Principle 6 E6),NOx MT/Annum 2.59 1.19 SOx MT/Annum 0.17 0.14 Particulate Matter (PM) MT/Annum 0.30 0.19
+MAXHEALTH,pm_tonnes,0.3,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_543220_08072026204839.pdf,IAR p.~54-55 (BRSR Principle 6 E6),NOx MT/Annum 2.59 1.19 SOx MT/Annum 0.17 0.14 Particulate Matter (PM) MT/Annum 0.30 0.19
+PREMIERENE,nox_tonnes,6.38,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/PEL2024_29082026224720_SE_PEL_BRSR_2025_26.pdf,BRSR P6 E6 (AR p.~135),NOx Metric tons /year 6.38 8.22
+PREMIERENE,sox_tonnes,5.38,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/PEL2024_29082026224720_SE_PEL_BRSR_2025_26.pdf,BRSR P6 E6 (AR p.~135),SOx Metric tons /year 5.38 0.02
+PREMIERENE,pm_tonnes,11.31,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/PEL2024_29082026224720_SE_PEL_BRSR_2025_26.pdf,BRSR P6 E6 (AR p.~135),Particulate matter Metric tons /year 11.31 0.16
+DALBHARAT,scope1_tco2e,15750000.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_542216_04062026222401.pdf,BRSR P6 E7 (p.~280),Total Scope 1 emissions ... million Metric tonnes of CO2 equivalent 15.75 15.33
+DALBHARAT,scope2_tco2e,480000.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_542216_04062026222401.pdf,BRSR P6 E7 (p.~280),Total Scope 2 emissions ... million Metric tonnes of CO2 equivalent 0.48 0.41
+PGHH,scope1_tco2e,161.91,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500459_18082026103756.pdf,BRSR P6 E7 (AR p.43),Total Scope 1 emissions Metric tonnes of CO2 equivalent 161.91 149
+PGHH,scope2_tco2e,10010.84,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500459_18082026103756.pdf,BRSR P6 E7 (AR p.43),Total Scope 2 emissions Metric tonnes of CO2 equivalent Gross: 10010.84 Gross: 8426
+GODIGIT,scope1_tco2e,256.15,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_544179_14072026201627.pdf,BRSR P6 E7 / Annexure II,Total Scope 1 Emissions ... Metric tonnes of CO2 equivalent 256.15 26.00
+GODIGIT,scope2_tco2e,2338.42,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_544179_14072026201627.pdf,BRSR P6 E7,Total Scope 2 Emissions ... Metric tonnes of CO2 equivalent 2338.42 2563.42
+PAYTM,nox_tonnes,0.03,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_543396_21082026194315.pdf,BRSR P6 E6 (AR 2026),NOx MT 0.030 0.175
+PAYTM,sox_tonnes,0.004,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_543396_21082026194315.pdf,BRSR P6 E6 (AR 2026),SOx MT 0.004 0.003
+PAYTM,pm_tonnes,0.016,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_543396_21082026194315.pdf,BRSR P6 E6 (AR 2026),Particulate matter (PM) MT 0.016 0.035
+CONCORDBIO,scope1_tco2e,23982.6,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/CONCORD_07072026163043_Intimation_BRSR.pdf,BRSR P6 E7 (AR p.105),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 23,982.60 25,669.57"
+CONCORDBIO,scope2_tco2e,58743.51,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/CONCORD_07072026163043_Intimation_BRSR.pdf,BRSR P6 E7 (AR p.105),"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 58,743.51 59,394.37"
+CONCORDBIO,nox_tonnes,165.13523,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/CONCORD_07072026163043_Intimation_BRSR.pdf,BRSR P6 E6 (AR p.103-104),"NOx Kg/Year 1,65,135.23 1,42,472.60"
+CONCORDBIO,sox_tonnes,251.42715,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/CONCORD_07072026163043_Intimation_BRSR.pdf,BRSR P6 E6 (AR p.103-104),"SOx Kg/Year 2,51,427.15 2,02,026.61"
+CONCORDBIO,pm_tonnes,214.71566,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/CONCORD_07072026163043_Intimation_BRSR.pdf,BRSR P6 E6 (AR p.103-104),"Particulate matter (PM) Kg/Year 2,14,715.66 1,68,854.06"
+ATGL,nox_tonnes,0.11139,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_542066_29052026235801.pdf,BRSR P6 E6,NOx kg/year 111.39 108.66*
+ATGL,sox_tonnes,0.00096,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_542066_29052026235801.pdf,BRSR P6 E6,SOx kg/year 0.96 0.00
+ATGL,pm_tonnes,0.08498,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_542066_29052026235801.pdf,BRSR P6 E6,Particulate matter (PM) kg/year 84.98 93.42*
+ADANIPOWER,nox_tonnes,120189.5,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_533096_30052026153109.pdf,BRSR P6 E6 (AR p.~392),"NOx MT/Yr. 1,20,189.5 128,663.47"
+ADANIPOWER,sox_tonnes,275141.3,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_533096_30052026153109.pdf,BRSR P6 E6 (AR p.~392),"SOx MT/Yr. 2,75,141.3 303,694.71"
+ADANIPOWER,pm_tonnes,17211.85,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_533096_30052026153109.pdf,BRSR P6 E6 (AR p.~392),"Particulate matter (PM) MT/Yr. 17,211.85 17,503.15"
+BHARTIARTL,nox_tonnes,38.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BHARTIARTL_13072026161647_BRSR1.pdf,BRSR P6 E6 (AR p.225),NOx Metric Tonnes 38 63
+BHARTIARTL,pm_tonnes,2.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BHARTIARTL_13072026161647_BRSR1.pdf,BRSR P6 E6 (AR p.225),Particulate matter (PM) Metric Tonnes 2 4
+BEL,scope1_tco2e,8109.76,fill,other,https://nsearchives.nseindia.com/corporate/BEL_05082026211750_Lettersigned.pdf,IAR 2025-26 pp.153-156 (BRSR P6 E7),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 8,109.76* 9,204.38*"
+BBTC,scope1_tco2e,13295.43,fill,AR,https://bbtcl.com/wp-content/uploads/2026/07/BBTCL-Annual-Report-2025-26.pdf,BRSR P6 E7,"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 13,295.43 18,232.72"
+HEXT,scope1_tco2e,1731.26,fill,BRSR_PDF,https://hexaware.com/annual-report-2025.pdf,BRSR P6 E7 (AR p.~231),"Total Scope 1 emissions ... tCO2e 1,731.26 1,120.88"
+MEDANTA,scope1_tco2e,5006.55,fill,AR,https://medanta.s3.ap-south-1.amazonaws.com/reports/August2026/neTR0rNCacXMHOhGLbja3Wy1yyROtM-metaR2xvYmFsIEhlYWx0aCBBUiAyNS0yNi5wZGY=-.pdf,AR 2025-26 pp.224-226 (BRSR P6 E7),"Total Scope 1 emissions ... MT of CO2 Equivalent 5,006.55 5,352.60"
+MEDANTA,scope2_tco2e,41059.44,fill,AR,https://medanta.s3.ap-south-1.amazonaws.com/reports/August2026/neTR0rNCacXMHOhGLbja3Wy1yyROtM-metaR2xvYmFsIEhlYWx0aCBBUiAyNS0yNi5wZGY=-.pdf,AR 2025-26 pp.224-226 (BRSR P6 E7),"Total Scope 2 emissions ... MT of CO2 Equivalent 41,059.44 45,915.30"
+BEML,water_withdrawal_m3,448176.3,correct,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BEML_03092026173500_SE_BRSR_signed.pdf,BRSR p.124,"Total volume of water withdrawal (in kilolitres) (i + ii + iii + iv + v) 4,48,176.30"
+ANURAS,nox_tonnes,56.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ANURAS_08092026200751_ARILSLDSTX20260908055SubmissionofBRSR.pdf,Integrated Report p.~33 (Q6),NOx Tonne/Year 56 66
+ANURAS,sox_tonnes,44.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ANURAS_08092026200751_ARILSLDSTX20260908055SubmissionofBRSR.pdf,Integrated Report p.~33 (Q6),SOx Tonne/Year 44 70
+ANURAS,pm_tonnes,30.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ANURAS_08092026200751_ARILSLDSTX20260908055SubmissionofBRSR.pdf,Integrated Report p.~33 (Q6),Particulate matter (PM) Tonne/Year 30 65
+BIKAJI,nox_tonnes,47.65,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_23072026125038_40.pdf,AR p.~35 (Q6),NOx MT/Annum 47.65 103.13
+BIKAJI,sox_tonnes,42.87,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_23072026125038_40.pdf,AR p.~35 (Q6),SOx MT/ Annum 42.87 6.41
+BIKAJI,pm_tonnes,91.94,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_23072026125038_40.pdf,AR p.~35 (Q6),Particulate Matter (PM) MT/ Annum 91.94 13.29
+JIOFIN,scope1_tco2e,1.73,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_543940_03082026152425.pdf,BRSR Principle 6 Q7,Scope 1 Metric tons of CO2 equivalent 1.73 0
+JIOFIN,scope2_tco2e,43.49,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_543940_03082026152425.pdf,BRSR Principle 6 Q7,Scope 2 Metric tons of CO2 equivalent 43.49** 128* **Total** ... 45.22 128*
+DIVISLAB,scope1_tco2e,371697.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/DIVISLAB_15072026172351_BRSR2025_26_DivisLabs.pdf,BRSR p.~22 (Q7),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 3,71,697 3,39,941"
+DIVISLAB,scope2_tco2e,378516.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/DIVISLAB_15072026172351_BRSR2025_26_DivisLabs.pdf,BRSR p.~22 (Q7),"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 3,78,516 3,57,810"
+NATCOPHARM,nox_tonnes,38.28,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_524816_04092026204752.pdf,BRSR Principle 6 Q6,NOx tonnes 38.28 44.21
+NATCOPHARM,sox_tonnes,38.5,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_524816_04092026204752.pdf,BRSR Principle 6 Q6,SOx tonnes 38.50 45.55
+NATCOPHARM,pm_tonnes,30.52,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_524816_04092026204752.pdf,BRSR Principle 6 Q6,Particulate matter (PM) tonnes 30.52 26.52
+BHARTIHEXA,nox_tonnes,85.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/HexacomApril20_18072026002350_BRSRIntimation25.pdf,BRSR p.~24 (Q6),NOx Metric Tonnes 85 93
+BHARTIHEXA,pm_tonnes,4.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/HexacomApril20_18072026002350_BRSRIntimation25.pdf,BRSR p.~24 (Q6),Particulate matter (PM) Metric Tonnes 4 5
+CEATLTD,scope1_tco2e,114858.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/CEATLTD_23072026123513_CEATSELetterIntimationofIntegratedARincLBRSRFY2526signed.pdf,IAR p.~152-157 (BRSR P6 E7); ESG Databook,"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 1,14,858 1,00,208"
+CEATLTD,scope2_tco2e,190550.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/CEATLTD_23072026123513_CEATSELetterIntimationofIntegratedARincLBRSRFY2526signed.pdf,IAR p.~152-157 (BRSR P6 E7),"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 1,90,550 1,70,128"
+BHEL,nox_tonnes,193.59,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BHEL_10072026183637_SE_letter_for_BRSR2526.pdf,p.125 (inferred from footer),NOx Tonne/year 193.59 230.69
+BHEL,sox_tonnes,368.13,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BHEL_10072026183637_SE_letter_for_BRSR2526.pdf,p.125 (inferred from footer),SOx Tonne/year 368.13 357.93
+BHEL,pm_tonnes,479.52,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BHEL_10072026183637_SE_letter_for_BRSR2526.pdf,p.125 (inferred from footer),Particulate Matters (PM) Tonne/year 479.52 314.38
+ATUL,nox_tonnes,69.08,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ATUL1_14082026090743_BRSR_2025-26.pdf,IAR p.~138-139 (P6 Q6),NOx MT/year 69.08 78.96
+ATUL,sox_tonnes,51.96,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ATUL1_14082026090743_BRSR_2025-26.pdf,IAR p.~138-139 (P6 Q6),SOx MT/year 51.96 58.76
+ATUL,pm_tonnes,11.45,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ATUL1_14082026090743_BRSR_2025-26.pdf,IAR p.~138-139 (P6 Q6),Particulate matter (PM) MT/year 11.45 12.10
+MEESHO,scope1_tco2e,0.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_544632_24082026212237.pdf,BRSR P6 Q7,Total Scope 1 emissions ... MTCO2e 0
+MEESHO,scope2_tco2e,1330.72,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_544632_24082026212237.pdf,BRSR P6 Q7,"Total Scope 2 emissions ... MTCO2e 1,330.72"
+DRREDDY,nox_tonnes,202.01,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500124_30062026203950.pdf,BRSR p.48 (P6 Q6),NOx Metric tonnes 202.01 155.66
+DRREDDY,sox_tonnes,151.14,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500124_30062026203950.pdf,BRSR p.48 (P6 Q6),SOx Metric tonnes 151.14 209.67
+DRREDDY,pm_tonnes,85.47,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500124_30062026203950.pdf,BRSR p.48 (P6 Q6),Particulate matter (PM) Metric tonnes 85.47 100.12
+JMFINANCIL,scope1_tco2e,16.24,fill,other,https://jmfl.com/Common/getFile/5833,Annual Report 2025-26 p.212 (BRSR P6 Q7),Scope 1 Metric tons of CO2 equivalent 16.24 8.03
+JMFINANCIL,scope2_tco2e,388.9,fill,other,https://jmfl.com/Common/getFile/5833,Annual Report 2025-26 p.212 (BRSR P6 Q7),Scope 2 Metric tons of CO2 equivalent 388.90 438.49
+INFY,scope1_tco2e,11483.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500209_10062026191217.pdf,IAR p.~210 (BRSR P6 Q7),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 11,483 (3) 8,745"
+INFY,scope2_tco2e,34351.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500209_10062026191217.pdf,IAR p.~210 (BRSR P6 Q7),"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 34,351 (3) 38,586"
+HINDCOPPER,scope1_tco2e,9653.08,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/HINDCOPPERMKD_27082026180008_BSENSEBRSR27082026.pdf,BRSR P6 Q7,Total Scope 1 emissions ... MTCO2e 9653.08 9186.43
+HINDCOPPER,scope2_tco2e,110911.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/HINDCOPPERMKD_27082026180008_BSENSEBRSR27082026.pdf,BRSR P6 Q7,Total Scope 2 emissions ... MTCO2e 110911 107638
+BRITANNIA,scope1_tco2e,89855.0,fill,AR,https://media.britannia.co.in/Britannia_Annual_Report_2025_26_High_Resolution_c738982760.pdf,AR BRSR P6 Q7,"Total Scope 1 emissions ... Metric Tonnes of CO2 equivalent 89,855 1,05,325"
+BRITANNIA,scope2_tco2e,68961.0,fill,AR,https://media.britannia.co.in/Britannia_Annual_Report_2025_26_High_Resolution_c738982760.pdf,AR BRSR P6 Q7,"Total Scope 2 emissions ... Metric Tonnes of CO2 equivalent 68,961 82,969"
+BANKBARODA,scope1_tco2e,3589.37,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BANKBARODA_29052026182051_SEBRSR.pdf,BRSR p.118 (P6 Q7),Total Scope 1 emissions ... (Metric tonnes of CO2 equivalent) 3589.37 1806.97
+BANKBARODA,scope2_tco2e,153835.74,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BANKBARODA_29052026182051_SEBRSR.pdf,BRSR p.118 (P6 Q7),Total Scope 2 emissions ... (Metric tonnes of CO2 e equivalent) 153835.74 170244.33
+HBLENGINE,nox_tonnes,3.7,fill,BRSR_PDF,https://hbl.in/reports/BRSR_reasonable_%20assurance_prt_2026.pdf,BRSR p.116 (P6 Q6),NOx* 3MT 3.70 NA*
+HBLENGINE,sox_tonnes,5.26,fill,BRSR_PDF,https://hbl.in/reports/BRSR_reasonable_%20assurance_prt_2026.pdf,BRSR p.116 (P6 Q6),Sox* 3MT 5.26 NA
+HBLENGINE,pm_tonnes,2.36,fill,BRSR_PDF,https://hbl.in/reports/BRSR_reasonable_%20assurance_prt_2026.pdf,BRSR p.116 (P6 Q6),Particulate matter (PM)* 3MT 2.36 NA
+CLEANMAX,water_withdrawal_m3,110223.55,fill,BRSR_PDF,https://cdn.prod.website-files.com/68652f8312ae2e761e326f69/6a8da8698ce745b487d29d2e_BRSR_FY%202025-26.pdf,BRSR p.~57 (P6 Q3),"Total volume of water withdrawal (in kilolitres) (i + ii + iii + iv + v) 110,223.55 35,911.29"
+CLEANMAX,waste_generated_tonnes,1469.68,fill,BRSR_PDF,https://cdn.prod.website-files.com/68652f8312ae2e761e326f69/6a8da8698ce745b487d29d2e_BRSR_FY%202025-26.pdf,BRSR p.~60 (P6 Q9),Total (A+B + C + D + E + F + G + H) 1469.68 861.39
+CLEANMAX,waste_recovered_tonnes,1469.68,fill,BRSR_PDF,https://cdn.prod.website-files.com/68652f8312ae2e761e326f69/6a8da8698ce745b487d29d2e_BRSR_FY%202025-26.pdf,BRSR p.~60 (P6 Q9),(i) Recycled 1469.68 861.39 (ii) Re-used 0 0 (iii) Other recovery operations 0 0 Total 1469.68 861.39
+CARBORUNIV,nox_tonnes,318.1,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_513375_16072026214109.pdf,Principle 6 EI-6 (AR p.~181),NOx tonnes/year 318.1 310.8
+CARBORUNIV,sox_tonnes,121.4,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_513375_16072026214109.pdf,Principle 6 EI-6 (AR p.~181),SOx tonnes/year 121.4 112.7
+CARBORUNIV,pm_tonnes,504.4,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_513375_16072026214109.pdf,Principle 6 EI-6 (AR p.~181),Particulate Matter (PM) tonnes/year 504.4 474.5
+CASTROLIND,scope1_tco2e,769.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/CASTROLINDIA_25022026151207_SE_Intimation_BRSRFY2025_25022026.pdf,Principle 6 EI-7 (AR 2025 p.141),Total Scope 1 emissions ... Metric tons of CO2 equivalent 769 724
+CIEINDIA,scope1_tco2e,13412.53,fill,BRSR_PDF,https://www.cie-india.com/assets/pdf/ppi/annual%20reports/Annual%20Reports/MCL%20Annual%20Report/Annual%20Report%20Jan-Dec%202025.pdf,Principle 6 EI-7 (AR BRSR p.~142),Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 13412.53 11006.7**
+CIEINDIA,scope2_tco2e,81853.0,fill,BRSR_PDF,https://www.cie-india.com/assets/pdf/ppi/annual%20reports/Annual%20Reports/MCL%20Annual%20Report/Annual%20Report%20Jan-Dec%202025.pdf,Principle 6 EI-7 (AR BRSR p.~142),Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 81853 80371.71**
+CIEINDIA,water_withdrawal_m3,524860.19,fill,BRSR_PDF,https://www.cie-india.com/assets/pdf/ppi/annual%20reports/Annual%20Reports/MCL%20Annual%20Report/Annual%20Report%20Jan-Dec%202025.pdf,Principle 6 EI-3 (AR BRSR p.141),"Total volume of water withdrawal (in kilolitres) (i + ii + iii + iv + v) 5,24,860.19 4,87,029.80"
+CIEINDIA,waste_generated_tonnes,93521.33,fill,BRSR_PDF,https://www.cie-india.com/assets/pdf/ppi/annual%20reports/Annual%20Reports/MCL%20Annual%20Report/Annual%20Report%20Jan-Dec%202025.pdf,Principle 6 EI-9 (AR BRSR p.~143),Total (A+B + C + D + E + F + G+ H) 93521.33 99720.61
+CIEINDIA,waste_recovered_tonnes,69426.0,fill,BRSR_PDF,https://www.cie-india.com/assets/pdf/ppi/annual%20reports/Annual%20Reports/MCL%20Annual%20Report/Annual%20Report%20Jan-Dec%202025.pdf,Principle 6 EI-9 (AR BRSR p.~143),(i) Recycled 67509.58 (ii) Re-used 1230.67 (iii) Other recovery operations 685.75 Total 69426
+HDFCBANK,nox_tonnes,291.44,fill,BRSR_PDF,https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/about-us/stakeholders-information/disclosures/other-stock-exchange-disclosure/2026/july/BRSR-2025-26.pdf,Principle 6 Q6 (IAR p.595),NOx Metric Tonnes 291.44 308.25
+HDFCBANK,sox_tonnes,23.0,fill,BRSR_PDF,https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/about-us/stakeholders-information/disclosures/other-stock-exchange-disclosure/2026/july/BRSR-2025-26.pdf,Principle 6 Q6 (IAR p.595),SOx Metric Tonnes 23.00 24.32
+HDFCBANK,pm_tonnes,9.11,fill,BRSR_PDF,https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/about-us/stakeholders-information/disclosures/other-stock-exchange-disclosure/2026/july/BRSR-2025-26.pdf,Principle 6 Q6 (IAR p.595),Particulate Matter (PM) Metric Tonnes 9.11 9.63
+JKCEMENT,nox_tonnes,13305.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_532644_29062026150025.pdf,Principle 6 EI-6 (AR p.231-232),NOx MT/Annum 13305 11182
+JKCEMENT,sox_tonnes,1138.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_532644_29062026150025.pdf,Principle 6 EI-6 (AR p.231-232),SO2 MT/Annum 1138 1583
+JKCEMENT,pm_tonnes,872.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_532644_29062026150025.pdf,Principle 6 EI-6 (AR p.231-232),Particulate Matter (PM) MT/Annum 872 778
+JPPOWER,scope1_tco2e,20098263.61,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/JPPOWER_04072026154101_SubmissionofBRSR.pdf,Principle 6 EI-7 (AR p.~111),"Total Scope 1 emissions ... MtCO2e 2,00,98,263.61 1,83,81,314.06"
+JPPOWER,scope2_tco2e,6774.89,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/JPPOWER_04072026154101_SubmissionofBRSR.pdf,Principle 6 EI-7 (AR p.~111),"Total Scope 2 emissions ... MtCO2e 6,774.89 5,629.08"
+JPPOWER,nox_tonnes,15930.68,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/JPPOWER_04072026154101_SubmissionofBRSR.pdf,Principle 6 EI-6 (AR p.~110),"NOx MT 15,930.68 15,419.14"
+JPPOWER,sox_tonnes,79226.25,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/JPPOWER_04072026154101_SubmissionofBRSR.pdf,Principle 6 EI-6 (AR p.~110),"SOx MT 79,226.25 72,017.95"
+JPPOWER,pm_tonnes,2791.4,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/JPPOWER_04072026154101_SubmissionofBRSR.pdf,Principle 6 EI-6 (AR p.~110),"Particulate matter (PM) MT 2,791.40 2,496.08"
+SWANCORP,scope2_tco2e,3462.51,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/SWANENERGY_12082026195254_Swan_Corp_Limited_BRSR.pdf,Principle 6 EI-7 (AR p.~148),"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 3,462.51 3,618.94"
+UBL,nox_tonnes,168.92,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_532478_20072026175107.pdf,EI-6 (IAR p.150),NOx Ton/Year 168.92 402
+UBL,sox_tonnes,78.3,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_532478_20072026175107.pdf,EI-6 (IAR p.150),SOx Ton/Year 78.30 198
+UBL,pm_tonnes,178.16,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_532478_20072026175107.pdf,EI-6 (IAR p.150),Particulate matter (PM) Ton/Year 178.16 413
+TATACHEM,nox_tonnes,4654.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/TATACHEMYS_04062026221917_SEintimation_BRSRSigned.pdf,BRSR p.28-29 (P6 E6),"NOx MT 4,654 4,422 SOx MT 2,994 3,230 Particulate matter (PM) MT 2,552 2,604"
+TATACHEM,sox_tonnes,2994.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/TATACHEMYS_04062026221917_SEintimation_BRSRSigned.pdf,BRSR p.28-29,"SOx MT 2,994 3,230"
+TATACHEM,pm_tonnes,2552.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/TATACHEMYS_04062026221917_SEintimation_BRSRSigned.pdf,BRSR p.28-29,"Particulate matter (PM) MT 2,552 2,604"
+NYKAA,scope1_tco2e,388.14,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/NYKAA_01082026194832_BRSRLetter.pdf,Integrated Report p.31 (P6 E7),Total Scope 1 emissions ... MTCO2e 388.14 386.01
+NYKAA,scope2_tco2e,5182.31,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/NYKAA_01082026194832_BRSRLetter.pdf,Integrated Report p.31 (P6 E7),"Total Scope 2 emissions ... MTCO2e 5182.31 4,886.55"
+PNB,scope1_tco2e,10075.0,fill,BRSR_PDF,https://www.bseindia.com/XBRLFILES/BRSRPDFUploadDocument/BRSR_532461_27052026201816.pdf,BRSR p.~39 (P6 E7),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 10,075 10,194#"
+PNB,scope2_tco2e,164328.0,fill,BRSR_PDF,https://www.bseindia.com/XBRLFILES/BRSRPDFUploadDocument/BRSR_532461_27052026201816.pdf,BRSR p.~39 (P6 E7),"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 1,64,328 1,74,100"
+UNITDSPR,scope2_tco2e,10308.0,fill,BRSR_PDF,https://www.bseindia.com/XBRLFILES/BRSRPDFUploadDocument/BRSR_532432_10072026222051.pdf,BRSR P6 E7,"Total Scope 2 emissions ... 10,308 9,857"
+LTM,scope1_tco2e,1764.0,fill,BRSR_PDF,https://www.ltm.com/content/dam/ltimcorporatewebsite/annual-report-2026/ltm-limited-iar-2025-26-brsr.pdf,BRSR p.~255 (P6 E7),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 1,764 1,542"
+LTM,scope2_tco2e,33195.0,fill,BRSR_PDF,https://www.ltm.com/content/dam/ltimcorporatewebsite/annual-report-2026/ltm-limited-iar-2025-26-brsr.pdf,BRSR p.~255 (P6 E7),"Total Scope 2 emissions* ... Metric tonnes of CO2 equivalent 33,195 18,239"
+INGERRAND,scope1_tco2e,62.28,fill,AR,https://azure-na-assets.contentstack.com/v3/assets/blta8b68ee4d57aa34b/blt4accca8e8ecc99dc/6a5e09357cda3101a4c4e6e1/Annual_Report_2025-26.pdf,AR p.~129 (BRSR P6 E7),Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 62.28 72.99
+INGERRAND,scope2_tco2e,5016.53,fill,AR,https://azure-na-assets.contentstack.com/v3/assets/blta8b68ee4d57aa34b/blt4accca8e8ecc99dc/6a5e09357cda3101a4c4e6e1/Annual_Report_2025-26.pdf,AR p.~129,Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 5016.53 5350.50
+COCHINSHIP,scope2_tco2e,21252.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/Aswi4739_04092026111521_SE_Intimation_BRSR_2026_Sgd.pdf,BRSR p.26-27 (P6 EI-7),"Total Scope 2 Emissions (Break-up of the GHG into CO2, CH4, N2O, HFCs, PFCs, SF6, NF3, if available) 21252.00 28736.33"
+SIEMENS,scope1_tco2e,4915.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/SIEMENS57_13072026173836_BRSR.pdf,P6 EI-7,"Total Scope 1 emissions (Break-up of the GHG ...) Metric tonnes of CO2 equivalent 4,915 7,448"
+SIEMENS,scope2_tco2e,38613.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/SIEMENS57_13072026173836_BRSR.pdf,P6 EI-7,"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent Location based: 38,613 Market Based: 0"
+SIEMENS,water_withdrawal_m3,338242.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/SIEMENS57_13072026173836_BRSR.pdf,BRSR p.47 (P6 EI-3),"Total volume of water withdrawal (in kilolitres) (i + ii + iii + iv + v) 338,242 319,769"
+SIEMENS,waste_generated_tonnes,29920.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/SIEMENS57_13072026173836_BRSR.pdf,P6 EI-9,"Total (A + B + C + D + E + F + G + H) 29,920 15,555"
+SIEMENS,waste_recovered_tonnes,29112.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/SIEMENS57_13072026173836_BRSR.pdf,P6 EI-9,"(i) Recycled 8,157 5,227 (ii) Re-used 20,527 7,202 (iii) Other recovery operations 428 81 Total 29,112 12,510"
+COROMANDEL,scope1_tco2e,100392.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_506395_01072026233106.pdf,IR p.332-333 (P6 EI-7),Total Scope 1 emissions ... Metric tons of CO2 Equivalent 100392 82938
+COROMANDEL,scope2_tco2e,178172.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_506395_01072026233106.pdf,IR p.332-333 (P6 EI-7),Total Scope 2 emissions ... Metric tons of CO2 Equivalent 178172 164674
+UPL,nox_tonnes,0.426,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/UPL_15072026214720_BRSRintimation.pdf,P6 EI-6,NOx MT/Year 0.426 436
+UPL,sox_tonnes,0.094,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/UPL_15072026214720_BRSRintimation.pdf,P6 EI-6,SOx MT/Year 0.094 121
+UPL,pm_tonnes,0.292,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/UPL_15072026214720_BRSRintimation.pdf,P6 EI-6,Particulate matter (PM) MT/Year 0.292 343
+NUVOCO,nox_tonnes,10160.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/NUVOCO_07082026180801_SEBRSRFY26.pdf,BRSR p.18 (P6 EI-6),"NOx tonnes/year 10,160 8,779"
+NUVOCO,sox_tonnes,1553.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/NUVOCO_07082026180801_SEBRSRFY26.pdf,BRSR p.18 (P6 EI-6),"SOx tonnes/year 1,553 1,215"
+NUVOCO,pm_tonnes,1110.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/NUVOCO_07082026180801_SEBRSRFY26.pdf,BRSR p.18 (P6 EI-6),"Particulate matter (PM) tonnes/year 1,110 931"
+TITAN,scope1_tco2e,3878.0,fill,AR,https://www.titancompany.in/sites/default/files/2026-07/Titan%20AR%202026_0.pdf,AR p.247-248 (BRSR P6 EI-7),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 3,878 3,952"
+TITAN,scope2_tco2e,21181.0,fill,AR,https://www.titancompany.in/sites/default/files/2026-07/Titan%20AR%202026_0.pdf,AR p.248 (BRSR P6 EI-7),"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 21,181 26,326"
+CUPID,nox_tonnes,1.78,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_530843_25082026215714.pdf,BRSR p.33 (P6 EI-6),NOx Ton/annum 1.78 0.00 SOx Ton/annum 0.0056 0.31 Particulate Matter (PM) Ton/annum 1.29 4.08
+CUPID,sox_tonnes,0.0056,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_530843_25082026215714.pdf,BRSR p.33 (P6 EI-6),SOx Ton/annum 0.0056 0.31 ... *Note: The concentration of SOx emissions was below the threshold of detection.
+CUPID,pm_tonnes,1.29,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_530843_25082026215714.pdf,BRSR p.33 (P6 EI-6),Particulate Matter (PM) Ton/annum 1.29 4.08
+VBL,scope1_tco2e,38866.0,fill,AR,https://www.varunbeverages.com/Annual-Report-FY-2025.pdf,AR 2025 p.225 (BRSR P6 EI-7),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 38,866 43,831"
+VBL,scope2_tco2e,274262.0,fill,AR,https://www.varunbeverages.com/Annual-Report-FY-2025.pdf,AR 2025 p.225 (BRSR P6 EI-7),"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 2,74,262 2,98,688"
+VBL,water_withdrawal_m3,7201000.0,fill,AR,https://www.varunbeverages.com/Annual-Report-FY-2025.pdf,AR 2025 p.226 (BRSR P6 EI-3),"(in million litres) ... Total volume of water withdrawal (i + ii + iii + iv + v) 7,201 7,275"
+VBL,waste_generated_tonnes,225952.0,fill,AR,https://www.varunbeverages.com/Annual-Report-FY-2025.pdf,AR 2025 p.226 (BRSR P6 EI-9),"Total (A+B + C + D + E + F + G+ H) 2,25,952 2,25,168"
+VBL,waste_recovered_tonnes,223995.0,fill,AR,https://www.varunbeverages.com/Annual-Report-FY-2025.pdf,AR 2025 p.226 (BRSR P6 EI-9),"(i) Recycled 2,20,111 1,63,470 (ii) Re-used 3,884 4,151 (iii) Other recovery operations - - Total 2,23,995 1,67,621"
+KFINTECH,scope1_tco2e,40.8,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/KFINTECHNSE_29062026223409_Intimation.pdf,AR p.209-210 (P6 EI-7),Scope 1 Metric tons of CO2 equivalent 40.80 16.80
+KFINTECH,scope2_tco2e,2818.22,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/KFINTECHNSE_29062026223409_Intimation.pdf,AR p.209-210 (P6 EI-7),"Scope 2 Metric tons of CO2 equivalent 2,818.22 3,182.04 Total 2,859.02 3,198.84"
+LTTS,scope1_tco2e,182.91,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_540115_09052026224401.pdf,AR p.253-254 (P6 EI-7),Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 182.91 321.23
+LTTS,scope2_tco2e,19400.06,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_540115_09052026224401.pdf,AR p.253-254 (P6 EI-7),"Total Scope 2 emissions ... 19,400.06 # 12,265.40 @ ... # Location Based is excluding Solar PPAs @ Market Based is including Solar PPAs"
+LTTS,nox_tonnes,0.07346,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_540115_09052026224401.pdf,AR p.253 (P6 EI-6),NOx kg/year 73.46 209.4
+LTTS,sox_tonnes,0.02282,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_540115_09052026224401.pdf,AR p.253 (P6 EI-6),SOx kg/year 22.82 65.7
+LTTS,pm_tonnes,0.01799,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_540115_09052026224401.pdf,AR p.253 (P6 EI-6),Particulate matter (PM) kg/year 17.99 144.4
+ENDURANCE,scope1_tco2e,60696.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ENDURANCE_21072026143409_2026_07_21_-_SE_intimation__AGM_Notice_AR_and_BRSR.pdf,BRSR P6 E7,"Total Scope 1 emissions Metric tonnes of CO2 equivalent 60,696 53,761"
+ENDURANCE,scope2_tco2e,135072.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ENDURANCE_21072026143409_2026_07_21_-_SE_intimation__AGM_Notice_AR_and_BRSR.pdf,BRSR P6 E7,"Total Scope 2 emissions Metric tonnes of CO2 equivalent 1,35,072 1,29,279"
+ENDURANCE,nox_tonnes,33.92,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ENDURANCE_21072026143409_2026_07_21_-_SE_intimation__AGM_Notice_AR_and_BRSR.pdf,BRSR P6 E6,Nox MT/Annum 33.92 27.76
+ENDURANCE,sox_tonnes,13.76,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ENDURANCE_21072026143409_2026_07_21_-_SE_intimation__AGM_Notice_AR_and_BRSR.pdf,BRSR P6 E6,Sox MT/Annum 13.76 9.66
+ENDURANCE,pm_tonnes,13.71,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ENDURANCE_21072026143409_2026_07_21_-_SE_intimation__AGM_Notice_AR_and_BRSR.pdf,BRSR P6 E6,Particulate matter (PM) MT/Annum 13.71 11.52
+SKFINDUS,scope2_tco2e,379.39,fill,AR,https://www.bseindia.com/xml-data/corpfiling/AttachHis/14a18ae7-50d9-407c-b1f9-3fe2268b987e.pdf,AR p.55-56 (Climate Transformation highlights),Scope - 1 and 2 379.39 tCO2e
+SKFINDUS,waste_generated_tonnes,4173.5,fill,AR,https://www.bseindia.com/xml-data/corpfiling/AttachHis/14a18ae7-50d9-407c-b1f9-3fe2268b987e.pdf,AR p.56,"Waste Generated 4,173.5 MT"
+SKFINDUS,waste_recovered_tonnes,2257.8,fill,AR,https://www.bseindia.com/xml-data/corpfiling/AttachHis/14a18ae7-50d9-407c-b1f9-3fe2268b987e.pdf,AR p.56,"Waste Recycled 2,257.8 MT"
+VINATIORGA,nox_tonnes,488.13,fill,AR,https://vinatiorganics.com/wp-content/uploads/Vinati_Organics-AR-2025-26.pdf,AR BRSR p.114 (P6 E6),NOx MT 488.13 31.04
+VINATIORGA,sox_tonnes,1084.73,fill,AR,https://vinatiorganics.com/wp-content/uploads/Vinati_Organics-AR-2025-26.pdf,AR BRSR p.114 (P6 E6),SOx MT 1084.73 21.7
+VINATIORGA,pm_tonnes,47.81,fill,AR,https://vinatiorganics.com/wp-content/uploads/Vinati_Organics-AR-2025-26.pdf,AR BRSR p.114 (P6 E6),Particulate matter (PM) MT 47.81 43.05
+POLICYBZR,scope1_tco2e,3041.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/POLICYBZR_05092026160930_PB_Fintech_BRSR_FY25-26.pdf,BRSR P6 E7,Total Scope 1 emissions ... Metric tonnes of CO2 Equivalent 3041 1954
+POLICYBZR,scope2_tco2e,10087.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/POLICYBZR_05092026160930_PB_Fintech_BRSR_FY25-26.pdf,BRSR P6 E7,Total Scope 2 emissions ... Metric tonnes of CO2 Equivalent 10087 8945
+GLAND,scope1_tco2e,29428.09,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GLAND_31072026203027_BRSR_FY26_Final.pdf,BRSR p.196 (P6 E7),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 29,428.09 13,920"
+GLAND,scope2_tco2e,65742.42,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GLAND_31072026203027_BRSR_FY26_Final.pdf,BRSR p.196 (P6 E7),"Total Scope 2 emissions ... location based) Metric tonnes of CO2 equivalent 65,742.42 80,824"
+GLAND,nox_tonnes,36.05416,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GLAND_31072026203027_BRSR_FY26_Final.pdf,BRSR p.195-196 (P6 E6),"NOx Kg/Year 36,054.16 mg\Nm3 49.8"
+GLAND,sox_tonnes,31.2981,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GLAND_31072026203027_BRSR_FY26_Final.pdf,BRSR p.195-196 (P6 E6),"SOx Kg/Year 31,298.10 mg\Nm3 38.2"
+GLAND,pm_tonnes,25.00343,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GLAND_31072026203027_BRSR_FY26_Final.pdf,BRSR p.195-196 (P6 E6),"Particulate matter (PM) Kg/Year 25,003.43 mg\Nm3 40.8"
+POLYMED,nox_tonnes,0.45596,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/POLYMED_14082026204707__BRSR_2025_26_Signed.pdf,BRSR P6 E6,NOx kg/year 455.96 225.47
+POLYMED,sox_tonnes,0.02432,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/POLYMED_14082026204707__BRSR_2025_26_Signed.pdf,BRSR P6 E6,SOx kg/year 24.32 8.84
+POLYMED,pm_tonnes,0.06638,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/POLYMED_14082026204707__BRSR_2025_26_Signed.pdf,BRSR P6 E6,Particulate matter (PM) kg/year 66.38 64.89
+GAIL,nox_tonnes,645.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_532155_05082026164823.pdf,BRSR p.152 (P6 E6),"NOx Metric tons per Annum 645 1,049"
+GAIL,sox_tonnes,299.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_532155_05082026164823.pdf,BRSR p.152 (P6 E6),SOx Metric tons per Annum 299 618
+GAIL,pm_tonnes,156.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_532155_05082026164823.pdf,BRSR p.152 (P6 E6),Particulate matter (PM) Metric tons per Annum 156 250
+NHPC,scope1_tco2e,3994.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/NHPC_05082026175056_STX_BRSR202526_NHPC.pdf,BRSR P6 E7; assurance Annexure I,Total Scope 1 emissions ... Metric tonnes of CO2 equivalent (MtCO2e) 3994 4016
+NHPC,scope2_tco2e,39394.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/NHPC_05082026175056_STX_BRSR202526_NHPC.pdf,BRSR P6 E7; assurance Annexure I,Total Scope 2 emissions ... MtCO2e 39394 41528
+EXIDEIND,scope1_tco2e,32862.0,fill,nan,https://nsearchives.nseindia.com/corporate/EXIDEIND_16062026190012_sdSEIAR2026.pdf,AR p.222 (GRI index ref),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 32,862 35,896"
+EXIDEIND,scope2_tco2e,300264.0,fill,nan,https://nsearchives.nseindia.com/corporate/EXIDEIND_16062026190012_sdSEIAR2026.pdf,AR p.224 (GRI index ref),"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 3,00,264 3,50,643"
+CUMMINSIND,scope1_tco2e,6458.0,fill,nan,https://www.cummins.com/sites/default/files/india/Legal/cummins-india_annual-report_2025_26.pdf,AR p.155 (BRSR P6-E7),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 6,458 7,541"
+CUMMINSIND,scope2_tco2e,18751.0,fill,nan,https://www.cummins.com/sites/default/files/india/Legal/cummins-india_annual-report_2025_26.pdf,AR p.155 (BRSR P6-E7),"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 18,751 18,548"
+JINDALSAW,scope1_tco2e,1604449.0,fill,nan,https://nsearchives.nseindia.com/corporate/JINDALSAW_07052026181121_BRSR202526SE.pdf,BRSR p.35,"Total Scope 1 emissions ... Metric Tons of CO2 equivalent 16,04,449 19,07,378*"
+JINDALSAW,scope2_tco2e,224730.0,fill,nan,https://nsearchives.nseindia.com/corporate/JINDALSAW_07052026181121_BRSR202526SE.pdf,BRSR p.35,"Total Scope 2 emissions ... Metric Tons of CO2 equivalent 2,24,730 3,02,048"
+DEEPAKNTR,nox_tonnes,611.0,fill,nan,https://nsearchives.nseindia.com/corporate/DEEPAKNTR_14072026213128_Deepak_Nitrite_AR-BRSR-31-3-2026.pdf,BRSR p.259,NOx 611 TPA 630 TPA
+DEEPAKNTR,sox_tonnes,137.0,fill,nan,https://nsearchives.nseindia.com/corporate/DEEPAKNTR_14072026213128_Deepak_Nitrite_AR-BRSR-31-3-2026.pdf,BRSR p.259,SOx 137 TPA 136 TPA
+DEEPAKNTR,pm_tonnes,98.0,fill,nan,https://nsearchives.nseindia.com/corporate/DEEPAKNTR_14072026213128_Deepak_Nitrite_AR-BRSR-31-3-2026.pdf,BRSR p.259,Particulate matter (PM) 98 TPA 64 TPA
+CANFINHOME,scope1_tco2e,157.62,fill,nan,https://nsearchives.nseindia.com/corporate/CANFINHOME_06072026193533_BRSR_Intimation.pdf,AR p.163,Total Scope 1 emissions ... MTCO2e 157.62* 286.03
+CANFINHOME,scope2_tco2e,2025.37,fill,nan,https://nsearchives.nseindia.com/corporate/CANFINHOME_06072026193533_BRSR_Intimation.pdf,AR p.163,"Total Scope 2 emissions ... MTCO2e 2,025.37# 1,882.84"
+ICICIAMC,scope1_tco2e,201.94,fill,nan,https://nsearchives.nseindia.com/corporate/BRSR_544658_29052026142222.pdf,AR p.109-110,Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 201.94 62.58
+ICICIAMC,scope2_tco2e,4996.53,fill,nan,https://nsearchives.nseindia.com/corporate/BRSR_544658_29052026142222.pdf,AR p.109-110,"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 4,996.53 4,853.25"
+GLAXO,scope1_tco2e,721.9,fill,nan,https://nsearchives.nseindia.com/corporate/GLAXO1924_05062026195658_BRSR.pdf,BRSR P6-E7,"Scope 1 Metric tonnes of CO2 equivalent 721.90 1,002.89"
+GLAXO,scope2_tco2e,8624.3,fill,nan,https://nsearchives.nseindia.com/corporate/GLAXO1924_05062026195658_BRSR.pdf,BRSR P6-E7,"Scope 2 Metric tonnes of CO2 equivalent 8,624.30 9,419.11"
+GUJGASLTD,scope1_tco2e,44161.16,fill,nan,https://nsearchives.nseindia.com/corporate/GUJGASLTD_05092026205659_1619SECBRSR2526.pdf,AR p.113,"Total Scope 1 emissions ... On account of Diesel and Natural Gas including leakages and flaring. 44,161.16 tCO2e"
+GUJGASLTD,scope2_tco2e,127088.15,fill,nan,https://nsearchives.nseindia.com/corporate/GUJGASLTD_05092026205659_1619SECBRSR2526.pdf,AR p.113,"Total Scope 2 emissions ... On account of Electricity consumption. 1,27,088.15 tCO2e"
+NLCINDIA,scope1_tco2e,31642403.73,fill,nan,https://nsearchives.nseindia.com/corporate/BRSR_513683_08092026004956.pdf,AR p.~274 (BRSR P6-E7),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 3,16,42,403.73 T 3,00,79,691.55"
+NLCINDIA,scope2_tco2e,5903.04,fill,nan,https://nsearchives.nseindia.com/corporate/BRSR_513683_08092026004956.pdf,AR p.~274 (BRSR P6-E7),"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 5,903.04 T 44,935.21 T"
+BLUEDART,scope1_tco2e,137749.39,fill,nan,https://nsearchives.nseindia.com/corporate/BRSR_526612_28082026164430.pdf,AR p.~71,"Total Scope 1 emissions* ... Metric tonnes of CO2 equivalent 1,37,749.39 1,70,806.00"
+BLUEDART,scope2_tco2e,5128.84,fill,nan,https://nsearchives.nseindia.com/corporate/BRSR_526612_28082026164430.pdf,AR p.~71,"Total Scope 2 emissions* ... Metric tonnes of CO2 equivalent 5,128.84 15,906.00"
+EIDPARRY,scope1_tco2e,313221.16,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500125_17072026205125.pdf,AR p.35 (BRSR Q7),Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 313221.16 259274.29
+EIDPARRY,scope2_tco2e,12645.23,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500125_17072026205125.pdf,AR p.35 (BRSR Q7),Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 12645.23 16633.73
+ICICIBANK,scope1_tco2e,17894.92,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ICICI2022_18072026194750_NSEBSEAGM2026.pdf,AR p.33 (BRSR Q7),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 17,894.92 26,337.16"
+ICICIBANK,scope2_tco2e,115036.78,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ICICI2022_18072026194750_NSEBSEAGM2026.pdf,AR p.33 (BRSR Q7),"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 115,036.78 120,039.73"
+PSB,scope1_tco2e,2508.84,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_533295_06072026174348.pdf,BRSR p.47 (Q7),Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 2508.84 2420.93
+PSB,scope2_tco2e,39078.63,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_533295_06072026174348.pdf,BRSR p.47 (Q7),Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 39078.63 39135.99
+LICI,scope1_tco2e,33065.26,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_543526_03072026203116.pdf,BRSR Q7 (p.~330),"Total Scope 1 Emissions ... Metric tonnes of CO2 equivalent 33,065.26 27,014"
+LICI,scope2_tco2e,78500.74,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_543526_03072026203116.pdf,BRSR Q7 (p.~330),"Total Scope 2 Emissions ... Metric tonnes of CO2 equivalent 78,500.74 84,102"
+GLENMARK,nox_tonnes,118.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GLENMARK_13082026202417_SE_BRSR2526_signed.pdf,IAR p.285 (BRSR Q6),NOx MT 118 120
+GLENMARK,sox_tonnes,10.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GLENMARK_13082026202417_SE_BRSR2526_signed.pdf,IAR p.285 (BRSR Q6),SOx MT 10 9
+GLENMARK,pm_tonnes,95.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GLENMARK_13082026202417_SE_BRSR2526_signed.pdf,IAR p.285 (BRSR Q6),Particulate matter (PM) MT 95 71
+AADHARHFC,scope1_tco2e,33.9,fill,BRSR_PDF,https://prodwebsite-static.aadharhousing.com/s3/investor_relations_assets/AHFL%20BRSR%20FY%202025-26.pdf,BRSR Q7,Scope 1 Metric tons of CO2 equivalent 33.9 N.A
+AADHARHFC,scope2_tco2e,245.98,fill,BRSR_PDF,https://prodwebsite-static.aadharhousing.com/s3/investor_relations_assets/AHFL%20BRSR%20FY%202025-26.pdf,BRSR Q7,Scope 2 Metric tons of CO2 equivalent 245.98 236.02
+OFSS,nox_tonnes,0.66,fill,BRSR_PDF,https://www.oracle.com/a/ocom/docs/industries/financial-services/business-responsibility-report-2025-26.pdf,BRSR Q6,NOx Metric Tons 0.66 0.87
+OFSS,sox_tonnes,0.06,fill,BRSR_PDF,https://www.oracle.com/a/ocom/docs/industries/financial-services/business-responsibility-report-2025-26.pdf,BRSR Q6,SOx Metric Tons 0.06 0.08
+OFSS,pm_tonnes,0.03,fill,BRSR_PDF,https://www.oracle.com/a/ocom/docs/industries/financial-services/business-responsibility-report-2025-26.pdf,BRSR Q6,Particulate matter (PM) Metric Tons 0.03 0.03
+SUZLON,scope1_tco2e,6835.0,fill,BRSR_PDF,https://www.suzlon.com/pdf/sustainability/esg-reports/brsr-report/FY25-26-Business-Responsibility-and-Sustainability-Report.pdf,AR p.239 (BRSR Q7),"Total Scope 1 emissions (Break-up of the GHG into CO2, CH4, N2O, HFCs, PFCs, SF6, NF3, if available) Metric tonnes of CO2 equivalent 6,835 9,002"
+SUZLON,scope2_tco2e,49564.0,fill,BRSR_PDF,https://www.suzlon.com/pdf/sustainability/esg-reports/brsr-report/FY25-26-Business-Responsibility-and-Sustainability-Report.pdf,AR p.239 (BRSR Q7),"Total Scope 2 emissions (Break-up of the GHG into CO2, CH4, N2O, HFCs, PFCs, SF6, NF3, if available) Metric tonnes of CO2 equivalent 49,564 39,924"
+KPRMILL,scope1_tco2e,22289.99,fill,other,https://nsearchives.nseindia.com/corporate/xbrl/BRSR_532889_276202612190_BRSR_WebXMLFile_20260627_122018739.xml,BRSR Q7 (XBRL),true22289.9959287.0759782.8118941.4
+KPRMILL,scope2_tco2e,59782.81,fill,other,https://nsearchives.nseindia.com/corporate/xbrl/BRSR_532889_276202612190_BRSR_WebXMLFile_20260627_122018739.xml,BRSR Q7 (XBRL),true22289.9959287.0759782.8118941.4
+KIOCL,pm_tonnes,1.788,fill,AR,https://www.bseindia.com/xml-data/corpfiling/AttachHis/608a4ffd-8fdd-46b4-91a3-051ce234e76c.pdf,AR p.~42 (BRSR Q6),Particulate matter (PM-2.5) Kg/year 1788 1958
+ALIVUS,scope2_tco2e,58030.65,fill,other,https://nsearchives.nseindia.com/corporate/xbrl/BRSR_19392_WebXMLFile_20260811_181104650.xml,BRSR Q7 (XBRL),4284.917232.7858030.6588035.94
+TVSMOTOR,nox_tonnes,12.4,correct,BRSR_PDF,https://nsearchives.nseindia.com/corporate/TVSMOTOR_30062026145820_NSEBSEIntimationBRSR2526_sd.pdf,182,Nox MT 12.40 148.38
+TVSMOTOR,sox_tonnes,21.98,correct,BRSR_PDF,https://nsearchives.nseindia.com/corporate/TVSMOTOR_30062026145820_NSEBSEIntimationBRSR2526_sd.pdf,182,Sox MT 21.98 55.52
+TVSMOTOR,pm_tonnes,44.06,correct,BRSR_PDF,https://nsearchives.nseindia.com/corporate/TVSMOTOR_30062026145820_NSEBSEIntimationBRSR2526_sd.pdf,182,Particulate matter (PM) MT 44.06 84.79
+ELGIEQUIP,scope1_tco2e,2364.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ELGIEQUIP_20072026135716_BRSR_2026.pdf,60,"Total Scope 1 emissions ... Metric tons of CO2 equivalent 2,364 1,456"
+ELGIEQUIP,scope2_tco2e,5412.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/ELGIEQUIP_20072026135716_BRSR_2026.pdf,60,"Total Scope 2 emissions ... Metric tons of CO2 equivalent 5,412 7,340"
+FINEORG,nox_tonnes,5.72,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/FINEORG_27072026215238_IntimationofBRSRFOIL.pdf,35,NOx MT / year 5.72 4.72
+FINEORG,sox_tonnes,2.98,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/FINEORG_27072026215238_IntimationofBRSRFOIL.pdf,35,SOx MT / year 2.98 0.66
+FINEORG,pm_tonnes,2.13,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/FINEORG_27072026215238_IntimationofBRSRFOIL.pdf,35,Particulate Matter (PM) MT / year 2.13 1.42
+ENGINERSIN,scope1_tco2e,267.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_532178_26082026160728.pdf,186,Total Scope 1 emissions ... MT of CO2 Equivalent 267 279
+ENGINERSIN,scope2_tco2e,5855.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_532178_26082026160728.pdf,186,"Total Scope 2 emissions ... MT of CO2 Equivalent 5,855 6,213"
+AMBER,scope1_tco2e,8676.54,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/AMBER_25082026232542_34_2_f_BRSR_Intimation_2026_signed.pdf,232,"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 8,676.54 8,150.35"
+AMBER,scope2_tco2e,66735.25,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/AMBER_25082026232542_34_2_f_BRSR_Intimation_2026_signed.pdf,232,"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 66,735.25 57,550.75"
+AMBER,nox_tonnes,4.4,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/AMBER_25082026232542_34_2_f_BRSR_Intimation_2026_signed.pdf,232,NOx MT/Annum 4.40 4.86
+AMBER,sox_tonnes,2.33,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/AMBER_25082026232542_34_2_f_BRSR_Intimation_2026_signed.pdf,232,SOx MT/Annum 2.33 2.39
+AMBER,pm_tonnes,10.9,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/AMBER_25082026232542_34_2_f_BRSR_Intimation_2026_signed.pdf,232,Particulate Matter (PM) MT/Annum 10.90 11.514
+EMAMILTD,nox_tonnes,0.054,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_531162_30072026194543.pdf,,NOx Metric Tonnes 0.054 0.06
+EMAMILTD,sox_tonnes,6.807,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_531162_30072026194543.pdf,,SOx Metric Tonnes 6.807 8.76
+EMAMILTD,pm_tonnes,1.808,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_531162_30072026194543.pdf,,Particulate Matter (PM) Metric Tonnes 1.808 2.09
+ICICIGI,scope1_tco2e,246.58,fill,BRSR_PDF (quote reconstructed from tool summary - verify),https://nsearchives.nseindia.com/corporate/BRSR_540716_27052026033707.pdf,38,"Scope 1 246.58; Metric tonnes of CO2 equivalent (FY25 1,424.92)"
+ICICIGI,scope2_tco2e,5712.96,fill,BRSR_PDF (quote reconstructed from tool summary - verify),https://nsearchives.nseindia.com/corporate/BRSR_540716_27052026033707.pdf,38,"Scope 2 5,712.96; Metric tonnes of CO2 equivalent (FY25 5,875.87)"
+RBLBANK,scope1_tco2e,74.0,fill,BRSR_PDF (value re-verified at source by independent check 27 Oct 2026; quote condensed),https://nsearchives.nseindia.com/corporate/BRSR_540065_07082026180644.pdf,340-341,Scope 1: 74 tCO2e (FY 2025-26) and 70 (FY 2024-25); unit Metric tonnes of CO2 equivalent
+RBLBANK,scope2_tco2e,15593.0,fill,BRSR_PDF (value re-verified at source by independent check 27 Oct 2026; quote condensed),https://nsearchives.nseindia.com/corporate/BRSR_540065_07082026180644.pdf,340-341,"Scope 2: 15,593 (FY 2025-26) and 14,694 (FY 2024-25)"
+LLOYDSME,scope1_tco2e,1182145.48,fill,BRSR_PDF,https://lloyds.in/wp-content/uploads/2026/05/Business-Responsibility-and-Sustainability-Report-FY-2025-26.pdf,,"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 1,182,145.48 696,745.33"
+LLOYDSME,scope2_tco2e,137084.1,fill,BRSR_PDF,https://lloyds.in/wp-content/uploads/2026/05/Business-Responsibility-and-Sustainability-Report-FY-2025-26.pdf,,"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 137,084.10 12,336.66"
+CONCOR,scope1_tco2e,29197.2,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/CONCOR_04092026163817_CONCOR_SE_04092026S.pdf,,"Total Scope 1 emissions ... MTCO2e 29,197.20 28,950.94"
+CONCOR,scope2_tco2e,16626.29,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/CONCOR_04092026163817_CONCOR_SE_04092026S.pdf,,"Total Scope 2 emissions ... MTCO2e 16,626.29 17,105.63"
+PAGEIND,scope1_tco2e,921.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/PAGEIND_19082026110437_BRSR2026.pdf,,Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 921 993
+PAGEIND,scope2_tco2e,13945.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/PAGEIND_19082026110437_BRSR2026.pdf,,"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 13,945 11,945"
+IGL,water_withdrawal_m3,7944.0,fill,AR,https://www.iglonline.net/uploads/files/Annual%20Report%202025-26.pdf,84,"Water withdrawal by source: (iii) Third party water 7,944 15,881 ... Total volume of water withdrawal (i + ii + iii + iv + v) - -"
+IGL,sox_tonnes,0.00054,fill,AR,https://www.iglonline.net/uploads/files/Annual%20Report%202025-26.pdf,,SOx 0.54 44.45
+IGL,pm_tonnes,0.00223,fill,AR,https://www.iglonline.net/uploads/files/Annual%20Report%202025-26.pdf,,Particulate matter(PM) 2.23 433.66
+BLS,scope1_tco2e,29.6814,fill,AR,https://www.blsinternational.com/assets/pdf/shareholder-general-meetings/annual-general-meeting/42nd/Annual-Report-For-FY2025-26.pdf,179,Total Scope 1 emissions ... 29.6814 Metric Tonnes of Co2 eq 19.4958
+BLS,scope2_tco2e,1100.8946,fill,AR,https://www.blsinternational.com/assets/pdf/shareholder-general-meetings/annual-general-meeting/42nd/Annual-Report-For-FY2025-26.pdf,179,Total Scope 2 emissions ... 1100.8946 Metric Tonnes of Co2 eq 322.8037
+FLUOROCHEM,nox_tonnes,77.0,fill,BRSR_PDF,https://www.gfl.co.in/upload/pdf/GFCL- Submission of BRSR 2025-26.pdf,38,NOx MT/Year 77 98
+FLUOROCHEM,sox_tonnes,80.0,fill,BRSR_PDF,https://www.gfl.co.in/upload/pdf/GFCL- Submission of BRSR 2025-26.pdf,38,SOx MT/Year 80 86
+FLUOROCHEM,pm_tonnes,81.0,fill,BRSR_PDF,https://www.gfl.co.in/upload/pdf/GFCL- Submission of BRSR 2025-26.pdf,38,Particulate matter (PM) MT/Year 81 74
+TRIDENT,nox_tonnes,678.38,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/TRIDENT_09072026223736_SE_BRSR.pdf,,NOx Tons/annum 678.38 823.23
+TRIDENT,sox_tonnes,391.23,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/TRIDENT_09072026223736_SE_BRSR.pdf,,SOx Tons/annum 391.23 911.91
+TRIDENT,pm_tonnes,136.12,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/TRIDENT_09072026223736_SE_BRSR.pdf,,Particulate matter (PM) Tons/annum 136.12 617.20
+TEGA,scope1_tco2e,6997.38,fill,BRSR_PDF/AR,https://nsearchives.nseindia.com/corporate/TEGA_01092026152054_Intimation_of_Annual_Report_FY_2025_26_sd.pdf,BRSR P6 Q7 (AR p.92-93),"Total Scope 1 emissions Metric tonnes of CO2 equivalent 6997.38 6,539.12"
+TEGA,scope2_tco2e,8088.91,fill,BRSR_PDF/AR,https://nsearchives.nseindia.com/corporate/TEGA_01092026152054_Intimation_of_Annual_Report_FY_2025_26_sd.pdf,,"Total Scope 2 emissions* Metric tonnes of CO2 equivalent 8088.91 8,627.16"
+GODFRYPHLP,scope1_tco2e,2622.5,fill,BRSR_PDF,https://www.bseindia.com/XBRLFILES/BRSRPDFUploadDocument/BRSR_500163_31072026171531.pdf,BRSR P6 Q7,"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 2,622.5 2,460.01"
+GODFRYPHLP,scope2_tco2e,14362.7,fill,BRSR_PDF,https://www.bseindia.com/XBRLFILES/BRSRPDFUploadDocument/BRSR_500163_31072026171531.pdf,BRSR P6 Q7,"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 14,362.7 14,454.6"
+SAMMAANCAP,scope1_tco2e,214.56,fill,AR,https://www.sammaancapital.com/downloads/Sammaan-Capital-Limited_Annual-Report-FY-2026,BRSR P6 Q7 (AR p.~93),Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 214.56 (CO2: 32.41 CH4: 0.12 N2O: 0.07 HFC: 181.96) 365.72
+SAMMAANCAP,scope2_tco2e,2232.64,fill,AR,https://www.sammaancapital.com/downloads/Sammaan-Capital-Limited_Annual-Report-FY-2026,,"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 2,232.64 2,589.26"
+SUNPHARMA,nox_tonnes,125.0,fill,BRSR_PDF,https://sunpharma.com/wp-content/uploads/2026/07/Business-Responsibility-and-Sustainability-Report.pdf,BRSR P6 Q6 (AR p.~132),NOx MT 125 129
+SUNPHARMA,sox_tonnes,64.0,fill,BRSR_PDF,https://sunpharma.com/wp-content/uploads/2026/07/Business-Responsibility-and-Sustainability-Report.pdf,,SOx MT 64 96
+SUNPHARMA,pm_tonnes,101.0,fill,BRSR_PDF,https://sunpharma.com/wp-content/uploads/2026/07/Business-Responsibility-and-Sustainability-Report.pdf,,Particulate matter (PM) MT 101 198
+MRPL,nox_tonnes,2544.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/MRPL_10082026161942_BRSR202526sd.pdf,BRSR P6 Q6 (AR p.~134),"NOx TPA 2,544.00 2,190.00"
+MRPL,sox_tonnes,14628.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/MRPL_10082026161942_BRSR202526sd.pdf,,"SOx TPA 14,628.00 17,325.00"
+MRPL,pm_tonnes,163.3,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/MRPL_10082026161942_BRSR202526sd.pdf,,Particulate matter (PM) TPA 163.30 172.04
+THERMAX,nox_tonnes,31.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500411_03072026172824.pdf,Principle 6 Q6,NOx MT 31 15
+THERMAX,sox_tonnes,22.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500411_03072026172824.pdf,Principle 6 Q6,SOx MT 22 13
+THERMAX,pm_tonnes,21.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_500411_03072026172824.pdf,Principle 6 Q6,Particulate Matter (PM) MT 21 33
+DMART,scope1_tco2e,14695.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_540376_23072026172353.pdf,109,"Total Scope 1 emissions 14,695 15,506 Metric tonnes of CO2 equivalent"
+DMART,scope2_tco2e,220018.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_540376_23072026172353.pdf,109,"Total Scope 2 emissions 2,20,018 2,04,890 Metric tonnes of CO2 equivalent"
+GODREJCP,scope1_tco2e,11018.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GODREJCP_15072026211701_SE_Intimation_-_BRSR-signed.pdf,BRSR Q7,"Total Scope 1 Emissions ... Metric tonnes of CO2 equivalent 11,018 29,544"
+GODREJCP,scope2_tco2e,27247.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/GODREJCP_15072026211701_SE_Intimation_-_BRSR-signed.pdf,BRSR Q7,"Total Scope 2 Emissions ... Metric tonnes of CO2 equivalent 27,247 23,932"
+JBCHEPHARM,scope1_tco2e,5238.92,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_506943_25052026172526.pdf,102,"Total Scope 1 emissions Metric tonnes of CO2 equivalent 5,238.92 5,651.98"
+JBCHEPHARM,scope2_tco2e,54647.26,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/BRSR_506943_25052026172526.pdf,102,"Total Scope 2 emissions Metric tonnes of CO2 equivalent 54,647.26 48,756.48"
+SYNGENE,nox_tonnes,18.83,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/SYNGENE2_02072026191948_SEIntimationBRSR.pdf,159,NOX MT/A 18.83 41.22
+SYNGENE,sox_tonnes,2.68,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/SYNGENE2_02072026191948_SEIntimationBRSR.pdf,159,SO2 (SOx) MT/A 2.68 5.63
+SYNGENE,pm_tonnes,1.39,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/SYNGENE2_02072026191948_SEIntimationBRSR.pdf,159,Particulate matter MT/A 1.39 3.14
+OIL,scope1_tco2e,1170109.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/OIL_25082026161046_BRSRFinal_signed.pdf,Principle 6 Q7 (~p.60),"Total Scope 1 emissions ... Metric tonnes of CO2 equivalent 1,170,109 1,245,928"
+OIL,scope2_tco2e,20229.0,fill,BRSR_PDF,https://nsearchives.nseindia.com/corporate/OIL_25082026161046_BRSRFinal_signed.pdf,Principle 6 Q7,"Total Scope 2 emissions ... Metric tonnes of CO2 equivalent 20,229 22,477"
+ABB,scope1_tco2e,2079.52,fill,AR,https://library.e.abb.com/public/93c9bda6800643c789fc96fbb964ae1b/ABB%20India%20Limited%20Integrated%20Annual%20Report%202025.pdf,BRSR Principle 6 Q7 (IAR p.~187),Total Scope 1 emissions ... (Tonne CO2e)* CO2e: 797.69 SF6: 850.14 HCFC: 431.69 Total: 2079.52
+WELSPUNLIV,nox_tonnes,33.38,fill,AR,https://www.welspunliving.com/uploads/investor_data/investorreport_9008.pdf,BRSR Principle 6 Q6,NOx MT 33.38 39.10
+WELSPUNLIV,sox_tonnes,74.82,fill,AR,https://www.welspunliving.com/uploads/investor_data/investorreport_9008.pdf,BRSR Principle 6 Q6,SOx MT 74.82 82.9
+WELSPUNLIV,pm_tonnes,72.09,fill,AR,https://www.welspunliving.com/uploads/investor_data/investorreport_9008.pdf,BRSR Principle 6 Q6,Particulate matter (PM) MT 72.09 86.65
+UBL,scope2_tco2e,0.0,fill,manual override after verification,https://nsearchives.nseindia.com/corporate/BRSR_532478_20072026175107.pdf,IAR p.150 (EI-7),"Total Scope 2 emissions ... Nil Nil. Note: total scope 2 for the year is 61,759 Metric tons of CO2 equivalent ... net Scope 2 ... zero"

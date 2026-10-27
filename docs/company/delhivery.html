@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Delhivery Limited (DELHIVERY) | CLBI v1.1 draft</title>
+<meta name="description" content="CLBI v1.1 draft deep dive for Delhivery Limited: scores, every data point and its source.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="" data-root="../">
+<a class="skip" href="#main">Skip to content</a>
+<div class="draft-bar" role="note"><div class="wrap"><strong>Draft for review — not for publication.</strong> <span>Figures may change before release.</span></div></div>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="../index.html" aria-label="CLBI home">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="7" fill="var(--forest)"/><path d="M9 22c0-7 5-12 14-12-1 8-5 13-12 13" fill="none" stroke="var(--paper)" stroke-width="2.2" stroke-linecap="round"/><path d="M10 23l7-7" stroke="var(--paper)" stroke-width="2.2" stroke-linecap="round"/></svg>
+      <span class="brand-text"><span class="brand-name">Corporate Land &amp; Biodiversity Index</span><span class="brand-sub">CLBI v1.1 draft</span></span>
+    </a>
+    <div class="header-search" data-search></div>
+  </div>
+  <nav class="wrap site-nav" id="site-nav" aria-label="Main"><a href="../index.html">Overview</a><a href="../rankings.html">Rankings</a><a href="../sectors.html">Sectors</a><a href="../methodology.html">Methodology</a><a href="../data-quality.html">Data quality</a><a href="../downloads.html">Downloads</a></nav>
+</header>
+<main id="main">
+
+<section class="page-head company-head"><div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Overview</a><a href="../sector/services.html">Services</a><span>DELHIVERY</span></nav>
+  <div class="ch-grid">
+    <div class="ch-main">
+      <h1>Delhivery Limited</h1>
+      <p class="ch-meta"><span class="sym">DELHIVERY</span><a href="../sector/services.html">Services</a><span class="pill pill-ranked" title="Ranked within its peer group.">Ranked</span></p>
+      <p class="ch-status">Ranked within Services</p>
+      
+      <div class="stats"><div class="stat"><span class="stat-l">Final score</span><span class="stat-v num">32.2</span><span class="stat-s">out of 100</span></div><div class="stat"><span class="stat-l">Pressure score</span><span class="stat-v num">29.4</span><span class="stat-s">average of climate, water, waste</span></div><div class="stat"><span class="stat-l">Credit</span><span class="stat-v num">+2.8</span><span class="stat-s">up to 10 points</span></div><div class="stat"><span class="stat-l">Quartile</span><span class="stat-v num">Q3</span><span class="stat-s">within peer group</span></div></div>
+    </div>
+    <div class="ch-rank">
+      <span class="rank-l">Rank in peer group</span>
+      <div class="rank-v"><span class="big num">7</span><span class="of">of 10</span></div>
+      <dl class="side"><div><dt>Air rank</dt><dd class="num">–</dd></div><div><dt>Profit-basis rank</dt><dd class="num">–</dd></div><div><dt>Rank without credit</dt><dd class="num">7</dd></div><div><dt>Revenue FY2025-26</dt><dd class="num">₹10,508.31 cr</dd></div><div><dt>Market-cap rank</dt><dd class="num">244 of 500</dd></div></dl>
+    </div>
+  </div>
+  
+</div>
+<nav class="toc wrap" aria-label="On this page"><a href="#build">Score build-up</a><a href="#peers">Against peers</a><a href="#lineage">Data lineage</a><a href="#calc">Calculation</a><a href="#credits">Credits</a><a href="#cost">Nature cost</a><a href="#land">Land</a><a href="#flags">Flags</a></nav>
+</section>
+
+<section class="section" id="build"><div class="wrap">
+  <div class="section-head"><h2>Score build-up</h2><p>The three element scores average into the pressure score; the credits are then added to give the final score, capped at 100. Air is ranked separately and is not included.</p></div>
+  <figure class="chart-card wide"><div class="chart-box" style="height:300px"><canvas id="waterfall"></canvas></div></figure>
+</div></section>
+
+<section class="section" id="peers"><div class="wrap">
+  <div class="section-head"><h2>Against peers</h2><p>Intensity per ₹ crore of revenue for every company in Services with a value. Delhivery Limited is the large green dot; peers are grey, hollow where the value is not scored. Logarithmic axis where values span more than a hundredfold.</p></div>
+  <div class="peer-grid"><figure class="peer-fig"><figcaption><strong><i class="sw sw-climate"></i>Climate</strong><span>26.16 tCO₂e per ₹ crore, position 8 of 11 companies with a scored value</span></figcaption><div class="chart-box" style="height:96px"><canvas data-peer="climate"></canvas></div></figure><figure class="peer-fig"><figcaption><strong><i class="sw sw-water"></i>Water</strong><span>99.61 m³ per ₹ crore, position 10 of 12 companies with a scored value</span></figcaption><div class="chart-box" style="height:96px"><canvas data-peer="water"></canvas></div></figure><figure class="peer-fig"><figcaption><strong><i class="sw sw-waste"></i>Waste</strong><span>0.4417 tonnes per ₹ crore, position 7 of 11 companies with a scored value</span></figcaption><div class="chart-box" style="height:96px"><canvas data-peer="waste"></canvas></div></figure><figure class="peer-fig"><figcaption><strong><i class="sw sw-air"></i>Air</strong><span>0.1475 tonnes per ₹ crore</span></figcaption><div class="chart-box" style="height:96px"><canvas data-peer="air"></canvas></div></figure></div>
+</div></section>
+
+<section class="section" id="lineage"><div class="wrap">
+  <div class="section-head"><h2>Data lineage</h2><p>Every input, exactly as used: the value and unit, how confident we are in it, where it came from, the reporting boundary and what was done to it. Values are FY2025-26 (1 April 2025 to 31 March 2026). Missing stays missing: nothing is estimated.</p></div>
+  <div class="table-wrap lineage-wrap"><table class="data lineage"><thead><tr><th class="l">Metric</th><th class="l">Value</th><th class="l">Confidence</th><th class="l">Source</th><th class="l">Boundary</th><th class="l">Transformation</th></tr></thead>
+  <tbody><tr>
+<td data-l="Metric"><span class="m-name"><i class="sw sw-climate"></i>Scope 1 GHG emissions</span><span class="m-used">Climate score (with Scope 2); nature cost</span></td>
+<td data-l="Value" class="val"><span class="num v">2,03,706</span> <span class="unit">tCO₂e</span></td>
+<td data-l="Confidence"><span class="tier"><i class="tq t1"></i>Filed XBRL, explicit unit</span><span class="tier-n">Tier 1</span></td>
+<td data-l="Source" class="srccell"><a class="src" href="https://nsearchives.nseindia.com/corporate/xbrl/BRSR_20163_WebXMLFile_20260827_194956106.xml" target="_blank" rel="noopener noreferrer">nsearchives.nseindia.com/…/BRSR_20163_WebXMLFile_20260827_194956106…</a><span class="field">in-capmkt:TotalScope1Emissions fact f1591</span></td>
+<td data-l="Boundary" class="small">Consolidated basis</td>
+<td data-l="Transformation" class="small">XBRL value, declared unit converted to base unit by Codex parser v1.0.0</td></tr><tr>
+<td data-l="Metric"><span class="m-name"><i class="sw sw-climate"></i>Scope 2 GHG emissions</span><span class="m-used">Climate score (with Scope 1); nature cost</span></td>
+<td data-l="Value" class="val"><span class="num v">71,210</span> <span class="unit">tCO₂e</span></td>
+<td data-l="Confidence"><span class="tier"><i class="tq t1"></i>Filed XBRL, explicit unit</span><span class="tier-n">Tier 1</span></td>
+<td data-l="Source" class="srccell"><a class="src" href="https://nsearchives.nseindia.com/corporate/xbrl/BRSR_20163_WebXMLFile_20260827_194956106.xml" target="_blank" rel="noopener noreferrer">nsearchives.nseindia.com/…/BRSR_20163_WebXMLFile_20260827_194956106…</a><span class="field">in-capmkt:TotalScope2Emissions fact f1593</span></td>
+<td data-l="Boundary" class="small">Consolidated basis</td>
+<td data-l="Transformation" class="small">XBRL value, declared unit converted to base unit by Codex parser v1.0.0</td></tr><tr>
+<td data-l="Metric"><span class="m-name"><i class="sw sw-water"></i>Water withdrawal</span><span class="m-used">Water score</span></td>
+<td data-l="Value" class="val"><span class="num v">10,46,691</span> <span class="unit">m³ (kL)</span></td>
+<td data-l="Confidence"><span class="tier"><i class="tq t1"></i>Filed XBRL, explicit unit</span><span class="tier-n">Tier 1</span></td>
+<td data-l="Source" class="srccell"><a class="src" href="https://nsearchives.nseindia.com/corporate/xbrl/BRSR_20163_WebXMLFile_20260827_194956106.xml" target="_blank" rel="noopener noreferrer">nsearchives.nseindia.com/…/BRSR_20163_WebXMLFile_20260827_194956106…</a><span class="field">in-capmkt:TotalVolumeOfWaterWithdrawal fact f1520</span></td>
+<td data-l="Boundary" class="small">Consolidated basis</td>
+<td data-l="Transformation" class="small">XBRL value, declared unit converted to base unit by Codex parser v1.0.0</td></tr><tr>
+<td data-l="Metric"><span class="m-name"><i class="sw sw-water"></i>Water consumption</span><span class="m-used">Nature cost (water is priced on consumption)</span></td>
+<td data-l="Value" class="val"><span class="num v">2,09,338</span> <span class="unit">m³ (kL)</span></td>
+<td data-l="Confidence"><span class="tier"><i class="tq t1"></i>Filed XBRL, explicit unit</span><span class="tier-n">Tier 1</span></td>
+<td data-l="Source" class="srccell"><a class="src" href="https://nsearchives.nseindia.com/corporate/xbrl/BRSR_20163_WebXMLFile_20260827_194956106.xml" target="_blank" rel="noopener noreferrer">nsearchives.nseindia.com/…/BRSR_20163_WebXMLFile_20260827_194956106…</a><span class="field">in-capmkt:TotalVolumeOfWaterConsumption fact f1522</span></td>
+<td data-l="Boundary" class="small">Consolidated basis</td>
+<td data-l="Transformation" class="small">XBRL value, declared unit converted to base unit by Codex parser v1.0.0</td></tr><tr>
+<td data-l="Metric"><span class="m-name"><i class="sw sw-waste"></i>Waste generated</span><span class="m-used">Waste score; recycling credit (denominator)</span></td>
+<td data-l="Value" class="val"><span class="num v">4,641.5</span> <span class="unit">tonnes</span></td>
+<td data-l="Confidence"><span class="tier"><i class="tq t1"></i>Filed XBRL, explicit unit</span><span class="tier-n">Tier 1</span></td>
+<td data-l="Source" class="srccell"><a class="src" href="https://nsearchives.nseindia.com/corporate/xbrl/BRSR_20163_WebXMLFile_20260827_194956106.xml" target="_blank" rel="noopener noreferrer">nsearchives.nseindia.com/…/BRSR_20163_WebXMLFile_20260827_194956106…</a><span class="field">in-capmkt:TotalWasteGenerated fact f1621</span></td>
+<td data-l="Boundary" class="small">Consolidated basis</td>
+<td data-l="Transformation" class="small">XBRL value, declared unit converted to base unit by Codex parser v1.0.0</td></tr><tr>
+<td data-l="Metric"><span class="m-name"><i class="sw sw-waste"></i>Waste recovered</span><span class="m-used">Recycling credit (numerator)</span></td>
+<td data-l="Value" class="val"><span class="num v">4,216</span> <span class="unit">tonnes</span></td>
+<td data-l="Confidence"><span class="tier"><i class="tq t1"></i>Filed XBRL, explicit unit</span><span class="tier-n">Tier 1</span></td>
+<td data-l="Source" class="srccell"><a class="src" href="https://nsearchives.nseindia.com/corporate/xbrl/BRSR_20163_WebXMLFile_20260827_194956106.xml" target="_blank" rel="noopener noreferrer">nsearchives.nseindia.com/…/BRSR_20163_WebXMLFile_20260827_194956106…</a><span class="field">in-capmkt:TotalWasteRecovered fact f1635</span></td>
+<td data-l="Boundary" class="small">Consolidated basis</td>
+<td data-l="Transformation" class="small">XBRL value, declared unit converted to base unit by Codex parser v1.0.0</td></tr><tr>
+<td data-l="Metric"><span class="m-name"><i class="sw sw-waste"></i>Waste disposed</span><span class="m-used">Shown for completeness</span></td>
+<td data-l="Value" class="val"><span class="num v">424</span> <span class="unit">tonnes</span></td>
+<td data-l="Confidence"><span class="tier"><i class="tq t1"></i>Filed XBRL, explicit unit</span><span class="tier-n">Tier 1</span></td>
+<td data-l="Source" class="srccell"><a class="src" href="https://nsearchives.nseindia.com/corporate/xbrl/BRSR_20163_WebXMLFile_20260827_194956106.xml" target="_blank" rel="noopener noreferrer">nsearchives.nseindia.com/…/BRSR_20163_WebXMLFile_20260827_194956106…</a><span class="field">in-capmkt:TotalWasteDisposed fact f1643</span></td>
+<td data-l="Boundary" class="small">Consolidated basis</td>
+<td data-l="Transformation" class="small">XBRL value, declared unit converted to base unit by Codex parser v1.0.0</td></tr><tr>
+<td data-l="Metric"><span class="m-name"><i class="sw sw-air"></i>Nitrogen oxides (NOx)</span><span class="m-used">Air rank; nature cost</span></td>
+<td data-l="Value" class="val"><span class="num v">1,518.01</span> <span class="unit">tonnes</span></td>
+<td data-l="Confidence"><span class="tier"><i class="tq t1"></i>Filed XBRL, explicit unit</span><span class="tier-n">Tier 1</span></td>
+<td data-l="Source" class="srccell"><a class="src" href="https://nsearchives.nseindia.com/corporate/xbrl/BRSR_20163_WebXMLFile_20260827_194956106.xml" target="_blank" rel="noopener noreferrer">nsearchives.nseindia.com/…/BRSR_20163_WebXMLFile_20260827_194956106…</a><span class="field">in-capmkt:NOx fact f1568</span></td>
+<td data-l="Boundary" class="small">Consolidated basis</td>
+<td data-l="Transformation" class="small">XBRL value, declared unit converted to base unit by Codex parser v1.0.0</td></tr><tr>
+<td data-l="Metric"><span class="m-name"><i class="sw sw-air"></i>Sulphur oxides (SOx)</span><span class="m-used">Air rank; nature cost</span></td>
+<td data-l="Value" class="val"><span class="num v">0</span> <span class="unit">tonnes</span><span class="note-zero">Reported zero: kept, not scored, to confirm</span></td>
+<td data-l="Confidence"><span class="tier"><i class="tq t1"></i>Filed XBRL, explicit unit</span><span class="tier-n">Tier 1</span></td>
+<td data-l="Source" class="srccell"><a class="src" href="https://nsearchives.nseindia.com/corporate/xbrl/BRSR_20163_WebXMLFile_20260827_194956106.xml" target="_blank" rel="noopener noreferrer">nsearchives.nseindia.com/…/BRSR_20163_WebXMLFile_20260827_194956106…</a><span class="field">in-capmkt:SOx fact f1570</span></td>
+<td data-l="Boundary" class="small">Consolidated basis</td>
+<td data-l="Transformation" class="small">XBRL value, declared unit converted to base unit by Codex parser v1.0.0</td></tr><tr>
+<td data-l="Metric"><span class="m-name"><i class="sw sw-air"></i>Particulate matter (PM)</span><span class="m-used">Air rank; nature cost</span></td>
+<td data-l="Value" class="val"><span class="num v">32.17</span> <span class="unit">tonnes</span></td>
+<td data-l="Confidence"><span class="tier"><i class="tq t1"></i>Filed XBRL, explicit unit</span><span class="tier-n">Tier 1</span></td>
+<td data-l="Source" class="srccell"><a class="src" href="https://nsearchives.nseindia.com/corporate/xbrl/BRSR_20163_WebXMLFile_20260827_194956106.xml" target="_blank" rel="noopener noreferrer">nsearchives.nseindia.com/…/BRSR_20163_WebXMLFile_20260827_194956106…</a><span class="field">in-capmkt:ParticulateMatter fact f1572</span></td>
+<td data-l="Boundary" class="small">Consolidated basis</td>
+<td data-l="Transformation" class="small">XBRL value, declared unit converted to base unit by Codex parser v1.0.0</td></tr><tr>
+<td data-l="Metric"><span class="m-name"><i class="sw sw-credit"></i>Renewable share of electricity</span><span class="m-used">Renewable-electricity credit</span></td>
+<td data-l="Value" class="val"><span class="num v">3.211</span> <span class="unit">%</span></td>
+<td data-l="Confidence"><span class="tier"><i class="tq t1"></i>Filed XBRL, explicit unit</span><span class="tier-n">Tier 1</span></td>
+<td data-l="Source" class="srccell"><a class="src" href="https://nsearchives.nseindia.com/corporate/xbrl/BRSR_20163_WebXMLFile_20260827_194956106.xml" target="_blank" rel="noopener noreferrer">nsearchives.nseindia.com/…/BRSR_20163_WebXMLFile_20260827_194956106…</a><span class="field">in-capmkt:(derived) renewable / total electricity fact f1483;f1491</span></td>
+<td data-l="Boundary" class="small">Consolidated basis</td>
+<td data-l="Transformation" class="small">XBRL value, declared unit converted to base unit by Codex parser v1.0.0</td></tr><tr class="fin">
+<td data-l="Metric"><span class="m-name"><i class="sw sw-fin"></i>Revenue from operations</span><span class="m-used">Denominator of every intensity</span></td>
+<td data-l="Value" class="val"><span class="num v">₹10,508.31 cr</span></td>
+<td data-l="Confidence"><span class="tier"><i class="tq tf"></i>Financial XBRL</span><span class="tier-n">Status: Verified</span></td>
+<td data-l="Source" class="srccell"><a class="src" href="https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_DELHIVERY_21102026234940.xml" target="_blank" rel="noopener noreferrer">nsearchives.nseindia.com/…/AR_XBRL_DELHIVERY_21102026234940.xml</a><span class="field">RevenueFromOperations</span></td>
+<td data-l="Boundary" class="small">Consolidated<br>1 Apr 2025 to 31 Mar 2026</td>
+<td data-l="Transformation" class="small">Taken as filed, ₹ crore</td></tr><tr class="fin">
+<td data-l="Metric"><span class="m-name"><i class="sw sw-fin"></i>Profit after tax</span><span class="m-used">Profit-basis check rank</span></td>
+<td data-l="Value" class="val"><span class="num v">₹152.54 cr</span></td>
+<td data-l="Confidence"><span class="tier"><i class="tq tf"></i>Financial XBRL</span><span class="tier-n">Thin profit (&lt;2% margin): ratio unstable</span></td>
+<td data-l="Source" class="srccell"><a class="src" href="https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1668428_16052026093316_WEB.xml" target="_blank" rel="noopener noreferrer">nsearchives.nseindia.com/…/INTEGRATED_FILING_INDAS_1668428_16052026…</a><span class="field">in-capmkt:ProfitLossForPeriod context FourD</span></td>
+<td data-l="Boundary" class="small">Consolidated</td>
+<td data-l="Transformation" class="small">Taken as filed, ₹ crore</td></tr><tr class="fin">
+<td data-l="Metric"><span class="m-name"><i class="sw sw-fin"></i>EBITDA</span><span class="m-used">Nature-cost denominator</span></td>
+<td data-l="Value" class="val"><span class="num v">₹998.64 cr</span></td>
+<td data-l="Confidence"><span class="tier"><i class="tq tf"></i>Financial XBRL components</span></td>
+<td data-l="Source" class="srccell"><a class="src" href="https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1668428_16052026093316_WEB.xml" target="_blank" rel="noopener noreferrer">nsearchives.nseindia.com/…/INTEGRATED_FILING_INDAS_1668428_16052026…</a></td>
+<td data-l="Boundary" class="small">Consolidated</td>
+<td data-l="Transformation" class="small">159.1 (profit before tax) + 144.11 (finance costs) + 695.44 (depreciation) = 998.64; includes other income of 358.65 (₹ crore)</td></tr></tbody></table></div>
+</div></section>
+
+<section class="section" id="calc"><div class="wrap">
+  <div class="section-head"><h2>Calculation, step by step</h2><p>Worked with this company’s own numbers. Intensity = value ÷ revenue. Element score = 100 × (n − position) ÷ (n − 1), where n is the number of peers with a scored value and position 1 is the lowest intensity. Each reproduced score is checked against the published one.</p></div>
+  <div class="calc-grid"><div class="calc-el"><h4><i class="sw sw-climate"></i>Climate</h4><ol class="steps"><li><span class="st">Quantity</span><span class="eq">Scope 1 2,03,706 + Scope 2 71,210 = <b class="num">2,74,916</b> tCO₂e</span></li><li><span class="st">Intensity</span><span class="eq">2,74,916 ÷ ₹10,508.31 crore = <b class="num">26.16</b> tCO₂e per ₹ crore</span></li><li><span class="st">Position</span><span class="eq">8 of 11 companies in the peer group with a scored climate value, lowest intensity first</span></li><li><span class="st">Score</span><span class="eq">100 × (11 − 8) ÷ (11 − 1) = <b class="num">30.0</b></span></li></ol></div><div class="calc-el"><h4><i class="sw sw-water"></i>Water</h4><ol class="steps"><li><span class="st">Quantity</span><span class="eq">Water withdrawal = <b class="num">10,46,691</b> m³</span></li><li><span class="st">Intensity</span><span class="eq">10,46,691 ÷ ₹10,508.31 crore = <b class="num">99.61</b> m³ per ₹ crore</span></li><li><span class="st">Position</span><span class="eq">10 of 12 companies in the peer group with a scored water value, lowest intensity first</span></li><li><span class="st">Score</span><span class="eq">100 × (12 − 10) ÷ (12 − 1) = <b class="num">18.2</b></span></li></ol></div><div class="calc-el"><h4><i class="sw sw-waste"></i>Waste</h4><ol class="steps"><li><span class="st">Quantity</span><span class="eq">Waste generated = <b class="num">4,641.5</b> tonnes</span></li><li><span class="st">Intensity</span><span class="eq">4,641.5 ÷ ₹10,508.31 crore = <b class="num">0.4417</b> tonnes per ₹ crore</span></li><li><span class="st">Position</span><span class="eq">7 of 11 companies in the peer group with a scored waste value, lowest intensity first</span></li><li><span class="st">Score</span><span class="eq">100 × (11 − 7) ÷ (11 − 1) = <b class="num">40.0</b></span></li></ol></div><div class="calc-el"><h4><i class="sw sw-air"></i>Air</h4><ol class="steps"><li><span class="st">Quantity</span><span class="eq">NOx 1,518.01 + SOx 0 + PM 32.17 = <b class="num">1,550.18</b> tonnes</span></li><li><span class="st">Intensity</span><span class="eq">1,550.18 ÷ ₹10,508.31 crore = <b class="num">0.1475</b> tonnes per ₹ crore</span></li><li><span class="st">Score</span><span class="eq"><span class="missing">not scored in this peer group</span></span></li></ol><p class="small muted">Air is ranked separately and is not part of the pressure score.</p></div></div><div class="calc-total"><h4>From element scores to rank</h4><ol class="steps">
+<li><span class="st">Pressure</span><span class="eq">(30.0 + 18.2 + 40.0) ÷ 3 = <b class="num">29.4</b></span></li>
+<li><span class="st">Restoration</span><span class="eq">No qualifying restoration = <b class="num">+0.0</b></span></li>
+<li><span class="st">Recycling</span><span class="eq">4,216 recovered ÷ 4,641.5 generated = 0.908; 3 × 0.908 = <b class="num">+2.72</b></span></li>
+<li><span class="st">Renewables</span><span class="eq">2 × 0.032 (renewable share 3.2%) = <b class="num">+0.06</b></span></li>
+<li><span class="st">Credit</span><span class="eq"><b class="num">+2.79</b> (capped at 10)</span></li>
+<li><span class="st">Final</span><span class="eq">min(100, 29.4 + 2.79) = <b class="num">32.2</b></span></li><li><span class="st">Rank</span><span class="eq">Rank <b class="num">7 of 10</b> by final score in Services; without credit it would rank 7.</span></li></ol></div>
+</div></section>
+
+<section class="section" id="credits"><div class="wrap">
+  <div class="section-head"><h2>Credit for positive action</h2><p>Up to 10 points in total: restoration (+5 for Tier A, +2 for Tier B), recycling (0–3) and renewable electricity (0–2). Credit recognises effort; it does not offset pressure.</p></div>
+  <div class="credit-grid"><div class="credit-card muted-card"><div class="cc-head"><span class="cc-tier">Restoration</span><span class="num cc-pts">+0.0</span></div><p class="small">No quantified restoration in FY2025-26 disclosures met the rule. Plans, commitments, unfinished work and narrative claims earn no credit.</p></div><div class="credit-card"><div class="cc-head"><span class="cc-tier">Recycling</span><span class="num cc-pts">+2.72</span></div>
+<p class="small">3 × (waste recovered ÷ waste generated), with 90.8% recovered as reported.</p></div><div class="credit-card"><div class="cc-head"><span class="cc-tier">Renewable electricity</span><span class="num cc-pts">+0.06</span></div>
+<p class="small">2 × renewable share of electricity, with 3.2% renewable as reported.</p></div></div>
+</div></section>
+
+<section class="section" id="cost"><div class="wrap">
+  <div class="section-head"><h2>Illustrative nature cost</h2></div>
+  
+<div class="illus-banner"><strong>ILLUSTRATIVE — not a liability, not used in rank.</strong> A rough order of magnitude for the cost these reported pressures impose on society, at India-specific central prices (2025 rupees). Do not add across companies: one company’s Scope 2 is another’s Scope 1.</div>
+<div class="table-wrap"><table class="data"><thead><tr><th class="l">Component</th><th class="r">Quantity</th><th class="r">Price (central)</th><th class="r">Cost</th></tr></thead>
+<tbody><tr><td class="l">Greenhouse gas (Scope 1 + 2)</td><td class="r num">2,74,916 tCO₂e</td><td class="r num">₹22,600 per tCO₂e</td><td class="r num">₹621.31 cr</td></tr><tr><td class="l">Water consumed</td><td class="r num">2,09,338 m³</td><td class="r num">₹40 per m³</td><td class="r num">₹0.84 cr</td></tr><tr><td class="l">NOx</td><td class="r num">1,518.01 tonnes</td><td class="r num">₹2,10,000 per tonne</td><td class="r num">₹31.88 cr</td></tr><tr><td class="l">SOx</td><td class="r num">0 tonnes</td><td class="r num">₹2,09,000 per tonne</td><td class="r num">₹0 cr</td></tr><tr><td class="l">Particulate matter</td><td class="r num">32.17 tonnes</td><td class="r num">₹3,06,000 per tonne</td><td class="r num">₹0.98 cr</td></tr><tr><td class="l">Waste</td><td class="r num"><span class="missing">not valued</span></td><td class="r num"><span class="missing">no defensible India price</span></td><td class="r num"><span class="missing">–</span></td></tr></tbody><tfoot><tr><td class="l"><strong>Total, central prices</strong></td><td></td><td></td><td class="r num"><strong>₹655.01 cr</strong></td></tr></tfoot></table></div>
+<div class="cost-head">
+  <div class="ch-total"><span class="num">₹655.01 cr</span>total at central prices</div>
+  <div class="ch-india"><span class="num">₹155.33 cr</span>borne in India: 25% of the ₹621.31 cr carbon cost</div>
+  <div class="ch-pct"><span class="num">6.2%</span>of revenue</div>
+</div>
+<p class="carbon-line">Carbon is priced at the global social cost; about a quarter of that damage falls in India.</p>
+<p class="small muted">Range at low and high prices: ₹399.69 cr to ₹1,213.61 cr. As a share of EBITDA: 65.6%.</p>
+<p class="small muted">Prices: <a href="../methodology.html#annex-a-illustrative-nature-cost-not-part-of-the-ranking">methodology, illustrative nature cost</a>. Cost = quantity × price ÷ 1,00,00,000 (rupees to ₹ crore).</p>
+</div></section>
+<section class="section" id="land"><div class="wrap"><div class="section-head"><h2>Land and degraded-hectare equivalents</h2></div><p class="muted">No verified company-wide land figure was found in FY2025-26 disclosures.</p><p class="small muted">Legacy Nature Impact Index land figure: <b>850 ha</b>. Unscored reference only: AI-extracted, medium or low confidence, and a median of 2.5 times the verified figure where both exist. Do not use without checking.</p><p class="small muted">Pilot only: no biodiversity rank is published, because no peer group has ten companies with a credible company-wide land total. Net DHE = (land owned + leased, including mining leases) × sector degradation ratio − area restored on own land.</p></div></section>
+<section class="section" id="flags"><div class="wrap">
+  <div class="section-head"><h2>Flags and data queries</h2></div>
+  <ul class="flags"><li class="flag flag-info"><span class="fl-l">Coverage</span><span>Ranked</span></li><li class="flag flag-info"><span class="fl-l">Profit</span><span>Thin profit (&lt;2% margin): ratio unstable</span></li></ul>
+  
+  <p class="small muted">Sector classification: NSE constituent sector lookup (ISIN). ISIN INE148O01028. Companies can send corrections with a page reference to a published document; see <a href="../methodology.html#11-corrections">the methodology</a>.</p>
+</div></section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p class="footer-line">CLBI v1.1 draft · Urvara.Life with Landstack · data FY2025-26 · build date 2026-10-27</p>
+    <p class="footer-links"><a href="../downloads/CLBI_v1.1_Dataset.xlsx">Dataset (Excel)</a><a href="../downloads/CLBI_v1.1_Methodology_Note.pdf">Methodology note (PDF)</a><a href="../downloads/CLBI_v1.1_Methodology_Note.docx">Methodology note (Word)</a><a href="../downloads/CLBI_v1.1_Presentation.pdf">Presentation (PDF)</a><a href="../downloads/CLBI_v1.1_Presentation.html">Presentation (web)</a><a href="../downloads.html">All downloads</a></p>
+    <p class="footer-note">Every value is a company's own disclosure unless labelled otherwise. Illustrative nature costs are not liabilities and are not used in any rank.</p>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="../assets/companies.js"></script>
+<script src="../assets/clbi.js"></script>
+<script id="page-data" type="application/json">{"sym":"DELHIVERY","name":"Delhivery Limited","peers":{"climate":[["ADANIPORTS",11.40257570715646,true,"Adani Ports and Special Economic Zone Ltd"],["INDIGO",122.76461213791124,true,"InterGlobe Aviation Limited"],["GMRAIRPORT",2.590932512843232,true,"GMR Airports Limited"],["JSWINFRA",21.301016144916293,true,"JSW Infrastructure Limited"],["CONCOR",5.058087411487453,true,"Container Corporation Of India Ltd."],["DELHIVERY",26.1617784862966,true,"Delhivery Limited"],["GESHIP",221.6358938410075,true,"Great Eastern Shipping Co. Ltd."],["FSL",1.1878957690526364,true,"Firstsource Solutions Ltd."],["ECLERX",0.8928775285849543,true,"eClerx Services Limited"],["BLUEDART",23.26673538645927,true,"Blue Dart Express Ltd."],["SCI",206.5808903572609,true,"Shipping Corporation Of India Ltd"]],"water":[["ADANIPORTS",202.79821183366172,true,"Adani Ports and Special Economic Zone Ltd"],["INDIGO",1.4116186196400975,true,"InterGlobe Aviation Limited"],["GMRAIRPORT",180.5429173636713,true,"GMR Airports Limited"],["JSWINFRA",89.41712860723986,true,"JSW Infrastructure Limited"],["CONCOR",21.977713878877854,true,"Container Corporation Of India Ltd."],["DELHIVERY",99.60605452429206,true,"Delhivery Limited"],["GESHIP",45.15467991604356,true,"Great Eastern Shipping Co. Ltd."],["REDINGTON",0.2841501292857912,true,"Redington Limited"],["FSL",29.565754614135837,true,"Firstsource Solutions Ltd."],["ECLERX",25.36976934321037,true,"eClerx Services Limited"],["BLUEDART",31.485868474876565,true,"Blue Dart Express Ltd."],["SCI",41.89454373646837,true,"Shipping Corporation Of India Ltd"]],"waste":[["ADANIPORTS",0.3706909659986106,true,"Adani Ports and Special Economic Zone Ltd"],["INDIGO",0.0499614533102484,true,"InterGlobe Aviation Limited"],["GMRAIRPORT",1.0939529600382512,true,"GMR Airports Limited"],["JSWINFRA",6.294891159837656,true,"JSW Infrastructure Limited"],["DELHIVERY",0.4416981726932796,true,"Delhivery Limited"],["GESHIP",1.518608706108706,true,"Great Eastern Shipping Co. Ltd."],["REDINGTON",0.0086507182301525,true,"Redington Limited"],["FSL",0.0725168928782132,true,"Firstsource Solutions Ltd."],["ECLERX",0.0370340143589085,true,"eClerx Services Limited"],["BLUEDART",0.0597080548716144,true,"Blue Dart Express Ltd."],["SCI",0.7359041766107719,true,"Shipping Corporation Of India Ltd"]],"air":[["INDIGO",0.0992720266378223,false,"InterGlobe Aviation Limited"],["DELHIVERY",0.1475194814921185,false,"Delhivery Limited"],["GESHIP",5.194657615112161,false,"Great Eastern Shipping Co. Ltd."],["SCI",5.385742446085498,false,"Shipping Corporation Of India Ltd"]]},"me":{"climate":26.1617784862966,"water":99.60605452429206,"waste":0.4416981726932796,"air":0.1475194814921185},"wf":{"climate":30.0,"water":18.181818181818183,"waste":40.0,"pressure":29.393939393939394,"rest":0.0,"recy":2.7249811483356674,"re":0.0642232212381941,"final":32.18314376351326,"credit":2.789204369573861}}</script>
+<script>CLBI.ready(function(){CLBI.company();});</script>
+</body>
+</html>
