@@ -978,7 +978,7 @@ def build_sector(D, M, g, sub):
 </div></section>
 {comp_html}
 <section class="section" id="naturecost"><div class="wrap">
-  <div class="section-head"><h2>Illustrative nature cost</h2><p><span class="tag-illus">Illustrative — not a liability, not used in rank.</span> Reported quantities multiplied by India-specific prices, as a share of revenue and of EBITDA. Each dot is a company; the vertical line is the group median{' (shown only where at least 5 companies have a value)'}. Read it as a sector pattern, not a precise company figure.</p></div>
+  <div class="section-head"><h2>Illustrative nature cost</h2><p><span class="tag-illus">Illustrative — not a liability, not used in rank.</span> Reported quantities multiplied by central prices (carbon at the global social cost, other pressures India-adjusted), as a share of revenue. Each dot is a company; the vertical line is the group median{' (shown only where at least 5 companies have a value)'}. Read it as a sector pattern, not a precise company figure.</p></div>
   {('<figure class="chart-card wide"><div class="chart-box" style="height:260px"><canvas id="strip"></canvas></div><p class="chart-note" id="strip-note"></p></figure>') if len(nc) else '<p class="muted">No company in this group has an illustrative nature cost.</p>'}
 </div></section>
 {un_html}
@@ -1246,21 +1246,23 @@ def nature_cost_panel(M, r):
                      price_txt("land_ha", "per DHE-ha per year"), r["cost_land"]))
     rows.append(("Waste", miss("not valued"), miss("no defensible India price"), None))
     trs = "".join(f'<tr><td class="l">{a}</td><td class="r num">{b}</td><td class="r num">{c}</td><td class="r num">{finr(d) if d is not None else miss("–")}</td></tr>' for a, b, c, d in rows)
-    ebitda_txt = fpct(r.get("nature_cost_pct_ebitda")) or miss(human(r.get("ebitda_flag")) if has(r.get("ebitda_flag")) else "not available")
+    _S = M["S"]
+    _g = _S[(_S.score_group == r.get("score_group")) & _S.nature_cost_pct_revenue.notna()].nature_cost_pct_revenue
+    gmed = float(_g.median()) if len(_g) >= 5 else None
     india = ""
     if isnum(r.get("cost_ghg_india_borne")) and isnum(r.get("cost_ghg")) and r["cost_ghg"] > 0:
         india = f'<div class="ch-india"><span class="num">{finr(r["cost_ghg_india_borne"])}</span>borne in India: {100 * r["cost_ghg_india_borne"] / r["cost_ghg"]:.0f}% of the {finr(r["cost_ghg"])} carbon cost</div>'
     return f"""
-<div class="illus-banner"><strong>ILLUSTRATIVE — not a liability, not used in rank.</strong> A rough order of magnitude for the cost these reported pressures impose on society, at India-specific central prices (2025 rupees). Do not add across companies: one company’s Scope 2 is another’s Scope 1.</div>
+<div class="illus-banner"><strong>ILLUSTRATIVE — not a liability, not used in rank.</strong> A rough order of magnitude for the cost these reported pressures impose on society, at central prices (2025 rupees): carbon at the global social cost, other pressures India-adjusted. Read it as part of a sector pattern, not a company bill. Do not add across companies: one company’s Scope 2 is another’s Scope 1.</div>
 <div class="table-wrap"><table class="data"><thead><tr><th class="l">Component</th><th class="r">Quantity</th><th class="r">Price (central)</th><th class="r">Cost</th></tr></thead>
 <tbody>{trs}</tbody><tfoot><tr><td class="l"><strong>Total, central prices</strong></td><td></td><td></td><td class="r num"><strong>{finr(r['nature_cost_central'])}</strong></td></tr></tfoot></table></div>
 <div class="cost-head">
   <div class="ch-total"><span class="num">{finr(r['nature_cost_central'])}</span>total at central prices</div>
   {india}
-  <div class="ch-pct"><span class="num">{fpct(r.get('nature_cost_pct_revenue')) or '–'}</span>of revenue</div>
+  <div class="ch-pct"><span class="num">{fpct(r.get('nature_cost_pct_revenue')) or '–'}</span>of revenue{(' · peer-group median ' + fpct(gmed)) if gmed is not None else ''}</div>
 </div>
 <p class="carbon-line">Carbon is priced at the global social cost; about a quarter of that damage falls in India.</p>
-<p class="small muted">Range at low and high prices: {finr(r.get('nature_cost_low')) or '–'} to {finr(r.get('nature_cost_high')) or '–'}. As a share of EBITDA: {ebitda_txt}.</p>
+<p class="small muted">Range at low and high prices: {finr(r.get('nature_cost_low')) or '–'} to {finr(r.get('nature_cost_high')) or '–'}.</p>
 <p class="small muted">Prices: <a href="../{manchor('nature cost', 'Annex')}">methodology, illustrative nature cost</a>. Cost = quantity × price ÷ 1,00,00,000 (rupees to ₹ crore).</p>"""
 
 
@@ -1555,7 +1557,7 @@ DOWNLOADS = [
     ("inputs", "gapfill_values.csv", "Values filled from company reports, with URL, page and verbatim quote."),
     ("inputs", "land_values.csv", "Company-wide land figures with source and quote."),
     ("inputs", "comparator_values.csv", "Cement production and power generation, with source and quote."),
-    ("inputs", "prices.csv", "India-specific prices used for the illustrative nature cost."),
+    ("inputs", "prices.csv", "Prices used for the illustrative nature cost: carbon at the global social cost, other pressures India-adjusted."),
     ("inputs", "land_ratios.csv", "Sector degradation ratios used for degraded-hectare equivalents."),
     ("root", "CLBI_v1.1_Methodology_Note.md", "The methodology note (Markdown)."),
 ]

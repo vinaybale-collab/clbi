@@ -2,6 +2,8 @@
 
 **Draft for Landstack · Urvara.Life · 27 October 2026 · For discussion, not for publication**
 
+Website, with every company and every value: **vinaybale-collab.github.io/clbi**
+
 ## 1. In one paragraph
 
 CLBI compares India's 500 largest listed companies with others **in the same sector**. It asks one question: *how much pressure on nature does each company report, for every rupee it earns?* It looks at three pressures, greenhouse gases, water and waste, all for the year April 2025 to March 2026. Each value comes from what the company itself has published, and each one can be traced to its page and source. The maths is simple enough to check by hand.
@@ -65,7 +67,7 @@ A group is ranked only if **at least 10 of its companies** have complete data. T
 
 The main source is the **Business Responsibility and Sustainability Report (BRSR)** that every listed company files with the stock exchange. Revenue comes from the company's annual financial filing with NSE, on the same basis as its BRSR (standalone or consolidated). Scope 2 is taken **as reported** by every company.
 
-**Where the 1,897 values used come from:**
+**Where the 1,897 core values recorded for the 500 companies come from** (1,592 of them enter a rank):
 
 | Tier | Source | Share |
 |-------|-------------------------------------------|-------:|
@@ -124,9 +126,9 @@ The following earn **no** restoration credit:
 
 Credit is deliberately small:
 
-- The largest effect is 5 places, in Healthcare.
+- The largest effect is 5 places, in Capital Goods and Healthcare.
 - In 13 of 16 ranked groups, no company gains more than 2 places.
-- Rank order with and without credit is almost identical in every group (rank correlation 0.99 or higher).
+- Rank order with and without credit is almost identical in every group (rank correlation 0.98 or higher).
 
 Most manufacturers recover most of their waste, so the recycling credit varies little between them. Credit does not measure whether restoration has actually worked.
 
@@ -134,7 +136,7 @@ Most manufacturers recover most of their waste, so the recycling credit varies l
 
 Revenue is a fair yardstick across most sectors, but it favours expensive products. For cement and power, a physical yardstick was also tested: tonnes of cement and megawatt-hours generated. These are reported on a matching basis by nearly all peers and are used in international reporting standards (SASB/ISSB).
 
-- **Cement:** all 10 pure cement companies have production data. Their per-tonne ranks are shown as the headline cement view, next to the revenue rank, and the two agree closely (rank correlation 0.92). Grasim is left out of this view because its standalone business is mainly fibres and chemicals.
+- **Cement:** all 10 pure cement companies have production data. Their per-tonne ranks are shown alongside the revenue rank, and the two agree closely (rank correlation 0.92). Grasim is left out of this view because its standalone business is mainly fibres and chemicals.
 - **Power:** generation figures were found for 10 generators. One of them (CESC) has a value held back (section 4), which leaves 9, below the 10 needed for a rank. The per-MWh intensities are shown, but not ranked. Transmission and distribution companies have no generation figure.
 
 No other sector has an output measure that companies report consistently enough. Steel, for example, mixes crude steel, sponge iron, ferro-alloys and mining. Those sectors stay on revenue.
@@ -162,8 +164,8 @@ The "how much nature is lost" ratio comes from three independent scientific appr
 - **Own operations only.** Supply chains, the use of products and lending or investment are excluded.
 - **Self-reported.** Values are taken as published. Many are independently assured under BRSR Core, but CLBI does not audit them.
 - **Mixed businesses.** NSE sectors put different businesses together: thermal plants with hydro and transmission, drug makers with hospitals. The dataset flags companies whose main activity does not match their sector, for example Aditya Birla Real Estate's paper business, or companies that mostly trade.
-- **Check before naming.** 36 ranked companies carry a "check before naming" flag. Either their business is not like-for-like with their peers, or one of their scored values is 100–300 times from the peer median: inside the hold-back line, but unusual. Their rank stands, but they should not be singled out, for example as a sector leader, until the value is checked with the company.
-- **Standalone and consolidated mixed.** 286 ranked companies report their BRSR on a standalone basis and 86 on a consolidated basis, sometimes within the same peer group. Revenue always matches the company's own BRSR basis.
+- **Check before naming.** 32 ranked companies carry a "check before naming" flag. Either their business is not like-for-like with their peers, or one of their scored climate, water or waste values is 100–300 times from the peer median: inside the hold-back line, but unusual. Their rank stands, but they should not be singled out, for example as a sector leader, until the value is checked with the company.
+- **Standalone and consolidated mixed.** 286 ranked companies report their BRSR on a standalone basis and 86 on a consolidated basis, sometimes within the same peer group (1 does not state its basis). Revenue always matches the company's own BRSR basis.
 - **Weights and water.** The three pressures are weighted equally. Water is withdrawal, which penalises plants cooled with seawater. Using water consumption instead changes ranks very little: rank correlation is 0.90 or higher in every group except banks (0.80).
 - **Six ranked companies carry a revenue note.** Examples are discontinued operations, or an unstated BRSR boundary. These are flagged in the dataset.
 - **One year only.** CLBI v1.1 is a snapshot and does not show improvement over time.
@@ -188,7 +190,7 @@ All results are produced by one set of scripts from these inputs. Every input fi
 
 ## 11. Corrections
 
-Every value is listed in the dataset and on the website with its source. A company that thinks a value is wrong can send a correction with the page reference in its published report. Corrections are applied only where they match a public document, and every change is logged.
+Every value is listed in the dataset and on the website (vinaybale-collab.github.io/clbi) with its source. A company that thinks a value is wrong can send a correction with the page reference in its published report. Corrections are applied only where they match a public document, and every change is logged.
 
 ---
 
@@ -224,10 +226,10 @@ Every value is listed in the dataset and on the website with its source. A compa
 **Sector medians, as % of revenue:**
 
 - cement ≈ 230%;
-- power ≈ 120%;
+- power ≈ 120% (thermal generators far higher; hydro, solar and transmission below 5%);
 - metals and mining ≈ 54%;
 - textiles ≈ 21%;
-- chemicals ≈ 17%;
+- chemicals ≈ 16.5%;
 - oil and gas ≈ 6%;
 - most other manufacturing and services 1–5%;
 - IT and financial services below 0.5%.

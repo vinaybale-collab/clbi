@@ -1,6 +1,6 @@
 {
   "version": "CLBI v1.1-draft (2026-10-27)",
-  "built_utc": "2026-10-27T15:10:40Z",
+  "built_utc": "2026-10-27T15:30:26Z",
   "params": {
     "min_sector_size": 10,
     "min_element_reporters": 6,
@@ -65,19 +65,17 @@
     "not ranked - reported zero (to confirm): Scope 1 or Scope 2 component of climate": 15,
     "financial sub-group below 10 companies: listed, not ranked": 12,
     "not ranked - not reported: climate, water, waste": 12,
-    "revenue period/boundary not matched: no_FY2026_annual_xbrl: not ranked": 8,
+    "not ranked - revenue period/boundary not matched: no_FY2026_annual_xbrl": 8,
     "ranked (revenue verified; discontinued operations - BRSR scope to confirm)": 5,
+    "not ranked - revenue period or boundary does not match the BRSR year": 4,
     "not ranked - reported zero (to confirm): waste": 4,
     "not ranked - reported zero (to confirm): water": 2,
     "not ranked - not reported: water": 2,
-    "revenue period/boundary not matched: verified_derived_from_reported_period_components: not ranked": 2,
     "not ranked - not reported: waste": 2,
-    "revenue period/boundary not matched: BRSR_boundary_unresolved; nonpositive_RFO: not ranked": 1,
     "not ranked - not reported: climate, waste; reported zero (to confirm): water": 1,
     "ranked (revenue verified; BRSR boundary not stated (standalone revenue used))": 1,
     "not ranked - not reported: water, waste": 1,
     "not ranked - not reported: climate": 1,
-    "revenue period/boundary not matched: FormalBRSRnotapplicableFY26; operatinggroupmodelscopechosenexplicitly; subsidiaryphysicalcoverageuncertain; Priorstandalone6003.291denominatorwascorrectaccountingbutmismatchedgroupmodelscope; consolidated1912.873replacesitwithpriorfreezeandbothsourcevaluesretained: not ranked": 1,
     "not ranked - not reported: climate, water": 1
   },
   "elements_scored_by_sector": {
