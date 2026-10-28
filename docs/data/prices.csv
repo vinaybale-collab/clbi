@@ -1,7 +1,0 @@
-pressure,low,central,high,unit,basis
-ghg,13900,22600,38400,INR2025 per tCO2e,US EPA 2023 SC-CO2 (2% central; 2.5%/1.5%); cross-check Rennert et al. 2022 Nature (INR 19700); see research/prices_carbon_air.md
-sox,85000,209000,1369000,INR2025 per t SO2,median of 4 independent estimates (India mortality studies + CE Delft income-adjusted); high = IMF; VSL 100x GNI = mid sensitivity (53x Cropper 2019; 160x Robinson 2019 reference)
-nox,111000,210000,993000,INR2025 per t NO2,median of 3 independent estimates
-pm,155000,306000,934000,INR2025 per t PM (size unspecified),CE Delft PM10 transfer; bounds = PM2.5 bounds x 0.547
-water,10,40,200,INR2025 per m3 (kL) consumed,"Kumar 2006 Water Policy 8(1):15-29 (INR 36) + IFVI 2026 ecosystem-service component (INR 48); CE Delft eps=0 (INR 49) cross-check; low = irrigation value (Bierkens 2019); high INR 200 = author approximation of IFVI India-only factor. Applied to water consumption where reported, withdrawal as flagged fallback."
-land_ha,8197,64867,119872,INR2025 per degraded-hectare-equivalent per year,ESVD India + de Groot 2012 + Brander 2024 generic tropical terrestrial (median of three); see research/land_method.md

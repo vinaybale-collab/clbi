@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Data needs | CNPI v1.2 draft</title>
+<meta name="description" content="Corporate Nature Pressure Index v1.2 (draft). Reported pressure on nature by India’s 500 largest listed companies, compared within peer groups, every number traced to its source.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/theme.css">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="" data-root="">
+<a class="skip" href="#main">Skip to content</a>
+<div class="draftbar" role="note"><div class="wrap">Draft for review. Not for publication: figures may change before release.</div></div>
+<header class="mast">
+  <div class="wrap mast-row">
+    <a class="wordmark" href="index.html">
+      <svg class="wm-mark" viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" fill="var(--accent-good)"/><path d="M6 21 C6 12 12 7 22 7 C22 16 16 21 7 21" fill="none" stroke="var(--paper)" stroke-width="1.8"/><path d="M7 21 L15 13" stroke="var(--accent-note)" stroke-width="1.8"/></svg>
+      <span><span class="wm-title">Corporate Nature Pressure Index</span><span class="wm-sub">CNPI v1.2 · FY2025-26 disclosures · working draft</span></span>
+    </a>
+    <div class="mast-search" data-search data-placeholder="Find a company"></div>
+  </div>
+  <nav class="wrap nav" aria-label="Main"><a href="index.html">Findings</a><a href="method.html">Method</a><a href="data-quality.html">Data quality</a><a href="data-needs.html" aria-current="page">Data needs</a><a href="pressures.html">Parameters</a><a href="groups.html">Peer groups</a><a href="companies.html">Companies</a><a href="downloads.html">Downloads</a></nav>
+</header>
+<main id="main">
+
+<article class="article"><div class="wrap">
+<nav class="crumbs"><a href="index.html">Findings</a><span aria-hidden="true">/</span>Data needs</nav>
+<header class="col"><h1>What data a corporate nature index needs</h1>
+<p class="standfirst">The index works with what BRSR provides. This page works the other way round: for each parameter, the data a defensible index would need, the standard that defines it, what BRSR asks today, how much of it was observed, and the single change that would close most of the gap.</p></header>
+<div class="tblock ">
+<p class="tb-cap"><span class="fig-n">Table 1.</span> One sheet: the gap between what BRSR provides and what a nature index needs</p>
+<div class="tscroll"><table class="tbl small"><thead><tr><th>Parameter</th><th>What BRSR provides today</th><th>Observed in the CNPI data</th><th>Gap</th><th>The one ask</th></tr></thead><tbody><tr><td class=co><b>Climate (GHG)</b></td><td>EI 7: Scope 1 and Scope 2 totals + intensities; LI 2: Scope 3 (voluntary). No method, factor, boundary or source split</td><td>S1+S2 473/500 (13 with an unconfirmed zero component); Scope 2 method stated 16/465; implied factor = CEA FY25 0.71 for 286/433; 42 fail Scope 2 vs electricity test (3 now held back by the 1.5x-energy rule, 34 still ranked); Scope 3 resolvable 141/465</td><td>Medium</td><td>State the Scope 2 method and grid-factor version (report location-based and market-based separately) and the GHG consolidation boundary</td></tr><tr><td class=co><b>Energy</b></td><td>EI 1: electricity, fuel, other; renewable vs non-renewable; intensities. No captive-vs-grid or fuel-type split</td><td>473/500; electricity/fuel split 461/465; 10 XBRL totals wrong by 10^3-10^12 vs PDF; 38 values for 13 companies hand-corrected; captive generation identifiable in 0</td><td>Medium</td><td>Report grid-purchased and self-generated electricity on separate lines, naming the fuel already counted for self-generation</td></tr><tr><td class=co><b>Water quantity</b></td><td>EI 3: withdrawal by 5 sources + consumption; EI 4: discharge by destination and treatment (company only)</td><td>Consumption 473/500; consumption = withdrawal in 175/454 (49 of them with positive discharge); water balance fails &gt;10% in 66/454; discharge &gt; withdrawal in 2; 30 report consumption at a fixed 20% of withdrawal (scored on withdrawal in the final build)</td><td>Medium</td><td>Compute consumption as withdrawal minus discharge (plus/minus storage) and report seawater separately from freshwater in the totals</td></tr><tr><td class=co><b>Water source location and stress</b></td><td>LI 1 (voluntary): per-facility table for &#x27;areas of water stress&#x27; with area name only; no coordinates, no definition of stress</td><td>Water-stress values 20/57 (57-subset); groundwater used by 36/57; facility coordinates 0 in BRSR; district known for 280/326 Hermes sites</td><td>High</td><td>Make the water-stress facility table mandatory, with district and coordinates per facility and the stress dataset named</td></tr><tr><td class=co><b>Wastewater and water/soil pollution</b></td><td>EI 4: discharge volume by destination and treatment level; no loads, no soil releases</td><td>Discharge total 463/465 parsed; destination/treatment tags present 57/57 (57-subset); pollutant loads 0 (not asked); not used in CNPI</td><td>High</td><td>Add annual pollutant loads (t/yr of COD, BOD, total N, total P) per discharge point, as already monitored under SPCB consents</td></tr><tr><td class=co><b>Waste incl. hazardous</b></td><td>EI 9: 8 categories incl. other hazardous; recovered (3 routes); disposed (3 routes); no stock line, no mineral-stream lines</td><td>472/500; hazardous category filled 57/57, positive in 43/57 (57-subset); 21 recover more than generated; 72/449 do not balance; pollution unscored in 4 groups (Power, Non-ferrous &amp; mining, Construction &amp; engineering, Real estate; e.g. Coal India 5.35 bn t vs GMDC 69 t)</td><td>Medium</td><td>Report fly ash, overburden, tailings and slag as named lines, and recovery from stock separately from current-year arisings</td></tr><tr><td class=co><b>Air pollutants (non-GHG)</b></td><td>EI 6: NOx, SOx, PM, POP, VOC, HAP, others with &#x27;please specify unit&#x27;; no mass rule, no PM size, no NH3</td><td>NOx+SOx+PM in tonnes 245/500 (178 ranked); 111 excluded for non-mass units; 10 firms with &gt;1 Mt Scope 1 report no air tonnage</td><td>High</td><td>Require NOx, SOx and PM in tonnes per year (annual mass), not concentrations</td></tr><tr><td class=co><b>Land use and land-use change</b></td><td>Section A: number of plants/offices only; EI 12: EIA list; no area field of any kind</td><td>Company-wide land held (A) 13/500; real-estate land banks (R) 6; partial/different boundary (B) 7; partial or older (C) 51; site area for 140 companies (252 sites); restoration for 53; disturbed/converted area 0 as standard fields</td><td>Critical</td><td>Add a land table: hectares owned, leased and under mining lease, plus area disturbed and restored in the year, on the BRSR boundary</td></tr><tr><td class=co><b>Biodiversity: sensitive sites and state of nature</b></td><td>EI 11: free-text table of operations in/around ecologically sensitive areas (no coordinates, distance or area); LI 3 (voluntary): impact narrative</td><td>EI 11 table filled 15/57, 6 of them &#x27;NA&#x27; (57-subset); LI 3 text 43/57, 30 &#x27;not applicable&#x27; or no impact; Hermes: 87 statements = 18 affirmative or hedged (13 companies), 0 with coordinates; coordinates for 10/326 sites (9 companies)</td><td>Critical</td><td>Give coordinates (polygon for sites of 10 ha or more) and area for every operating site, so overlap with protected areas and KBAs can be screened independently</td></tr><tr><td class=co><b>Value chain: commodities and Scope 3</b></td><td>LI 2: Scope 3 (voluntary); Principle 2: % of inputs sourced sustainably (no tonnes, no origin)</td><td>Scope 3 resolvable 141/465; commodity tonnes by origin 0 (not asked)</td><td>Critical</td><td>Report tonnes of high-impact natural commodities sourced by type and origin state/country, with share certified (TNFD C3.1)</td></tr></tbody></table></div>
+<p class="fig-src">Source: insights/pressures/data_needs.csv. Standards and observed coverage are documented in the note below.</p>
+</div>
+<div class="sec-head"><span class="sec-n"></span><h2>The full note</h2></div>
+<div class="ins col paper"><p>CNPI v1.2 is built from what India's BRSR already provides. This note works the other way round. For each environmental parameter it sets out:</p>
+<ul>
+<li>the data a defensible corporate nature index would need;</li>
+<li>which international standard defines that data;</li>
+<li>what the BRSR provides today;</li>
+<li>how much of it we actually observed in the CNPI v1.2 dataset;</li>
+<li>and the gap.</li>
+</ul>
+<p>A single summary table ("one sheet") closes the note and is also saved as <code>data_needs.csv</code>.</p>
+<p><strong>How "observed coverage" was computed.</strong> Counts come from the following sources:</p>
+<ul>
+<li><code>outputs_v12/</code> (500 companies);</li>
+<li>the parsed BRSR XBRL (465 filings);</li>
+<li>the Hermes land and site search (500 companies, 326 site rows);</li>
+<li>a 57-company subset for BRSR sub-tables the parser does not normalise. This is the readable part of a truncated full-fact audit file, running alphabetically from 360ONE to BALKRISIND. It is not a random sample, and its counts are labelled "(57-subset)".</li>
+</ul>
+<p>Nothing is estimated or filled.</p>
+<p><strong>Standards consulted (metric names verified against official texts, October 2026).</strong></p>
+<table>
+<thead>
+<tr>
+<th>Standard</th>
+<th>What it contributes</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>BRSR and BRSR Core</strong> (SEBI)</td>
+<td>The Indian baseline. Principle 6 essential indicators (EI) 1–12 and leadership indicators (LI). BRSR Core is a subset of the BRSR with 9 attributes, four of them environmental: GHG footprint, water footprint, energy footprint and "embracing circularity" (waste). The March 2025 circular added a green-credit leadership indicator (LI 8).</td>
+<td><a href="https://www.sebi.gov.in/sebi_data/commondocs/jul-2023/Annexure_II-Updated-BRSR_p.PDF">BRSR format, Annexure II</a>; <a href="https://www.sebi.gov.in/sebi_data/commondocs/jul-2023/Annexure_I-Format-of-BRSR-Core_p.pdf">BRSR Core, Annexure I</a>; <a href="https://www.sebi.gov.in/sebi_data/attachdocs/mar-2025/1743159419610.pdf">SEBI circular, 28 March 2025</a></td>
+</tr>
+<tr>
+<td><strong>TNFD</strong> (Recommendations, October 2026)</td>
+<td>18 core global indicators, 13 of them for dependencies and impacts (C1.0–C5.2), with GHG referred to IFRS S2:<br>• C1.0 total spatial footprint; C1.1 extent of land/freshwater/ocean-use change;<br>• C2.0 pollutants released to soil; C2.1 wastewater discharged; C2.2 waste generation and disposal; C2.3 plastic pollution; C2.4 non-GHG air pollutants;<br>• C3.0 water withdrawal and consumption from areas of water scarcity; C3.1 quantity of high-impact natural commodities;<br>• C4.0 measures against invasive alien species;<br>• C5.0 ecosystem extent; C5.1 ecosystem condition; C5.2 species extinction risk. The C5 state-of-nature metrics replace the 2023 placeholders.</td>
+<td><a href="https://tnfd.global/wp-content/uploads/2026/10/Recommendations-of-the-TNFD_October-2026_DIGITAL.pdf?v=1792053017">TNFD Recommendations, Oct 2026, Annex 1</a>; <a href="https://tnfd.global/wp-content/uploads/2023/08/Guidance_on_the_identification_and_assessment_of_nature-related-issues_The_TNFD_LEAP_approach_v1.pdf">LEAP guidance</a></td>
+</tr>
+<tr>
+<td><strong>GRI</strong></td>
+<td>• <strong>101: Biodiversity 2024</strong> replaces GRI 304 for reports published from 1 January 2026. Disclosure 101-5, "Locations with biodiversity impacts", requires the location and size in hectares of sites with the most significant impacts. 101-6 covers direct drivers of biodiversity loss; 101-7 changes to the state of biodiversity; 101-8 ecosystem services.<br>• <strong>304: Biodiversity 2016</strong> (superseded): 304-1 "Operational sites owned, leased, managed in, or adjacent to, protected areas and areas of high biodiversity value outside protected areas"; 304-2 significant impacts; 304-3 habitats protected or restored; 304-4 IUCN Red List species.<br>• <strong>303-3, 303-4, 303-5:</strong> water withdrawal, discharge and consumption, each also "in areas with water stress".<br>• <strong>305-7:</strong> NOx, SOx and other significant air emissions.<br>• <strong>306-3, 306-4, 306-5:</strong> waste generated, diverted from disposal, and directed to disposal, with a hazardous/non-hazardous split.<br>• <strong>GRI 102: Climate Change 2025</strong> supersedes 305-1 to 305-5 from 1 January 2027.</td>
+<td><a href="https://www.globalreporting.org/pdf.ashx?id=24534">GRI 101</a>; <a href="https://globalreporting.org/media/n5lf4o5x/faqs-biodiversity_external_final_updated-oct-2024.pdf">GRI 101 FAQ</a>; <a href="https://www.globalreporting.org/pdf.ashx?id=12499">GRI 304</a>; <a href="https://www.globalreporting.org/publications/documents/english/gri-303-water-and-effluents-2018">GRI 303</a>; <a href="https://globalreporting.org/pdf.ashx?id=12510">GRI 305</a>; <a href="https://www.globalreporting.org/pdf.ashx?id=12521">GRI 306</a></td>
+</tr>
+<tr>
+<td><strong>ESRS</strong></td>
+<td><strong>ESRS 2023 (Set 1):</strong><br>• E1-6 gross Scope 1, 2 and 3, with Scope 2 both location-based and market-based;<br>• E2-4 pollution of air, water and soil;<br>• E3-4 water consumption, including in areas at water risk;<br>• E4-5 impact metrics related to biodiversity and ecosystems change: number and area (ha) of sites owned, leased or managed in or near protected areas or Key Biodiversity Areas (KBAs), para 35;<br>• E5-5 resource outflows, including hazardous and radioactive waste.<br><strong>Simplified ESRS</strong> (Commission delegated act of July 2026, applying from FY2027): E4-5 is renamed "Metrics related to biodiversity and ecosystems change" and no longer prescribes the site count and area; E3-4 "Water metrics" keeps consumption in areas with water stress.</td>
+<td><a href="https://xbrl.efrag.org/e-esrs/esrs-set1-2023.html">ESRS Set 1 (EFRAG XBRL)</a>; <a href="https://knowledgehub.efrag.org/eng/qa-table/568">EFRAG Q&amp;A on E4 para 35</a>; <a href="https://www.efrag.org/sites/default/files/media/document/2025-12/November_2025_ESRS_E4.pdf">Draft simplified E4, Nov 2025</a>; <a href="https://knowledgehub.efrag.org/eng/interactive/simplified-esrs/esrs-e3/delegated-act">Simplified E3</a>; <a href="https://www.efrag.org/en/news-and-calendar/news/european-commission-publishes-delegated-act-on-revised-esrs-and-voluntary-sustainability-reporting">Delegated act news, July 2026</a></td>
+</tr>
+<tr>
+<td><strong>ISSB IFRS S2</strong></td>
+<td>Absolute gross Scope 1, 2 and 3. Location-based Scope 2 is required, together with information on contractual instruments.</td>
+<td><a href="https://www.ifrs.org/content/dam/ifrs/publications/html-standards-issb/english/2025/issued/issbs2.html">IFRS S2</a></td>
+</tr>
+<tr>
+<td><strong>SBTN</strong></td>
+<td><strong>Step 1 (Assess)</strong>: locate all direct-operations sites and upstream suppliers, and screen eight pressure categories. <strong>Land</strong>: no conversion of natural ecosystems (cut-off no later than 2020), land footprint reduction, and landscape engagement. For no-conversion targets, sites must be georeferenced as polygons; a single point is enough below 10 ha. <strong>Freshwater</strong>: quantity and quality targets set at basin level.</td>
+<td><a href="https://sciencebasedtargetsnetwork.org/wp-content/uploads/2024/07/Technical-Guidance-2024-Step1-Assess-v1-1.pdf">SBTN Step 1 v1.1</a>; <a href="https://sciencebasedtargetsnetwork.org/companies/take-action/set-targets/freshwater-targets">SBTN freshwater targets</a>; <a href="https://sciencebasedtargetsnetwork.org/wp-content/uploads/2026/01/Business-action-for-biodiversity-via-science-based-targets-for-nature.pdf">SBTN biodiversity brief, 2026</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>1. Climate (GHG)</h3>
+<p><strong>Data required.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Unit</th>
+<th>Granularity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scope 1, by source (combustion, process, fugitive) and by gas</td>
+<td>tCO2e</td>
+<td>Company; site for large emitters</td>
+</tr>
+<tr>
+<td>Scope 2, location-based, naming the grid factor and its version</td>
+<td>tCO2e</td>
+<td>Company</td>
+</tr>
+<tr>
+<td>Scope 2, market-based, with the contractual instruments used</td>
+<td>tCO2e</td>
+<td>Company</td>
+</tr>
+<tr>
+<td>GHG consolidation approach (operational control / financial control / equity), matched to the revenue boundary</td>
+<td>text</td>
+<td>Company</td>
+</tr>
+<tr>
+<td>Scope 3 by category</td>
+<td>tCO2e</td>
+<td>Company</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Standards.</strong> IFRS S2 (location-based Scope 2 required); ESRS E1-6 (location- and market-based); GRI 305-1 to 305-3 (GRI 102 from 2027); TNFD refers GHG to IFRS S2.</p>
+<p><strong>BRSR today.</strong></p>
+<ul>
+<li>EI 7: Scope 1 and Scope 2 totals in tCO2e, with an optional break-up by gas, and intensities.</li>
+<li>LI 2: Scope 3 (voluntary).</li>
+<li>There is no field for the Scope 2 method, the grid factor, the consolidation approach, or the split of Scope 1 by source.</li>
+</ul>
+<p><strong>Observed in CNPI.</strong></p>
+<ul>
+<li>473/500 companies have Scope 1 + 2. 460 of these have no unconfirmed zero component (13 do; a further 7 zero Scope 2 values are accepted as genuine).</li>
+<li>The Scope 2 method is stated in 16/465 filings.</li>
+<li>The implied factor sits at 0.71 t/MWh (the CEA FY2024-25 factor) for 286/433 companies.</li>
+<li>42 companies fail the Scope 2 ÷ electricity consistency test. The final build's new rule (Scope 2 implying grid electricity above 1.5× total energy) holds back 3 of them, and 34 remain ranked.</li>
+<li>Scope 3 is reported in a resolvable unit by 141/465 (another 155 use an ambiguous "MtCO2e" unit).</li>
+</ul>
+<p><strong>Gap.</strong></p>
+<ul>
+<li><em>Medium.</em> The headline number exists almost everywhere.</li>
+<li>What is missing is the metadata that makes it comparable: the method, the factor, the boundary, and the process/fugitive split.</li>
+<li>Scope 3 is missing for most companies.</li>
+</ul>
+<hr />
+<h3>2. Energy</h3>
+<p><strong>Data required.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Unit</th>
+<th>Granularity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fuel consumed, by fuel type</td>
+<td>GJ (and t or kL)</td>
+<td>Company; site</td>
+</tr>
+<tr>
+<td>Electricity purchased from the grid</td>
+<td>MWh</td>
+<td>Company</td>
+</tr>
+<tr>
+<td>Electricity self-generated, with the fuel already counted</td>
+<td>MWh</td>
+<td>Company</td>
+</tr>
+<tr>
+<td>Renewable electricity, split into on-site, contracted and certificate-backed</td>
+<td>MWh</td>
+<td>Company</td>
+</tr>
+<tr>
+<td>Biomass fuel, with its source</td>
+<td>GJ, t</td>
+<td>Company</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Standards.</strong> GRI 302 (GRI 103: Energy 2025 from 2027); ESRS E1-5; BRSR Core "energy footprint".</p>
+<p><strong>BRSR today.</strong></p>
+<ul>
+<li>EI 1: electricity, fuel and "other" sources, each split into renewable and non-renewable.</li>
+<li>Intensities: per rupee, per rupee adjusted for purchasing-power parity, and per unit of physical output.</li>
+<li>There is no field separating captive generation from grid purchase, and no split by fuel type.</li>
+</ul>
+<p><strong>Observed in CNPI.</strong></p>
+<ul>
+<li>473/500 companies have energy.</li>
+<li>The electricity/fuel split is present in 461/465 parsed filings.</li>
+<li>10 filings have XBRL totals wrong by 10³–10¹² relative to the filed PDF; CNPI corrected 38 values for 13 companies by hand.</li>
+<li>Captive generation cannot be identified in any filing. The low implied Scope 2 factors at JSW Steel (0.20), Chennai Petroleum (0.012) and NAVA (0.0007) are the visible symptoms.</li>
+</ul>
+<p><strong>Gap.</strong></p>
+<ul>
+<li><em>Medium.</em> The quantities exist.</li>
+<li>The structure (captive vs grid, fuel type) and the machine-readable units do not.</li>
+</ul>
+<hr />
+<h3>3. Water quantity</h3>
+<p><strong>Data required.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Unit</th>
+<th>Granularity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Withdrawal by source: surface, ground, third-party, seawater, produced</td>
+<td>m³ (kL)</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Discharge by destination</td>
+<td>m³</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Consumption, computed as withdrawal − discharge ± change in storage</td>
+<td>m³</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Freshwater vs other water (TDS &gt; 1,000 mg/L), for both withdrawal and discharge</td>
+<td>m³</td>
+<td>Site</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Standards.</strong> GRI 303-3, 303-4, 303-5; ESRS E3-4; TNFD C3.0 (consumption defined as withdrawal less discharge, citing GRI 303-5).</p>
+<p><strong>BRSR today.</strong></p>
+<ul>
+<li>EI 3: withdrawal by five sources, and total consumption.</li>
+<li>EI 4: discharge by destination and level of treatment.</li>
+<li>Everything is reported at company level only.</li>
+</ul>
+<p><strong>Observed in CNPI.</strong></p>
+<ul>
+<li>473/500 companies have consumption.</li>
+<li>The source table is filled by 57/57 companies in the 57-subset.</li>
+<li>175/454 report consumption exactly equal to withdrawal, 49 of them while also reporting discharge.</li>
+<li>30 companies (20 of them financials) report consumption at a fixed 20% of withdrawal. The final build scores their withdrawal instead.</li>
+<li>66/454 fail the water balance by more than 10%.</li>
+<li>2 report discharge greater than withdrawal (ITC at 64×).</li>
+</ul>
+<p><strong>Gap.</strong></p>
+<ul>
+<li><em>Medium.</em> The fields exist, but consumption is not computed by one rule.</li>
+<li>No site figures are reported.</li>
+</ul>
+<hr />
+<h3>4. Water source location and water stress</h3>
+<p><strong>Data required.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Unit</th>
+<th>Granularity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Facility coordinates, or at minimum district and river basin</td>
+<td>lat/long; text</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Withdrawal and consumption at each facility</td>
+<td>m³</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Water-stress classification, naming the dataset used (for example WRI Aqueduct baseline water stress, or Central Ground Water Board block category)</td>
+<td>class</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Groundwater share at each facility</td>
+<td>%</td>
+<td>Site</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Standards.</strong></p>
+<ul>
+<li>TNFD C3.0: "Water withdrawal and consumption (m³) from areas of water scarcity, including identification of water source".</li>
+<li>GRI 303-3-b and 303-5-b: water stress.</li>
+<li>ESRS E3-4: consumption in areas with water stress.</li>
+<li>SBTN freshwater: basin-level targets.</li>
+</ul>
+<p><strong>BRSR today.</strong></p>
+<ul>
+<li>LI 1 (voluntary): for each facility in an area of water stress, the "name of the area", the nature of operations, and the withdrawal, consumption and discharge.</li>
+<li>There are no coordinates and no stated definition of water stress.</li>
+</ul>
+<p><strong>Observed in CNPI.</strong></p>
+<ul>
+<li>Water-stress values are reported by 20/57 (57-subset).</li>
+<li>Facility coordinates: 0 in BRSR.</li>
+<li>From the Hermes site search: district is known for 280 of 326 named sites and state for 314. This is enough for district-level screening of named sites only.</li>
+<li>Groundwater is used by 36/57 (57-subset); its median share of withdrawal is 24%.</li>
+</ul>
+<p><strong>Gap.</strong></p>
+<ul>
+<li><em>High.</em> This is the variable that turns a kilolitre into a pressure, and the one CNPI's planned scarcity price needs.</li>
+<li>BRSR makes it voluntary and does not define "water stress".</li>
+</ul>
+<hr />
+<h3>5. Wastewater and water pollution</h3>
+<p><strong>Data required.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Unit</th>
+<th>Granularity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Discharge volume by receiving body, freshwater or other</td>
+<td>m³</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Pollutant loads: BOD, COD, total N, total P, heavy metals, as relevant</td>
+<td>t/yr</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Treatment level</td>
+<td>class</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Pollutants released to soil, by type</td>
+<td>t</td>
+<td>Site</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Standards.</strong> TNFD C2.1 wastewater discharged (including concentrations of key pollutants) and C2.0 pollutants released to soil; GRI 303-4; ESRS E2-4.</p>
+<p><strong>BRSR today.</strong></p>
+<ul>
+<li>EI 4: discharge volume by destination and treatment level (none, primary, secondary, tertiary).</li>
+<li>There is no pollutant-load field and no soil-release field.</li>
+</ul>
+<p><strong>Observed in CNPI.</strong></p>
+<ul>
+<li>Total discharge is in 463/465 parsed filings, and the destination/treatment tags are present in 57/57 (57-subset).</li>
+<li>Pollutant loads: 0 (not asked).</li>
+<li>Not used in CNPI.</li>
+</ul>
+<p><strong>Gap.</strong></p>
+<ul>
+<li><em>High.</em> Volume without load does not measure pollution.</li>
+<li>The State Pollution Control Board consent and monitoring data hold loads, but not in the BRSR.</li>
+</ul>
+<hr />
+<h3>6. Waste, including hazardous waste</h3>
+<p><strong>Data required.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Unit</th>
+<th>Granularity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Waste generated, hazardous and non-hazardous, by stream</td>
+<td>t</td>
+<td>Company; site for mining and power</td>
+</tr>
+<tr>
+<td>Named mineral streams (fly ash, overburden, tailings, slag, red mud, construction and demolition) on their own lines</td>
+<td>t</td>
+<td>Company</td>
+</tr>
+<tr>
+<td>Diverted from disposal (reuse, recycling, other) and directed to disposal (incineration, landfill, other), each split by hazard class</td>
+<td>t</td>
+<td>Company</td>
+</tr>
+<tr>
+<td>Recovery from stock or legacy deposits, separate from current-year arisings</td>
+<td>t</td>
+<td>Company</td>
+</tr>
+<tr>
+<td>Plastic placed on the market and its recyclability</td>
+<td>t</td>
+<td>Company</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Standards.</strong> GRI 306-3, 306-4, 306-5; ESRS E5-5 (hazardous and radioactive waste); TNFD C2.2 waste generation and disposal (hazardous and non-hazardous) and C2.3 plastic pollution; BRSR Core "embracing circularity".</p>
+<p><strong>BRSR today.</strong></p>
+<ul>
+<li>EI 9: eight categories (plastic, e-waste, bio-medical, construction and demolition, battery, radioactive, other hazardous, other non-hazardous).</li>
+<li>Recovered by three operations, and disposed by three operations.</li>
+<li>There is no line for stock recovery, and no named mineral streams.</li>
+</ul>
+<p><strong>Observed in CNPI.</strong></p>
+<ul>
+<li>472/500 companies have waste.</li>
+<li>The category table is filled by 57/57 in the 57-subset; 43/57 report positive other-hazardous waste.</li>
+<li>21 companies recover more than they generate.</li>
+<li>72/449 do not balance (generated ≠ recovered + disposed by more than 10%).</li>
+<li>Mineral and construction waste is reported so inconsistently that pollution is unscored in 4 groups: Power, Non-ferrous metals and mining, Construction and engineering, and Real estate. Examples: Coal India 5.35 billion t against GMDC 69 t; NTPC 57,193 t against Reliance Power 106.7 million t; Godrej Properties 2.91 million t against Anant Raj 0.74 t.</li>
+</ul>
+<p><strong>Gap.</strong></p>
+<ul>
+<li><em>Medium.</em> A hazard split exists and is filled.</li>
+<li>What is missing: a rule for mineral streams and stock movements. CNPI's parser does not yet read the categories.</li>
+</ul>
+<hr />
+<h3>7. Air pollutants (non-GHG)</h3>
+<p><strong>Data required.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Unit</th>
+<th>Granularity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NOx, SOx, PM2.5/PM10, VOC (NMVOC) and NH3, as annual mass</td>
+<td>t/yr</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Sources covered: process, captive power, diesel generator sets, fugitive dust</td>
+<td>text</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Measurement method: continuous monitoring (CEMS) or calculation</td>
+<td>text</td>
+<td>Site</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Standards.</strong> TNFD C2.4 "Non-GHG air pollutants (tonnes) by type": PM2.5 and/or PM10, nitrogen oxides, VOC/NMVOC, sulphur oxides and ammonia. GRI 305-7; ESRS E2-4.</p>
+<p><strong>BRSR today.</strong></p>
+<ul>
+<li>EI 6: NOx, SOx, PM, POP, VOC, HAP and "others", each with "please specify unit".</li>
+<li>There is no mass requirement, no PM size fraction and no NH3.</li>
+</ul>
+<p><strong>Observed in CNPI.</strong></p>
+<ul>
+<li>245/500 companies have NOx + SOx + PM in tonnes, and 178 are ranked.</li>
+<li>111 more report in non-mass or undeclared units (excluded).</li>
+<li>10 companies with more than 1 Mt of Scope 1 report no air tonnage.</li>
+<li>POP, VOC or HAP entries exist for 41/57 (57-subset), with units unverified.</li>
+</ul>
+<p><strong>Gap.</strong></p>
+<ul>
+<li><em>High.</em> "Please specify unit" defeats comparability.</li>
+<li>Requiring tonnes per year would bring up to 111 more companies into use (from 245 to as many as 356), with little new measurement where continuous emission monitoring already exists.</li>
+</ul>
+<hr />
+<h3>8. Land use and land-use change</h3>
+<p><strong>Data required.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Unit</th>
+<th>Granularity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total area controlled or managed: owned, leased, mining lease</td>
+<td>ha</td>
+<td>Company and site</td>
+</tr>
+<tr>
+<td>Disturbed area (cumulative and in the year)</td>
+<td>ha</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Rehabilitated or restored area</td>
+<td>ha</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Land converted in the year, by prior ecosystem type and new use</td>
+<td>ha</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Site boundary: polygon for sites of 10 ha or more, point otherwise</td>
+<td>GIS</td>
+<td>Site</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Standards.</strong></p>
+<ul>
+<li>TNFD C1.0 total spatial footprint (km²): area controlled or managed, plus disturbed area, plus rehabilitated or restored area.</li>
+<li>TNFD C1.1 extent of land/freshwater/ocean-use change (km²), by ecosystem type and business activity.</li>
+<li>GRI 101-5 (site location and size in ha).</li>
+<li>SBTN Land: no conversion, land footprint reduction, landscape engagement; polygons for sites of 10 ha or more.</li>
+</ul>
+<p><strong>BRSR today.</strong></p>
+<ul>
+<li>Section A: the <strong>number</strong> of plants and offices.</li>
+<li>EI 12: environmental impact assessments of projects.</li>
+<li>There is no area field of any kind.</li>
+</ul>
+<p><strong>Observed in CNPI (Hermes search, outside the BRSR).</strong></p>
+<ul>
+<li>In the hand-classified final data, 13/500 companies have a company-wide figure for land held (A).</li>
+<li>6 have real-estate land banks (R), and 7 have figures for a partial or different boundary (B).</li>
+<li>51 more have only partial or older figures (C), making 77 with any figure.</li>
+<li>140 companies give an area for at least one site, covering 252 sites (median 21 ha).</li>
+<li>Restoration area is found for 53 companies, and greenbelt area for 37 sites.</li>
+<li>Disturbed area and land converted in the year: not found as standard fields.</li>
+<li>Even within category A, 3 of the 13 land figures are on a different boundary from the BRSR (JSW Steel, Tech Mahindra, Acutaas).</li>
+</ul>
+<p><strong>Gap.</strong></p>
+<ul>
+<li><em>Critical.</em> The BRSR does not ask, so all land data must be assembled by hand from annual reports and environmental clearances, with mixed periods and boundaries.</li>
+</ul>
+<hr />
+<h3>9. Biodiversity: sensitive sites and state of nature</h3>
+<p><strong>Data required.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Unit</th>
+<th>Granularity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Site coordinates or polygon</td>
+<td>GIS</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Distance to, or overlap with, protected areas, KBAs, Ramsar sites, eco-sensitive zones and tiger reserves (from a named dataset)</td>
+<td>km; ha of overlap</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Area of natural ecosystem on site, and change in the year, by type</td>
+<td>ha</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Ecosystem condition class, and change</td>
+<td>class; ha</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Threatened species (IUCN Red List and national lists) affected</td>
+<td>count</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Restoration area and method</td>
+<td>ha</td>
+<td>Site</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Standards.</strong></p>
+<ul>
+<li>TNFD C5.0 ecosystem extent, C5.1 ecosystem condition, C5.2 species extinction risk.</li>
+<li>GRI 101-5 and 101-7 (the latter replacing 304-1 and 304-4).</li>
+<li>ESRS E4-5 (2023 version: number and area of sites in or near protected areas or KBAs).</li>
+<li>SBTN Step 1 (site locations required).</li>
+</ul>
+<p><strong>BRSR today.</strong></p>
+<ul>
+<li>EI 11: a table of operations or offices "in/around ecologically sensitive areas" giving location (free text), type of operations and compliance. There are no coordinates, no distance, no area, and no dataset named.</li>
+<li>LI 3 (voluntary): narrative on significant direct and indirect impacts.</li>
+</ul>
+<p><strong>Observed in CNPI.</strong></p>
+<ul>
+<li>The EI 11 table is filled by 15/57 (57-subset), and 6 of those 15 entries are "NA".</li>
+<li>The LI 3 text is present for 43/57 (57-subset); 30 of these are "not applicable" or deny any impact.</li>
+<li>In the Hermes reading of all 500, 87 sensitive-area statements reduce to 18 affirmative or hedged statements from 13 companies. None of these sites has coordinates.</li>
+<li>Coordinates exist for 10 of 326 sites.</li>
+<li>External comparison: IIM Bangalore finds that 75.97% of the top 1,000 have no credible biodiversity disclosure, while 80.04% report operations in or around sensitive areas (<a href="https://research.iimb.ac.in/cgi/viewcontent.cgi?article=1149&amp;context=monographs">Tripathi et al. 2026</a>).</li>
+</ul>
+<p><strong>Gap.</strong></p>
+<ul>
+<li><em>Critical.</em> Without coordinates nothing can be screened independently. The self-declared field is mostly denials.</li>
+</ul>
+<hr />
+<h3>10. Value chain: commodities and Scope 3</h3>
+<p><strong>Data required.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Unit</th>
+<th>Granularity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High-impact natural commodities sourced, by type (for example coal, iron ore, bauxite, limestone, timber and pulp, palm oil, soy, cotton, sugarcane, cattle, fish)</td>
+<td>t</td>
+<td>Company, by origin state or country</td>
+</tr>
+<tr>
+<td>Share sourced under a sustainable-management plan or certification</td>
+<td>%</td>
+<td>Company</td>
+</tr>
+<tr>
+<td>Scope 3, by category</td>
+<td>tCO2e</td>
+<td>Company</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Standards.</strong></p>
+<ul>
+<li>TNFD C3.1: quantity of high-impact natural commodities (tonnes), split by type, and the proportion under a sustainable-management plan or certification.</li>
+<li>IFRS S2 and ESRS E1-6: Scope 3.</li>
+<li>SBTN Step 1: upstream locations.</li>
+</ul>
+<p><strong>BRSR today.</strong></p>
+<ul>
+<li>LI 2: Scope 3 (voluntary).</li>
+<li>Principle 2: sustainable sourcing as a percentage of inputs (no tonnes, no origin).</li>
+<li>There is no commodity-tonnage field.</li>
+</ul>
+<p><strong>Observed in CNPI.</strong></p>
+<ul>
+<li>Scope 3 is reported in a resolvable unit by 141/465 filings.</li>
+<li>Commodity tonnes by origin: 0 (not asked).</li>
+</ul>
+<p><strong>Gap.</strong></p>
+<ul>
+<li><em>Critical</em> for FMCG, textiles, paper, food, and banks' financed footprint.</li>
+<li>CNPI's own operations-only scope understates these sectors by construction.</li>
+</ul>
+<hr />
+<h3>The one sheet</h3>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>What a nature index needs</th>
+<th>BRSR today</th>
+<th>Observed coverage (CNPI v1.2)</th>
+<th>Gap</th>
+<th>The one disclosure ask</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Climate (GHG)</strong></td>
+<td>Scope 1 by source (combustion/process/fugitive); Scope 2 location- AND market-based with grid factor version; GHG consolidation approach matched to revenue boundary; Scope 3 by category (tCO2e; company, site for large emitters)</td>
+<td>EI 7: Scope 1 and Scope 2 totals + intensities; LI 2: Scope 3 (voluntary). No method, factor, boundary or source split</td>
+<td>S1+S2 473/500 (13 with an unconfirmed zero component); Scope 2 method stated 16/465; implied factor = CEA FY25 0.71 for 286/433; 42 fail Scope 2 vs electricity test (3 now held back by the 1.5x-energy rule, 34 still ranked); Scope 3 resolvable 141/465</td>
+<td><strong>Medium</strong></td>
+<td>State the Scope 2 method and grid-factor version (report location-based and market-based separately) and the GHG consolidation boundary</td>
+</tr>
+<tr>
+<td><strong>Energy</strong></td>
+<td>Fuel by type (GJ); grid electricity purchased (MWh); captive generation with the fuel already counted; renewable split on-site / contracted / certificate; biomass with source (company, site)</td>
+<td>EI 1: electricity, fuel, other; renewable vs non-renewable; intensities. No captive-vs-grid or fuel-type split</td>
+<td>473/500; electricity/fuel split 461/465; 10 XBRL totals wrong by 10^3-10^12 vs PDF; 38 values for 13 companies hand-corrected; captive generation identifiable in 0</td>
+<td><strong>Medium</strong></td>
+<td>Report grid-purchased and self-generated electricity on separate lines, naming the fuel already counted for self-generation</td>
+</tr>
+<tr>
+<td><strong>Water quantity</strong></td>
+<td>Withdrawal by source, discharge by destination, consumption = withdrawal - discharge (+/- storage), freshwater vs other (m3; site)</td>
+<td>EI 3: withdrawal by 5 sources + consumption; EI 4: discharge by destination and treatment (company only)</td>
+<td>Consumption 473/500; consumption = withdrawal in 175/454 (49 of them with positive discharge); water balance fails &gt;10% in 66/454; discharge &gt; withdrawal in 2; 30 report consumption at a fixed 20% of withdrawal (scored on withdrawal in the final build)</td>
+<td><strong>Medium</strong></td>
+<td>Compute consumption as withdrawal minus discharge (plus/minus storage) and report seawater separately from freshwater in the totals</td>
+</tr>
+<tr>
+<td><strong>Water source location and stress</strong></td>
+<td>Facility coordinates or district/basin; withdrawal and consumption per facility; stress class with named dataset (WRI Aqueduct or CGWB block); groundwater share</td>
+<td>LI 1 (voluntary): per-facility table for 'areas of water stress' with area name only; no coordinates, no definition of stress</td>
+<td>Water-stress values 20/57 (57-subset); groundwater used by 36/57; facility coordinates 0 in BRSR; district known for 280/326 Hermes sites</td>
+<td><strong>High</strong></td>
+<td>Make the water-stress facility table mandatory, with district and coordinates per facility and the stress dataset named</td>
+</tr>
+<tr>
+<td><strong>Wastewater and water/soil pollution</strong></td>
+<td>Discharge by receiving body; pollutant loads (BOD, COD, N, P, metals) in t/yr; treatment level; pollutants released to soil (site)</td>
+<td>EI 4: discharge volume by destination and treatment level; no loads, no soil releases</td>
+<td>Discharge total 463/465 parsed; destination/treatment tags present 57/57 (57-subset); pollutant loads 0 (not asked); not used in CNPI</td>
+<td><strong>High</strong></td>
+<td>Add annual pollutant loads (t/yr of COD, BOD, total N, total P) per discharge point, as already monitored under SPCB consents</td>
+</tr>
+<tr>
+<td><strong>Waste incl. hazardous</strong></td>
+<td>Generated by hazard class and stream; named mineral streams (fly ash, overburden, tailings, slag, C&amp;D); diverted vs disposed by hazard class; stock recovery separate (t)</td>
+<td>EI 9: 8 categories incl. other hazardous; recovered (3 routes); disposed (3 routes); no stock line, no mineral-stream lines</td>
+<td>472/500; hazardous category filled 57/57, positive in 43/57 (57-subset); 21 recover more than generated; 72/449 do not balance; pollution unscored in 4 groups (Power, Non-ferrous &amp; mining, Construction &amp; engineering, Real estate; e.g. Coal India 5.35 bn t vs GMDC 69 t)</td>
+<td><strong>Medium</strong></td>
+<td>Report fly ash, overburden, tailings and slag as named lines, and recovery from stock separately from current-year arisings</td>
+</tr>
+<tr>
+<td><strong>Air pollutants (non-GHG)</strong></td>
+<td>NOx, SOx, PM2.5/PM10, NMVOC, NH3 as annual mass (t/yr); sources covered; CEMS vs calculated (site)</td>
+<td>EI 6: NOx, SOx, PM, POP, VOC, HAP, others with 'please specify unit'; no mass rule, no PM size, no NH3</td>
+<td>NOx+SOx+PM in tonnes 245/500 (178 ranked); 111 excluded for non-mass units; 10 firms with &gt;1 Mt Scope 1 report no air tonnage</td>
+<td><strong>High</strong></td>
+<td>Require NOx, SOx and PM in tonnes per year (annual mass), not concentrations</td>
+</tr>
+<tr>
+<td><strong>Land use and land-use change</strong></td>
+<td>Area owned/leased/mining lease; disturbed area; rehabilitated/restored area; conversion in the year by ecosystem type (ha); polygons for sites &gt;=10 ha</td>
+<td>Section A: number of plants/offices only; EI 12: EIA list; no area field of any kind</td>
+<td>Company-wide land held (A) 13/500; real-estate land banks (R) 6; partial/different boundary (B) 7; partial or older (C) 51; site area for 140 companies (252 sites); restoration for 53; disturbed/converted area 0 as standard fields</td>
+<td><strong>Critical</strong></td>
+<td>Add a land table: hectares owned, leased and under mining lease, plus area disturbed and restored in the year, on the BRSR boundary</td>
+</tr>
+<tr>
+<td><strong>Biodiversity: sensitive sites and state of nature</strong></td>
+<td>Site coordinates/polygon; overlap or distance to PAs, KBAs, Ramsar, ESZ, tiger reserves (named dataset); natural ecosystem extent and condition change; threatened species; restoration (site)</td>
+<td>EI 11: free-text table of operations in/around ecologically sensitive areas (no coordinates, distance or area); LI 3 (voluntary): impact narrative</td>
+<td>EI 11 table filled 15/57, 6 of them 'NA' (57-subset); LI 3 text 43/57, 30 'not applicable' or no impact; Hermes: 87 statements = 18 affirmative or hedged (13 companies), 0 with coordinates; coordinates for 10/326 sites (9 companies)</td>
+<td><strong>Critical</strong></td>
+<td>Give coordinates (polygon for sites of 10 ha or more) and area for every operating site, so overlap with protected areas and KBAs can be screened independently</td>
+</tr>
+<tr>
+<td><strong>Value chain: commodities and Scope 3</strong></td>
+<td>Tonnes of high-impact natural commodities by type and origin; share certified; Scope 3 by category</td>
+<td>LI 2: Scope 3 (voluntary); Principle 2: % of inputs sourced sustainably (no tonnes, no origin)</td>
+<td>Scope 3 resolvable 141/465; commodity tonnes by origin 0 (not asked)</td>
+<td><strong>Critical</strong></td>
+<td>Report tonnes of high-impact natural commodities sourced by type and origin state/country, with share certified (TNFD C3.1)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Reading the sheet.</strong></p>
+<ul>
+<li><strong>Severity.</strong> Critical means the BRSR does not ask and nothing usable exists. High means it asks loosely, or voluntarily, and coverage or comparability fails. Medium means the number exists but its metadata or boundary prevents clean comparison.</li>
+<li><strong>The five asks with the largest return are the ones about location and units</strong>: site coordinates, water by facility in stressed areas, land area, air in tonnes, and Scope 2 method.</li>
+<li><strong>What the asks cost companies.</strong> Most companies already hold this information in environmental-clearance and consent documents, so the asks are about formatting, not new measurement.</li>
+<li><strong>Biodiversity and land use.</strong> Coordinates alone would let an index do the GIS overlay itself, instead of relying on self-declared proximity.</li>
+</ul>
+<hr />
+<h4>Sources</h4>
+<ul>
+<li>SEBI, <em>Business Responsibility &amp; Sustainability Reporting Format</em> (Annexure II, July 2023): https://www.sebi.gov.in/sebi_data/commondocs/jul-2023/Annexure_II-Updated-BRSR_p.PDF</li>
+<li>SEBI, <em>Format of BRSR Core</em> (Annexure I, July 2023): https://www.sebi.gov.in/sebi_data/commondocs/jul-2023/Annexure_I-Format-of-BRSR-Core_p.pdf</li>
+<li>SEBI circular SEBI/HO/CFD/CFD-PoD-1/P/CIR/2025/42, 28 March 2025: https://www.sebi.gov.in/sebi_data/attachdocs/mar-2025/1743159419610.pdf</li>
+<li>TNFD, <em>Recommendations of the TNFD</em>, October 2026, Annex 1: https://tnfd.global/wp-content/uploads/2026/10/Recommendations-of-the-TNFD_October-2026_DIGITAL.pdf?v=1792053017</li>
+<li>TNFD, <em>Guidance on the identification and assessment of nature-related issues: the LEAP approach</em> v1.0 (2023): https://tnfd.global/wp-content/uploads/2023/08/Guidance_on_the_identification_and_assessment_of_nature-related-issues_The_TNFD_LEAP_approach_v1.pdf</li>
+<li>GRI 101: Biodiversity 2024: https://www.globalreporting.org/pdf.ashx?id=24534; FAQ: https://globalreporting.org/media/n5lf4o5x/faqs-biodiversity_external_final_updated-oct-2024.pdf</li>
+<li>GRI 304: Biodiversity 2016: https://www.globalreporting.org/pdf.ashx?id=12499</li>
+<li>GRI 303: Water and Effluents 2018: https://www.globalreporting.org/publications/documents/english/gri-303-water-and-effluents-2018</li>
+<li>GRI 305: Emissions 2016: https://globalreporting.org/pdf.ashx?id=12510</li>
+<li>GRI 306: Waste 2020: https://www.globalreporting.org/pdf.ashx?id=12521</li>
+<li>EFRAG, ESRS Set 1 (2023): https://xbrl.efrag.org/e-esrs/esrs-set1-2023.html; Q&amp;A on E4 para 35: https://knowledgehub.efrag.org/eng/qa-table/568</li>
+<li>EFRAG, Draft simplified ESRS E4 (November 2025): https://www.efrag.org/sites/default/files/media/document/2025-12/November_2025_ESRS_E4.pdf; simplified ESRS E3: https://knowledgehub.efrag.org/eng/interactive/simplified-esrs/esrs-e3/delegated-act; Commission delegated act (July 2026): https://www.efrag.org/en/news-and-calendar/news/european-commission-publishes-delegated-act-on-revised-esrs-and-voluntary-sustainability-reporting</li>
+<li>IFRS S2 Climate-related Disclosures: https://www.ifrs.org/content/dam/ifrs/publications/html-standards-issb/english/2025/issued/issbs2.html</li>
+<li>SBTN, Technical Guidance Step 1 Assess v1.1 (2024): https://sciencebasedtargetsnetwork.org/wp-content/uploads/2024/07/Technical-Guidance-2024-Step1-Assess-v1-1.pdf; Freshwater targets: https://sciencebasedtargetsnetwork.org/companies/take-action/set-targets/freshwater-targets; <em>Business action for biodiversity via science-based targets for nature</em> (2026): https://sciencebasedtargetsnetwork.org/wp-content/uploads/2026/01/Business-action-for-biodiversity-via-science-based-targets-for-nature.pdf</li>
+<li>CEA, <em>CO2 Baseline Database for the Indian Power Sector</em>, User Guide v21.0 (FY2024-25 factor 0.710 tCO2/MWh): https://cea.nic.in/wp-content/uploads/baseline/2025/12/User_Guide_V_21.0.pdf; v22.0 (FY2025-26 factor 0.675): https://cea.nic.in/wp-content/uploads/baseline/2026/09/User_Guide__Version_22.0.pdf</li>
+<li>Tripathi, Gupta, Krishna and Gandhi (2026), <em>Business responsibility and sustainability in India: BRSR disclosures of India's top 1,000 listed companies for FY 2024–25</em>, IIM Bangalore: https://research.iimb.ac.in/cgi/viewcontent.cgi?article=1149&amp;context=monographs</li>
+</ul></div>
+</div></article>
+</main>
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-title">Corporate Nature Pressure Index (CNPI), v1.2</p>
+      <p>Reported pressure on nature by India’s 500 largest listed companies, compared within peer groups.</p>
+      <p>Urvara.Life with Landstack, prepared for ILDC 2026. <strong>Draft, not for publication.</strong></p>
+    </div>
+    <div>
+      <p>Data: Business Responsibility and Sustainability Reports for FY2025-26 (1 April 2025 to 31 March 2026), annual financial filings and company reports. Every value is the company’s own disclosure unless marked otherwise.</p>
+      <p>Built 28 October 2026. <a href="method.html">Method</a> · <a href="data-quality.html">Data quality</a> · <a href="downloads.html">Downloads</a></p>
+    </div>
+  </div>
+</footer>
+<script src="assets/companies.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+peer_group,symbol,company,exclusion_category,reason_detail
+Auto components and tyres,CIEINDIA,CIE Automotive India Limited,Revenue year or boundary does not match the BRSR,revenue period/boundary not matched: no_FY2026_annual_xbrl
+Auto components and tyres,SCHAEFFLER,Schaeffler India Limited,Revenue year or boundary does not match the BRSR,revenue period/boundary not matched: no_FY2026_annual_xbrl
+Automobiles,TVSMOTOR,TVS Motor Company Ltd.,Held back: implausible or inconsistent value,pollution (waste): waste recovered more than 1.5x waste generated
+Automobiles,ATHERENERG,Ather Energy Limited,Pressure not reported,"not reported: climate, energy, water, waste"
+Building products,ASTRAL,ASTRAL LIMITED,Peer group too small to rank,"peer group below 8 companies: listed, not ranked"
+Building products,CENTURYPLY,Century Plyboards (India) Ltd.,Peer group too small to rank,"peer group below 8 companies: listed, not ranked"
+Building products,KAJARIACER,Kajaria Ceramics Ltd,Peer group too small to rank,"peer group below 8 companies: listed, not ranked"
+Building products,SUPREMEIND,Supreme Industries Ltd.,Peer group too small to rank,"peer group below 8 companies: listed, not ranked"
+Capital goods: electrical equipment and electronics,CPPLUS,Aditya Infotech Limited,Pressure not reported,"not reported: climate, energy, water, waste"
+Capital goods: electrical equipment and electronics,EMMVEE,Emmvee Photovoltaic Power Limited,Pressure not reported,"not reported: climate, energy, water, waste"
+Capital goods: electrical equipment and electronics,ABB,ABB India Limited,Revenue year or boundary does not match the BRSR,revenue period/boundary not matched: no_FY2026_annual_xbrl
+Capital goods: electrical equipment and electronics,ENRIN,Siemens Energy India Limited,Revenue year or boundary does not match the BRSR,revenue period/boundary not matched: no_FY2026_annual_xbrl
+Capital goods: electrical equipment and electronics,SIEMENS,Siemens Ltd.,Revenue year or boundary does not match the BRSR,revenue period or boundary does not match the BRSR year
+"Capital goods: machinery, engineering and defence",BEML,BEML Ltd,Held back: implausible or inconsistent value,water: water consumed more than 10x water withdrawn
+"Capital goods: machinery, engineering and defence",INGERRAND,Ingersoll-Rand (India) Ltd.,Held back: implausible or inconsistent value,climate (Scope 1+2): Scope 2 implies more grid electricity than 1.5x the company's total reported energy
+"Capital goods: machinery, engineering and defence",THERMAX,Thermax Ltd.,Held back: implausible or inconsistent value,"energy: value far below peer median, possibly under-reported or head-office only"
+"Capital goods: machinery, engineering and defence",SKFINDUS,SKF INDIA (INDUSTRIAL) LIMITED,Pressure not reported,"not reported: climate, energy"
+"Capital goods: machinery, engineering and defence",AZAD,Azad Engineering Limited,Reported zero awaiting confirmation,reported zero (to confirm): Scope 1 or Scope 2 component of climate
+"Capital goods: machinery, engineering and defence",KSB,KSB LIMITED,Revenue year or boundary does not match the BRSR,revenue period/boundary not matched: no_FY2026_annual_xbrl
+Chemicals: commodity chemicals and fertilisers,HSCL,Himadri Speciality Chemical Ltd.,Reported zero awaiting confirmation,reported zero (to confirm): Scope 1 or Scope 2 component of climate
+"Chemicals: specialty, paints and coatings",PRIVISCL,PRIVI SPECIALITY CHEMICALS LIMITED,Held back: implausible or inconsistent value,water: water consumed more than 10x water withdrawn; pollution (waste): waste recovered more than 1.5x waste generated
+"Chemicals: specialty, paints and coatings",CASTROLIND,Castrol India Ltd,Revenue year or boundary does not match the BRSR,revenue period/boundary not matched: no_FY2026_annual_xbrl
+Construction and engineering,CMPDI,Central Mine Planning & Design Institute Limited,Pressure not reported,"not reported: climate, energy, water"
+Diversified conglomerates,ADANIENT,Adani Enterprises Ltd.,Peer group too small to rank,"sector below 8 companies: listed, not ranked"
+FMCG,VBL,Varun Beverages Limited,Revenue year or boundary does not match the BRSR,revenue period/boundary not matched: no_FY2026_annual_xbrl
+Financial Services: Banks,CENTRALBK,Central Bank of India,Held back: implausible or inconsistent value,"energy: value far below peer median, possibly under-reported or head-office only"
+Financial Services: Banks,J&KBANK,Jammu and Kashmir Bank Ltd.,Held back: implausible or inconsistent value,"water: value far below peer median, possibly under-reported or head-office only (1/769 of the peer median)"
+Financial Services: Capital markets and financial intermediaries,ABSLAMC,Aditya Birla Sun Life AMC Limited,Held back: implausible or inconsistent value,"climate (Scope 1+2): value far below peer median, possibly under-reported or head-office only (1/5,000 of the peer median)"
+Financial Services: Capital markets and financial intermediaries,CHOICEIN,Choice International Ltd,Held back: implausible or inconsistent value,"energy: value far below peer median, possibly under-reported or head-office only"
+Financial Services: Capital markets and financial intermediaries,ANANDRATHI,Anand Rathi Wealth Limited,Reported zero awaiting confirmation,not reported: waste; reported zero (to confirm): energy
+Financial Services: Capital markets and financial intermediaries,ICICIAMC,ICICI Prudential Asset Management Company Limited,Reported zero awaiting confirmation,reported zero (to confirm): waste
+Financial Services: Capital markets and financial intermediaries,NUVAMA,Nuvama Wealth Management Limited,Reported zero awaiting confirmation,reported zero (to confirm): Scope 1 or Scope 2 component of climate
+Financial Services: Capital markets and financial intermediaries,CRISIL,CRISIL Ltd.,Revenue year or boundary does not match the BRSR,revenue period/boundary not matched: no_FY2026_annual_xbrl
+Financial Services: Insurance underwriting,CANHLIFE,Canara HSBC Life Insurance Company Limited,Held back: implausible or inconsistent value,climate (Scope 1+2): Scope 2 implies more grid electricity than 1.5x the company's total reported energy
+Financial Services: Insurance underwriting,GICRE,General Insurance Corporation of India,Reported zero awaiting confirmation,reported zero (to confirm): waste
+Financial Services: Insurance underwriting,NIACL,The New India Assurance Company Limited,Reported zero awaiting confirmation,reported zero (to confirm): waste
+Financial Services: Investment and holding companies,BAJAJHLDNG,Bajaj Holdings & Investment Limited,Peer group too small to rank,"peer group below 8 companies: listed, not ranked"
+Financial Services: Investment and holding companies,JSWHL,JSW Holdings Limited,Peer group too small to rank,"peer group below 8 companies: listed, not ranked"
+Financial Services: Investment and holding companies,JIOFIN,Jio Financial Services Limited,Peer group too small to rank,"peer group below 8 companies: listed, not ranked"
+Financial Services: Investment and holding companies,MAHSCOOTER,Maharashtra Scooters Ltd.,Peer group too small to rank,"peer group below 8 companies: listed, not ranked"
+Financial Services: Investment and holding companies,TVSHLTD,TVS Holdings Limited,Peer group too small to rank,"peer group below 8 companies: listed, not ranked"
+Financial Services: Investment and holding companies,TATAINVEST,Tata Investment Corporation Ltd.,Peer group too small to rank,"peer group below 8 companies: listed, not ranked"
+Financial Services: Lending NBFC and housing finance,BAJFINANCE,Bajaj Finance Limited,Held back: implausible or inconsistent value,water: water consumed more than 10x water withdrawn
+Financial Services: Lending NBFC and housing finance,BAJAJFINSV,Bajaj Finserv Limited,Held back: implausible or inconsistent value,water: water consumed more than 10x water withdrawn
+Financial Services: Lending NBFC and housing finance,HOMEFIRST,Home First Finance Company India Limited,Pressure not reported,not reported: waste
+Financial Services: Lending NBFC and housing finance,AIIL,Authum Investment & Infrastructure Limited,Reported zero awaiting confirmation,"reported zero (to confirm): waste, Scope 1 or Scope 2 component of climate"
+Healthcare: hospitals and diagnostics,AGARWALEYE,Dr. Agarwal's Health Care Limited,Pressure not reported,"not reported: climate, energy, water, waste"
+IT services and software,KPITTECH,KPIT Technologies Ltd,Held back: implausible or inconsistent value,"energy: value far below peer median, possibly under-reported or head-office only"
+IT services and software,FRACTAL,Fractal Analytics Limited,Pressure not reported,"not reported: energy, waste"
+IT services and software,PINELABS,Pine Labs Limited,Pressure not reported,"not reported: climate, energy, water, waste"
+IT services and software,HEXT,Hexaware Technologies Limited,Revenue year or boundary does not match the BRSR,revenue period/boundary not matched: no_FY2026_annual_xbrl
+Metals: non-ferrous and mining,COALINDIA,Coal India Limited,Held back: implausible or inconsistent value,climate (Scope 1+2): Scope 2 implies more grid electricity than 1.5x the company's total reported energy
+Metals: non-ferrous and mining,JAINREC,Jain Resource Recycling Limited,Held back: implausible or inconsistent value,"water: value far below peer median, possibly under-reported or head-office only (1/455 of the peer median)"
+Metals: non-ferrous and mining,BHARATCOAL,BHARAT COKING COAL LIMITED,Pressure not reported,"not reported: climate, energy, water"
+Metals: non-ferrous and mining,VAML,Vedanta Aluminium Metal Limited,Revenue year or boundary does not match the BRSR,revenue period or boundary does not match the BRSR year
+Metals: steel and iron products,GALLANTT,GALLANTT ISPAT LIMITED,Held back: implausible or inconsistent value,"energy: value far below peer median, possibly under-reported or head-office only"
+Metals: steel and iron products,SHYAMMETL,Shyam Metalics and Energy Limited,Held back: implausible or inconsistent value,climate (Scope 1+2): Scope 2 implies an electricity bill larger than revenue (physically impossible)
+"Oil, gas and fuels",IGL,Indraprashtha Gas Ltd.,Held back: implausible or inconsistent value,pollution (waste): waste recovered more than 1.5x waste generated
+"Oil, gas and fuels",VOGL,Vedanta Oil and Gas Limited,Pressure not reported,"not reported: climate, energy, water, waste"
+Power,ADANIENSOL,Adani Energy Solutions Limited,Held back: implausible or inconsistent value,"water: value far below peer median, possibly under-reported or head-office only (1/2,000 of the peer median)"
+Power,VEDPOWER,Vedanta Power Limited,Pressure not reported,"not reported: climate, energy, water"
+Power,RPOWER,Reliance Power Limited,Reported zero awaiting confirmation,reported zero (to confirm): Scope 1 or Scope 2 component of climate
+Power,CLEANMAX,Clean Max Enviro Energy Solutions Limited,Revenue year or boundary does not match the BRSR,revenue period or boundary does not match the BRSR year
+Real estate,ABREL,ADITYA BIRLA REAL ESTATE LIMITED,Held back: implausible or inconsistent value,"climate (Scope 1+2): value far above peer median, likely unit or boundary error (345x the peer median); energy: value far above peer median, likely unit or boundary error (814x the peer median)"
+Real estate,PFOCUS,Prime Focus Limited,Held back: implausible or inconsistent value,climate (Scope 1+2): Scope 2 implies an electricity bill larger than revenue (physically impossible)
+Real estate,LODHA,Lodha Developers Limited,Reported zero awaiting confirmation,reported zero (to confirm): Scope 1 or Scope 2 component of climate
+"Retail, e-commerce, hotels and consumer services",ETERNAL,Eternal Limited,Held back: implausible or inconsistent value,"climate (Scope 1+2): value far below peer median, possibly under-reported or head-office only (1/833 of the peer median); energy: value far below peer median, possibly under-reported or head-office only (1/1,111 of the peer median); water: value far below peer median, possibly under-reported or head-office only (1/370 of the peer median); pollution (waste): value far below peer median, possibly under-reported or head-office only (1/1,111 of the peer median)"
+"Retail, e-commerce, hotels and consumer services",METROBRAND,Metro Brands Limited,Held back: implausible or inconsistent value,pollution (waste): waste recovered more than 1.5x waste generated
+"Retail, e-commerce, hotels and consumer services",ITCHOTELS,ITC Hotels Limited,Pressure not reported,"not reported: climate, energy, water, waste"
+"Retail, e-commerce, hotels and consumer services",PWL,Physicswallah Limited,Pressure not reported,"not reported: climate, energy, water, waste"
+"Retail, e-commerce, hotels and consumer services",URBANCO,Urban Company Limited,Pressure not reported,"not reported: climate, energy, water, waste"
+"Retail, e-commerce, hotels and consumer services",BLS,BLS International Services Ltd,Reported zero awaiting confirmation,reported zero (to confirm): waste
+"Retail, e-commerce, hotels and consumer services",MEESHO,Meesho Limited,Reported zero awaiting confirmation,reported zero (to confirm): Scope 1 or Scope 2 component of climate
+"Retail, e-commerce, hotels and consumer services",IGIL,International Gemological Institute Limited,Revenue year or boundary does not match the BRSR,revenue period or boundary does not match the BRSR year
+Telecom and media,BHARTIARTL,Bharti Airtel Ltd.,Peer group too small to rank,"fewer than 8 companies in this peer group with enough reported data: scores shown, no rank"
+Telecom and media,BHARTIHEXA,Bharti Hexacom Limited,Peer group too small to rank,"fewer than 8 companies in this peer group with enough reported data: scores shown, no rank"
+Telecom and media,INDUSTOWER,INDUS TOWERS LIMITED,Peer group too small to rank,"fewer than 8 companies in this peer group with enough reported data: scores shown, no rank"
+Telecom and media,NAUKRI,Info Edge(India) Ltd.,Peer group too small to rank,"fewer than 8 companies in this peer group with enough reported data: scores shown, no rank"
+Telecom and media,SUNTV,SUN TV NETWORK LIMITED,Peer group too small to rank,"fewer than 8 companies in this peer group with enough reported data: scores shown, no rank"
+Telecom and media,TATACOMM,Tata Communications Limited,Peer group too small to rank,"fewer than 8 companies in this peer group with enough reported data: scores shown, no rank"
+Telecom and media,IDEA,VODAFONE IDEA LIMITED,Peer group too small to rank,"fewer than 8 companies in this peer group with enough reported data: scores shown, no rank"
+Telecom and media,INDIAMART,IndiaMART InterMESH Limited,Reported zero awaiting confirmation,reported zero (to confirm): Scope 1 or Scope 2 component of climate
+Textiles and apparel,GRASIM,Grasim Industries Ltd,Peer group too small to rank,"sector below 8 companies: listed, not ranked"
+Textiles and apparel,KPRMILL,K.P.R. Mill Ltd.,Peer group too small to rank,"sector below 8 companies: listed, not ranked"
+Textiles and apparel,PAGEIND,Page Industries Ltd.,Peer group too small to rank,"sector below 8 companies: listed, not ranked"
+Textiles and apparel,SWANCORP,Swan Corp Limited,Peer group too small to rank,"sector below 8 companies: listed, not ranked"
+Textiles and apparel,TRIDENT,Trident Ltd,Peer group too small to rank,"sector below 8 companies: listed, not ranked"
+Textiles and apparel,VTL,Vardhman Textiles Limted,Peer group too small to rank,"sector below 8 companies: listed, not ranked"
+Textiles and apparel,WELSPUNLIV,WELSPUN LIVING LIMITED,Peer group too small to rank,"sector below 8 companies: listed, not ranked"
+Transport and logistics,CONCOR,Container Corporation Of India Ltd.,Held back: implausible or inconsistent value,"pollution (waste): value far below peer median, possibly under-reported or head-office only (1/2,500 of the peer median)"
+Transport and logistics,AEGISVOPAK,AEGIS VOPAK TERMINALS LIMITED,Pressure not reported,"not reported: climate, energy, water, waste"

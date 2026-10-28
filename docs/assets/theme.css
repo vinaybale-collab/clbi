@@ -1,0 +1,63 @@
+/*
+  CNPI website theme layer: "Rating Report" (chosen by Vinay, 28 Oct 2026).
+  Every visual choice a theme may change lives here: fonts, colours, chart palette, spacing, radii, masthead.
+  To try another theme, replace this one file (site_v2/theme/theme.css) and re-run build.py; style.css only
+  references these custom properties. Charts are HTML/CSS and read the --climate/--energy/... colours below.
+  The earlier "Research publication" theme is kept alongside as theme_research_publication.css.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap");
+
+:root{
+  /* type */
+  --font-text:"Libre Franklin","Helvetica Neue",Arial,sans-serif;          /* body prose */
+  --font-data:"Libre Franklin","Helvetica Neue",Arial,sans-serif;          /* tables, captions, UI */
+  --font-head:"Libre Caslon Text",Georgia,"Times New Roman",serif;         /* headings */
+  --font-num:"Libre Franklin","Helvetica Neue",Arial,sans-serif;           /* large figures */
+  --font-math:"Libre Caslon Text",Georgia,serif;                           /* formulas */
+  --font-quote:"Libre Caslon Text",Georgia,serif;                          /* verbatim quotes */
+  --fs-body:1.0625rem; --lh-body:1.62;
+  --fs-h1:clamp(1.9rem,3.6vw,2.7rem); --fs-h2:clamp(1.35rem,2.2vw,1.7rem); --fs-h3:1.18rem;
+  --fw-head:700; --ls-head:-.005em;
+
+  /* surface and ink */
+  --paper:#FFFFFF; --paper-2:#F3F4F6; --paper-3:#E5E7EB; --white:#FFFFFF;
+  --ink:#111827; --ink-2:#374151; --muted:#4B5563; --faint:#6B7280;
+  --rule:#D1D5DB; --rule-2:#E5E7EB;
+
+  /* brand and roles */
+  --navy:#13315C;
+  --accent-good:#13315C;      /* rank numerals, bars, final score */
+  --accent-2:#3C5A85;         /* list markers, section numbers */
+  --accent-note:#B07A1F;      /* caveat notes */
+  --accent-alert:#B42318;     /* held back, zero, caution */
+  --link:#13315C; --link-underline:rgba(19,49,92,.35);
+  --caution-bg:#FDF2F1; --illus-bg:#FBF1DC;
+  --pill-ok-bg:#E3EAF4; --pill-ok-ink:#13315C; --pill-alert-bg:#FBE4E2; --pill-alert-ink:#8E1B12;
+  --row-hover:#F5F7FA; --shadow:0 8px 24px rgba(17,24,39,.14);
+
+  /* masthead */
+  --bar-bg:#F3F4F6; --bar-ink:#374151; --bar-border:1px solid #E5E7EB;
+  --mast-bg:#13315C; --mast-ink:#FFFFFF; --mast-ink-2:#C9D3E3; --mast-border:0; --nav-active:#FFFFFF;
+  --wm-font:"Libre Franklin",Arial,sans-serif; --wm-weight:800; --wm-size:1.12rem; --wm-case:uppercase; --wm-track:.06em; --wm-mark-display:none;
+  --nav-case:none; --nav-track:0; --nav-size:.9rem;
+  --title-rule:3px solid #13315C;
+
+  /* badges (company pages) */
+  --badge-ink:#13315C; --badge-fill:#13315C; --badge-fill-ink:#FFFFFF;
+  /* position-within-peers track: left = lowest pressure */
+  --track-low:#D8EFD9; --track-high:#F6D5D1; --marker:#13315C;
+
+  /* chart palette: one colour per pressure */
+  --climate:#B07A1F; --energy:#C2452D; --water:#3C7F99; --waste:#2F6B4F; --air:#6B7280; --land:#7A6046;
+  /* confidence tiers 1-5 */
+  --tier1:#13315C; --tier2:#3C7F99; --tier3:#B07A1F; --tier4:#9CA3AF; --tier5:#C2452D;
+
+  /* geometry */
+  --radius:2px;
+  --measure:38rem; --wide:72rem; --page:76rem; --gutter:1.5rem; --gutter-sm:1rem;
+}
+:root{
+  /* hero band and visual layer */
+  --hero-bg:#13315C; --hero-ink:#FFFFFF; --hero-ink-2:#C9D3E3; --tile-bg:#13315C; --tile-gap:rgba(255,255,255,.18); --tile-alert:#F7A399;
+  --ok-ink:#2F6B4F; --accent-alert-soft:#E9C3BE; --badge-case:uppercase;
+}

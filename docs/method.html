@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Method | CNPI v1.2 draft</title>
+<meta name="description" content="Corporate Nature Pressure Index v1.2 (draft). Reported pressure on nature by India’s 500 largest listed companies, compared within peer groups, every number traced to its source.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/theme.css">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="" data-root="">
+<a class="skip" href="#main">Skip to content</a>
+<div class="draftbar" role="note"><div class="wrap">Draft for review. Not for publication: figures may change before release.</div></div>
+<header class="mast">
+  <div class="wrap mast-row">
+    <a class="wordmark" href="index.html">
+      <svg class="wm-mark" viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" fill="var(--accent-good)"/><path d="M6 21 C6 12 12 7 22 7 C22 16 16 21 7 21" fill="none" stroke="var(--paper)" stroke-width="1.8"/><path d="M7 21 L15 13" stroke="var(--accent-note)" stroke-width="1.8"/></svg>
+      <span><span class="wm-title">Corporate Nature Pressure Index</span><span class="wm-sub">CNPI v1.2 · FY2025-26 disclosures · working draft</span></span>
+    </a>
+    <div class="mast-search" data-search data-placeholder="Find a company"></div>
+  </div>
+  <nav class="wrap nav" aria-label="Main"><a href="index.html">Findings</a><a href="method.html" aria-current="page">Method</a><a href="data-quality.html">Data quality</a><a href="data-needs.html">Data needs</a><a href="pressures.html">Parameters</a><a href="groups.html">Peer groups</a><a href="companies.html">Companies</a><a href="downloads.html">Downloads</a></nav>
+</header>
+<main id="main">
+
+<article class="article"><div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Findings</a><span aria-hidden="true">/</span>Method</nav>
+<div class="paper mpaper" style="max-width:52rem">
+<h1>Method</h1>
+<p class="standfirst">How the Corporate Nature Pressure Index started as a land and biodiversity index, why it measures reported pressure instead, and how it turns 500 companies’ BRSR filings into 409 ranks in peer groups.</p>
+<div class="dlbox"><p><strong>This page is the short version.</strong> The full methods paper gives every rule, table, test and source, with a worked example, the exclusion lists, the land evidence, the nature-cost prices and the robustness checks. Section numbers below refer to it.</p>
+<p class="dlrow"><a class="dlbtn primary" href="downloads/CNPI_v1.2_Methodology.pdf">Download the full paper (PDF)</a> <a class="dlbtn" href="downloads/CNPI_v1.2_Methodology.html">standalone HTML</a> <a class="dlbtn" href="downloads/CNPI_v1.2_Methodology.md">Markdown</a> <a class="dlbtn" href="method-paper.html">Read the full paper online</a></p></div>
+<p>This chapter gives the whole method in a few pages: the starting idea and the reason for the change of name, the formula, the sources, the adjustments we make to reported figures, the rules that keep companies out of a rank, the path from 500 companies to 409, and the rules that apply to particular sectors. The numbered sections give the detail and the evidence.</p>
+<h2 id="from-land-and-biodiversity-to-nature-pressure">From land and biodiversity to nature pressure</h2>
+<p>We set out to build a <strong>Corporate Land and Biodiversity Index</strong> (CLBI). The aim was to compare India’s largest listed companies on the land they hold, where their sites sit against sensitive habitats, and what their operations do to biodiversity. Land-use change is the largest direct driver of biodiversity loss on land (IPBES 2019), so land was the natural place to start.</p>
+<p>We could not find the data to do it.</p>
+<ul>
+<li>The BRSR, the sustainability report SEBI requires of large listed companies, has no field for hectares, coordinates, land-use change or restoration. It asks for the <em>number</em> of plants and offices and for a free-text table of operations in or near ecologically sensitive areas (Section 10.1).</li>
+<li>An independent search of annual reports, mining-lease tables and environmental-clearance letters for all 500 companies found a company-wide figure for land held for <strong>13 companies (2.6%)</strong>, after we checked each figure by hand. It found printed coordinates for <strong>10 of 326</strong> named sites.</li>
+<li>Of 87 statements about operating near a sensitive area, 18 from 14 companies say yes. None gives coordinates.</li>
+</ul>
+<p>A land or biodiversity score built on 13 companies would rank disclosure, and only for a handful of firms. In version 1.1, restoration, recycling and renewable electricity earned up to 10 bonus points on top of the pressure score. With so little land evidence to stand on, and with recycling and renewables now netted inside their own pressures, we set that bonus to zero in version 1.2.</p>
+<p>Almost every company does report four quantities in a machine-readable filing: greenhouse-gas emissions, energy from non-renewable sources, water consumed, and waste it did not recover. IPBES (2019) lists climate change, pollution and the use of natural resources among the direct drivers of nature loss, and these four quantities measure them in a company’s own operations. We built the index on them and renamed it the <strong>Corporate Nature Pressure Index</strong> (CNPI). The name states the scope: pressure the company itself reports. CNPI does not measure the state of nature or a company’s biodiversity impact. Land stays in the index as evidence beside the rank (Section 10), with a site-level biodiversity metric ready for the day companies report site areas and coordinates (Section 10.3).</p>
+<h2 id="the-formula">The formula</h2>
+<p>For company <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math> in peer group <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math> and pressure <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math>:</p>
+<ol type="1">
+<li><strong>Net pressure</strong> <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>Q</mi><mrow><mi>i</mi><mo>,</mo><mi>p</mi></mrow></msub><annotation encoding="application/x-tex">Q_{i,p}</annotation></semantics></math>, from the company’s FY2025-26 BRSR (table below).</li>
+<li><strong>Intensity</strong>, per ₹ crore of revenue from operations on the same boundary as the BRSR: <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>I</mi><mrow><mi>i</mi><mo>,</mo><mi>p</mi></mrow></msub><mo>=</mo><mfrac><msub><mi>Q</mi><mrow><mi>i</mi><mo>,</mo><mi>p</mi></mrow></msub><msub><mrow><mi mathvariant="normal">R</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">v</mi></mrow><mi>i</mi></msub></mfrac></mrow><annotation encoding="application/x-tex">I_{i,p} = \frac{Q_{i,p}}{\mathrm{Rev}_i}</annotation></semantics></math></li>
+<li><strong>Score</strong> within the group. Sort the <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>k</mi><annotation encoding="application/x-tex">k</annotation></semantics></math> companies with a usable intensity from lowest to highest; <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ρ</mi><mrow><mi>i</mi><mo>,</mo><mi>p</mi></mrow></msub><annotation encoding="application/x-tex">\rho_{i,p}</annotation></semantics></math> is the company’s position, and tied values share the average position: <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>s</mi><mrow><mi>i</mi><mo>,</mo><mi>p</mi></mrow></msub><mo>=</mo><mn>100</mn><mo>×</mo><mfrac><mrow><mi>k</mi><mo>−</mo><msub><mi>ρ</mi><mrow><mi>i</mi><mo>,</mo><mi>p</mi></mrow></msub></mrow><mrow><mi>k</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow><annotation encoding="application/x-tex">s_{i,p} = 100 \times \frac{k - \rho_{i,p}}{k - 1}</annotation></semantics></math> The lowest intensity scores 100 and the highest 0.</li>
+<li><strong>Final score</strong>, the unweighted mean over the pressures the group requires (four, or three where pollution is unscored): <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>F</mi><mi>i</mi></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mo stretchy="true" form="prefix">|</mo><msub><mi>ℛ</mi><mi>g</mi></msub><mo stretchy="true" form="postfix">|</mo></mrow></mfrac><munder><mo>∑</mo><mrow><mi>p</mi><mo>∈</mo><msub><mi>ℛ</mi><mi>g</mi></msub></mrow></munder><msub><mi>s</mi><mrow><mi>i</mi><mo>,</mo><mi>p</mi></mrow></msub></mrow><annotation encoding="application/x-tex">F_i = \frac{1}{|\mathcal{R}_g|} \sum_{p \in \mathcal{R}_g} s_{i,p}</annotation></semantics></math></li>
+<li><strong>Rank</strong> within the group by <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>F</mi><mi>i</mi></msub><annotation encoding="application/x-tex">F_i</annotation></semantics></math> rounded to six decimals. Rank 1 is the lowest reported pressure per rupee of revenue.</li>
+</ol>
+<div class="tw"><table>
+
+<thead>
+<tr class="header">
+<th>Pressure</th>
+<th>BRSR item</th>
+<th>Gross figure</th>
+<th>Offset that reduces it</th>
+<th>Net figure we score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Climate</td>
+<td>P6 EI 7</td>
+<td>Scope 1 + Scope 2, tCO2e</td>
+<td>none</td>
+<td>Scope 1 + Scope 2</td>
+</tr>
+<tr class="even">
+<td>Energy</td>
+<td>P6 EI 1</td>
+<td>total energy, GJ</td>
+<td>energy from renewable sources</td>
+<td>non-renewable energy</td>
+</tr>
+<tr class="odd">
+<td>Water</td>
+<td>P6 EI 3</td>
+<td>withdrawal, kL</td>
+<td>water returned</td>
+<td>consumption, capped at withdrawal</td>
+</tr>
+<tr class="even">
+<td>Pollution</td>
+<td>P6 EI 9</td>
+<td>waste generated, t</td>
+<td>waste recovered</td>
+<td>generated minus recovered, never below 0</td>
+</tr>
+<tr class="odd">
+<td>Air (separate rank)</td>
+<td>P6 EI 6</td>
+<td>NOx + SOx + PM, t</td>
+<td>none</td>
+<td>NOx + SOx + PM</td>
+</tr>
+</tbody>
+</table></div>
+<p>An offset reduces only the pressure it belongs to. Renewable power cannot make up for unrecovered waste. Sections 4 and 7 give the full definitions.</p>
+<h2 id="where-the-data-come-from">Where the data come from</h2>
+<div class="tw"><table>
+
+<thead>
+<tr class="header">
+<th>Source</th>
+<th>What we take from it</th>
+<th>Coverage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>BRSR XBRL file filed with NSE</td>
+<td>the four pressures and air, with the unit the filing declares</td>
+<td>465 of 500 companies have a parseable file; 84.2% of the 4,268 core values are machine-readable with an explicit unit (tier 1)</td>
+</tr>
+<tr class="even">
+<td>Filed BRSR PDF</td>
+<td>unit checks on XBRL values (tier 2, 8.2%); corrections of unit slips (tier 5, 1.0%)</td>
+<td>Climate needs the most checking: 246 filings tag Scope 1 and 2 with the ambiguous unit “MtCO2e”</td>
+</tr>
+<tr class="odd">
+<td>Annual and sustainability reports</td>
+<td>values the XBRL left blank, each with a URL and a verbatim quote (tier 3, 5.6%)</td>
+<td>1,007 of 3,870 candidate values accepted</td>
+</tr>
+<tr class="even">
+<td>Annual financial filing with NSE</td>
+<td>revenue from operations on the BRSR’s own boundary</td>
+<td>usable for 487 companies</td>
+</tr>
+<tr class="odd">
+<td>NSE Indices classification and BRSR product lines (NIC codes, turnover shares)</td>
+<td>peer groups</td>
+<td>29 groups; 54 companies moved to the group of their main activity</td>
+</tr>
+<tr class="even">
+<td>Annual reports, mining-lease tables, environmental-clearance letters</td>
+<td>land and site evidence, outside the score</td>
+<td>all 500 searched</td>
+</tr>
+<tr class="odd">
+<td>Published damage prices</td>
+<td>the illustrative nature cost, outside the score</td>
+<td>Section 11</td>
+</tr>
+</tbody>
+</table></div>
+<p>Every value carries its source URL, the XBRL fact or the PDF page with a verbatim quote, the transformation applied and the SHA-256 fingerprint of the source file (<code>CLBI_v1_company_data.csv</code>). Sections 3.1 to 3.7 describe each route.</p>
+<h2 id="adjustments-to-reported-figures">Adjustments to reported figures</h2>
+<p>We change a reported figure only by a stated rule, and the dataset shows the figure before and after.</p>
+<ul>
+<li><strong>Offsets.</strong> Renewable energy, water returned and waste recovered come off their own pressure, in full (Section 4.6).</li>
+<li><strong>Water above withdrawal.</strong> Where consumption is 1.05 to 10 times withdrawal, the company has counted recycled water as consumed. We score withdrawal (15 companies).</li>
+<li><strong>Water at exactly 20% of withdrawal.</strong> The company has applied an assumed 80% discharge in place of a measurement. We give no offset and score withdrawal (30 companies, 24 ranked).</li>
+<li><strong>Waste recovered above generated</strong>, up to 1.5 times: the net pressure is zero.</li>
+<li><strong>Zero Scope 2</strong> stands where renewables supply at least 90% of energy or electricity (7 of 11 zero values).</li>
+<li><strong>Energy tables</strong> corrected to the filed PDF count as a set: if the corrected total fails, we drop the corrected split too (13 companies corrected).</li>
+<li><strong>Seawater</strong>, for the nature cost only. We remove the seawater inside reported consumption from priced water for 7 large water users. Ranks are unaffected.</li>
+</ul>
+<h2 id="values-we-hold-back-and-companies-we-caution">Values we hold back, and companies we caution</h2>
+<p>We hold back a value that looks wrong, even if the filing prints it, until the company confirms it. A company with a held-back value on a pressure its group scores loses its rank. Section 6 sets out each rule.</p>
+<div class="tw"><table>
+
+<thead>
+<tr class="header">
+<th>Rule</th>
+<th>Test</th>
+<th>Effect in this build</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>V1 Reported zero</td>
+<td>zero gross figure, or zero Scope 1 or Scope 2 on its own</td>
+<td>marked “to confirm”; 13 companies lose their rank</td>
+</tr>
+<tr class="even">
+<td>V3 Extreme value</td>
+<td>gross intensity above 300 times, or below 1/300 of, the peer median</td>
+<td>16 core values held back</td>
+</tr>
+<tr class="odd">
+<td>V4 Electricity bill</td>
+<td>Scope 2 implies a grid bill larger than revenue</td>
+<td>2 companies</td>
+</tr>
+<tr class="even">
+<td>V5 Grid electricity</td>
+<td>Scope 2 implies more than 1.5 times total energy</td>
+<td>3 companies</td>
+</tr>
+<tr class="odd">
+<td>V6 Water</td>
+<td>consumption above 10 times withdrawal</td>
+<td>4 companies</td>
+</tr>
+<tr class="even">
+<td>V8 Waste</td>
+<td>recovered above 1.5 times generated</td>
+<td>4 companies</td>
+</tr>
+<tr class="odd">
+<td>V11 Revenue</td>
+<td>revenue year or boundary does not match the BRSR</td>
+<td>13 companies</td>
+</tr>
+<tr class="even">
+<td>V12 Scope 1 and fuel</td>
+<td>Scope 1 above 0.12 t per GJ of fossil energy, outside process-emission groups</td>
+<td>caution, rank kept; 15 companies</td>
+</tr>
+<tr class="odd">
+<td>V13 Naming caution</td>
+<td>unusual business model or boundary, or a value 100 to 300 times from the peer median</td>
+<td>caution, rank kept; 31 ranked companies</td>
+</tr>
+</tbody>
+</table></div>
+<p>A naming caution leaves the rank alone. It tells you not to single the company out by name, for example as a sector leader, until someone checks it.</p>
+<h2 id="from-500-companies-to-409">From 500 companies to 409</h2>
+<p>Each company passes through the same tests in the same order. We count it at the first test it fails.</p>
+<div class="tw"><table>
+
+<thead>
+<tr class="header">
+<th>Test</th>
+<th style="text-align: right;">Remaining</th>
+<th style="text-align: right;">Dropped</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Universe: top 500 NSE companies by average market capitalisation, January–June 2026 (AMFI)</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>A FY2025-26 BRSR source covers the required pressures</td>
+<td style="text-align: right;">475</td>
+<td style="text-align: right;">25</td>
+</tr>
+<tr class="odd">
+<td>Every required pressure reported</td>
+<td style="text-align: right;">464</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr class="even">
+<td>Revenue matched to the BRSR year and boundary</td>
+<td style="text-align: right;">463</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td>No held-back value on a required pressure</td>
+<td style="text-align: right;">442</td>
+<td style="text-align: right;">21</td>
+</tr>
+<tr class="even">
+<td>No reported zero awaiting confirmation</td>
+<td style="text-align: right;">429</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr class="odd">
+<td>Peer group and NSE sector each have at least 8 members</td>
+<td style="text-align: right;">416</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr class="even">
+<td>At least 8 companies in the group with complete, clean data: <strong>ranked</strong></td>
+<td style="text-align: right;"><strong>409</strong></td>
+<td style="text-align: right;">7</td>
+</tr>
+</tbody>
+</table></div><figure class="chart" id="fig-funnel"><svg viewBox="0 0 700 288" width="100%" role="img" aria-label="Funnel from 500 companies to 409 ranked" xmlns="http://www.w3.org/2000/svg" style="font-family:Hanken Grotesk, Inter, sans-serif;font-size:11px;fill:#182720"><title>Funnel from 500 companies to 409 ranked</title><text x="292.0" y="39.0" text-anchor="end" font-size="10.5" fill="#182720" font-weight="400" >Universe: top 500 NSE companies</text><path d="M300,26 h316.0 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-316.0 z" fill="#3E6B52"/><text x="628.0" y="39.0" text-anchor="start" font-size="10.5" fill="#182720" font-weight="600" >500</text><text x="292.0" y="69.0" text-anchor="end" font-size="10.5" fill="#182720" font-weight="400" >A FY2025-26 BRSR source covers the required pressures</text><path d="M300,56 h300.0 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-300.0 z" fill="#3E6B52"/><rect x="606.0" y="56" width="16.0" height="18" fill="#C03B21" opacity="0.55"/><text x="628.0" y="69.0" text-anchor="start" font-size="10.5" fill="#4E5C55" font-weight="400" >475  (−25)</text><text x="292.0" y="99.0" text-anchor="end" font-size="10.5" fill="#182720" font-weight="400" >Every required pressure reported</text><path d="M300,86 h292.96 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-292.96 z" fill="#3E6B52"/><rect x="598.96" y="86" width="7.04" height="18" fill="#C03B21" opacity="0.55"/><text x="612.0" y="99.0" text-anchor="start" font-size="10.5" fill="#4E5C55" font-weight="400" >464  (−11)</text><text x="292.0" y="129.0" text-anchor="end" font-size="10.5" fill="#182720" font-weight="400" >Revenue matched to the BRSR year</text><path d="M300,116 h292.32 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-292.32 z" fill="#3E6B52"/><rect x="598.3199999999999" y="116" width="0.64" height="18" fill="#C03B21" opacity="0.55"/><text x="605.0" y="129.0" text-anchor="start" font-size="10.5" fill="#4E5C55" font-weight="400" >463  (−1)</text><text x="292.0" y="159.0" text-anchor="end" font-size="10.5" fill="#182720" font-weight="400" >No held-back value on a required pressure</text><path d="M300,146 h278.88 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-278.88 z" fill="#3E6B52"/><rect x="584.88" y="146" width="13.44" height="18" fill="#C03B21" opacity="0.55"/><text x="604.3" y="159.0" text-anchor="start" font-size="10.5" fill="#4E5C55" font-weight="400" >442  (−21)</text><text x="292.0" y="189.0" text-anchor="end" font-size="10.5" fill="#182720" font-weight="400" >No reported zero awaiting confirmation</text><path d="M300,176 h270.56 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-270.56 z" fill="#3E6B52"/><rect x="576.56" y="176" width="8.32" height="18" fill="#C03B21" opacity="0.55"/><text x="590.9" y="189.0" text-anchor="start" font-size="10.5" fill="#4E5C55" font-weight="400" >429  (−13)</text><text x="292.0" y="219.0" text-anchor="end" font-size="10.5" fill="#182720" font-weight="400" >Peer group and NSE sector have at least 8 members</text><path d="M300,206 h262.24 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-262.24 z" fill="#3E6B52"/><rect x="568.24" y="206" width="8.32" height="18" fill="#C03B21" opacity="0.55"/><text x="582.6" y="219.0" text-anchor="start" font-size="10.5" fill="#4E5C55" font-weight="400" >416  (−13)</text><text x="292.0" y="249.0" text-anchor="end" font-size="10.5" fill="#182720" font-weight="400" >At least 8 complete companies in the group: ranked</text><path d="M300,236 h257.76 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-257.76 z" fill="#1C3F2C"/><rect x="563.76" y="236" width="4.48" height="18" fill="#C03B21" opacity="0.55"/><text x="574.2" y="249.0" text-anchor="start" font-size="10.5" fill="#4E5C55" font-weight="600" >409  (−7)</text><rect x="300" y="261" width="10" height="10" rx="2" fill="#3E6B52"/><text x="315.0" y="270.0" text-anchor="start" font-size="10.5" fill="#4E5C55" font-weight="400" >Companies remaining</text><rect x="439.8" y="261" width="10" height="10" rx="2" fill="#C03B21"/><text x="454.8" y="270.0" text-anchor="start" font-size="10.5" fill="#4E5C55" font-weight="400" >Dropped at this test</text></svg><figcaption><p><strong>Figure 3.3. From 500 companies to 409 ranked.</strong> We count each company at the first test it fails, in data order (Section 8 gives the build’s own reasons).</p></figcaption></figure>
+<p>The published exclusion list gives each of the 91 companies one main reason instead: a held-back value (24), a peer group too small to rank (25), a pressure not reported (16), revenue that does not match the BRSR (13), or a zero awaiting confirmation (13). The two views count the same 91 companies in different orders (Section 8). The 409 ranked companies sit in 24 peer groups.</p>
+<h2 id="rules-for-particular-sectors">Rules for particular sectors</h2>
+<div class="tw"><table>
+
+<thead>
+<tr class="header">
+<th>Groups</th>
+<th>Rule</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>All</td>
+<td>Compare a company only with peers whose main business is of the same kind</td>
+<td>Intensities differ between sectors by three to four orders of magnitude; a cross-sector rank would rank sectors</td>
+</tr>
+<tr class="even">
+<td>Power; non-ferrous metals and mining; construction and engineering; real estate</td>
+<td>Pollution unscored; three pressures make the score</td>
+<td>Companies put fly ash, overburden and tailings, or construction debris inside the waste table or leave them out (rule V9)</td>
+</tr>
+<tr class="odd">
+<td>Cement; steel; non-ferrous metals and mining; commodity chemicals and fertilisers; oil, gas and fuels</td>
+<td>Exempt from the Scope 1 fuel check</td>
+<td>Process emissions are expected</td>
+</tr>
+<tr class="even">
+<td>Cement; power</td>
+<td>A second view per tonne of cement and per MWh generated</td>
+<td>A recognised physical yardstick that companies disclose (Section 9)</td>
+</tr>
+<tr class="odd">
+<td>Five financial-services groups</td>
+<td>Scored on their operational footprint and flagged as not comparable with the real economy; nature cost shown as a share of revenue</td>
+<td>Financed impacts fall outside the index</td>
+</tr>
+<tr class="even">
+<td>Real estate</td>
+<td>Land banks reported in their own category (R), apart from operating land</td>
+<td>Land held for development differs from land used in operations</td>
+</tr>
+<tr class="odd">
+<td>Building products; diversified conglomerates; investment and holding companies; textiles and apparel; telecom and media</td>
+<td>Listed with scores where available, not ranked</td>
+<td>Fewer than 8 members, or fewer than 8 with complete data</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="two-products-kept-apart">Two products, kept apart</h2>
+<p>The <strong>pressure index</strong> ranks physical quantities. The <strong>illustrative nature cost</strong> multiplies the same quantities by published damage prices: carbon at the share of climate damage borne in India (₹5,400 per tCO2e), water at a scarcity value (₹358 per kL), non-renewable energy at a depletion value (₹80 per GJ), unrecovered waste at ₹600 per tonne and air pollutants at Indian health-damage values. We report it as a share of EBITDA, by peer group, with two sensitivity lenses (Section 11). A price never enters a rank.</p>
+<h2 id="changes-from-version-1.1">Changes from version 1.1</h2>
+<div class="tw"><table>
+
+<thead>
+<tr class="header">
+<th>Area</th>
+<th>Version 1.1</th>
+<th>Version 1.2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Name</td>
+<td>Corporate Land and Biodiversity Index</td>
+<td>Corporate Nature Pressure Index</td>
+</tr>
+<tr class="even">
+<td>Pressures</td>
+<td>three (climate, water, waste), gross, plus up to 10 bonus points for restoration, recycling and renewable electricity</td>
+<td>four (climate, energy, water, pollution), net: each offset reduces its own pressure; bonus retired</td>
+</tr>
+<tr class="odd">
+<td>Land</td>
+<td>restoration bonus; land priced in a pilot</td>
+<td>evidence only, no score and no price</td>
+</tr>
+<tr class="even">
+<td>Peer groups</td>
+<td>NSE sectors, financial services split; at least 10 complete companies; 373 ranked in 16 groups</td>
+<td>29 groups by main activity; at least 8; 409 ranked in 24 groups</td>
+</tr>
+<tr class="odd">
+<td>Validation</td>
+<td>300× rule, zero check, Scope 2 bill test</td>
+<td>adds V2, V5, V7, V9 (pollution unscored in four groups) and V12; the NIC-based “trading” flag retired</td>
+</tr>
+<tr class="even">
+<td>Nature cost</td>
+<td>carbon at the global social cost (₹22,600 per t), about 98% of the total; water ₹40 per kL; waste not priced</td>
+<td>carbon at the India-borne share (₹5,400 per t); water at scarcity value (₹358 per kL); energy depletion and waste priced; shown as a share of EBITDA; seawater removed</td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="dlbox"><p class="dlrow"><a class="dlbtn primary" href="downloads/CNPI_v1.2_Methodology.pdf">Download the full paper (PDF)</a> <a class="dlbtn" href="downloads/CNPI_v1.2_Methodology.html">standalone HTML</a> <a class="dlbtn" href="downloads/CNPI_v1.2_Methodology.md">Markdown</a> <a class="dlbtn" href="method-paper.html">Read the full paper online</a></p></div>
+</div></div></article>
+</main>
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-title">Corporate Nature Pressure Index (CNPI), v1.2</p>
+      <p>Reported pressure on nature by India’s 500 largest listed companies, compared within peer groups.</p>
+      <p>Urvara.Life with Landstack, prepared for ILDC 2026. <strong>Draft, not for publication.</strong></p>
+    </div>
+    <div>
+      <p>Data: Business Responsibility and Sustainability Reports for FY2025-26 (1 April 2025 to 31 March 2026), annual financial filings and company reports. Every value is the company’s own disclosure unless marked otherwise.</p>
+      <p>Built 28 October 2026. <a href="method.html">Method</a> · <a href="data-quality.html">Data quality</a> · <a href="downloads.html">Downloads</a></p>
+    </div>
+  </div>
+</footer>
+<script src="assets/companies.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Pressures | CNPI v1.2 draft</title>
+<meta name="description" content="Corporate Nature Pressure Index v1.2 (draft). Reported pressure on nature by India’s 500 largest listed companies, compared within peer groups, every number traced to its source.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/theme.css">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="" data-root="">
+<a class="skip" href="#main">Skip to content</a>
+<div class="draftbar" role="note"><div class="wrap">Draft for review. Not for publication: figures may change before release.</div></div>
+<header class="mast">
+  <div class="wrap mast-row">
+    <a class="wordmark" href="index.html">
+      <svg class="wm-mark" viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" fill="var(--accent-good)"/><path d="M6 21 C6 12 12 7 22 7 C22 16 16 21 7 21" fill="none" stroke="var(--paper)" stroke-width="1.8"/><path d="M7 21 L15 13" stroke="var(--accent-note)" stroke-width="1.8"/></svg>
+      <span><span class="wm-title">Corporate Nature Pressure Index</span><span class="wm-sub">CNPI v1.2 · FY2025-26 disclosures · working draft</span></span>
+    </a>
+    <div class="mast-search" data-search data-placeholder="Find a company"></div>
+  </div>
+  <nav class="wrap nav" aria-label="Main"><a href="index.html">Findings</a><a href="method.html">Method</a><a href="data-quality.html">Data quality</a><a href="data-needs.html">Data needs</a><a href="pressures.html" aria-current="page">Parameters</a><a href="groups.html">Peer groups</a><a href="companies.html">Companies</a><a href="downloads.html">Downloads</a></nav>
+</header>
+<main id="main">
+
+<article class="article"><div class="wrap">
+<nav class="crumbs"><a href="index.html">Findings</a><span aria-hidden="true">/</span>Parameters</nav>
+<header class="col"><h1>Parameters</h1>
+<p class="standfirst">The index read the other way round: one page per parameter, with its spread across peer groups, its limits and its held-back values.</p></header>
+<div class="tblock ">
+<p class="tb-cap"><span class="fig-n">Table 1.</span> Parameters</p>
+<div class="tscroll"><table class="tbl"><thead><tr><th>Pressure</th><th>Definition</th><th class="r">Companies with a value</th><th class="r">Scored</th></tr></thead><tbody><tr><td class="co"><a href="pressure/climate.html"><span class="sw sw-climate" style="margin-right:.45rem"></span>Climate</a></td><td>Scope 1 and Scope 2 greenhouse-gas emissions, in tonnes of CO₂ equivalent.</td><td class="r">473</td><td class="r">437</td></tr><tr><td class="co"><a href="pressure/energy.html"><span class="sw sw-energy" style="margin-right:.45rem"></span>Energy</a></td><td>Energy consumed from non-renewable sources, in gigajoules.</td><td class="r">473</td><td class="r">447</td></tr><tr><td class="co"><a href="pressure/water.html"><span class="sw sw-water" style="margin-right:.45rem"></span>Water</a></td><td>Water consumed, in kilolitres: water withdrawn minus water discharged, capped at withdrawal.</td><td class="r">473</td><td class="r">446</td></tr><tr><td class="co"><a href="pressure/pollution.html"><span class="sw sw-waste" style="margin-right:.45rem"></span>Pollution</a></td><td>Waste generated minus waste recovered (recycled, re-used or otherwise recovered), in tonnes.</td><td class="r">472</td><td class="r">392</td></tr><tr><td class="co"><a href="pressure/air.html"><span class="sw sw-air" style="margin-right:.45rem"></span>Air</a></td><td>Annual tonnes of NOx, SOx and particulate matter, summed.</td><td class="r">245</td><td class="r">178</td></tr><tr><td class="co"><a href="pressure/land.html"><span class="sw sw-land" style="margin-right:.45rem"></span>Land and sites</a></td><td>Land held, site areas and proximity to sensitive areas; evidence only, not scored.</td><td class="r">13</td><td class="r">–</td></tr></tbody></table></div>
+<p class="fig-src">Land: companies printing a company-wide land total. Source: CNPI v1.2 dataset.</p>
+</div>
+<div class="sec-head"><span class="sec-n"></span><h2>How the pressures were read</h2></div><div class="ins col paper"><p><em>Draft for internal review, 28 October 2026. Not for publication. Refreshed on the final CNPI v1.2 build (outputs_v12, built 2026-10-28T12:01:19Z; 409 companies ranked in 24 groups).</em></p>
+<p>This note reads the CNPI v1.2 data backwards. Instead of asking which company ranks where, it takes one environmental parameter at a time and asks five questions: what the BRSR asks for and what companies actually put in it; which boundary choices change the number; how far apart sectors sit on intensity; where the data contradict themselves; and what the number can and cannot carry.</p>
+<p><strong>Sources and method.</strong> Every number below is computed with pandas from the files in <code>outputs_v12/</code> (scores, company data, data queries, land evidence, land sites). The parsed BRSR XBRL for 465 companies (<code>normalized_companies.json</code>) is also used. Where a figure comes from elsewhere, the source is cited with its URL. Three conventions apply throughout:</p>
+<ul>
+<li><strong>Ladders</strong> are medians of intensity per ₹ crore of revenue (Revenue from Operations, on the company's own BRSR basis), by peer group.</li>
+<li>Each ladder includes only companies with a positive value, a verified revenue figure, and no open data query on that element.</li>
+<li>A group is shown only if at least 6 companies qualify. The land list in §6 follows its own rule.</li>
+<li>Financial-services groups show only the operational footprint (offices and data centres).</li>
+<li><strong>"Implied factor" checks</strong> compare one reported table with another inside the same filing: for example, Scope 2 against purchased non-renewable electricity.</li>
+<li>They use the raw XBRL sub-fields.</li>
+<li>They are restricted to the 447 companies whose XBRL total energy agrees, within 2%, with the value CNPI finally used. This excludes companies whose XBRL energy was corrected from the PDF.</li>
+<li><strong>"57-company subset."</strong> Sub-fields that the parser does not normalise were read from the only surviving full-fact audit file:</li>
+<li>water by source, water-stress tables, waste categories, the ecologically-sensitive-area table, and the biodiversity text;</li>
+<li>the file is truncated; its readable part covers 57 companies, alphabetically from 360ONE to BALKRISIND;</li>
+<li>these counts describe that subset only and are not a random sample.</li>
+</ul></div><div class="sec-head"><span class="sec-n"></span><h2>Cross-cutting observations</h2></div><div class="ins col paper"><ul>
+<li><strong>Ladder spans (median intensity, highest to lowest group):</strong></li>
+<li>climate about 5,200×;</li>
+<li>energy about 6,200×;</li>
+<li>water about 660×;</li>
+<li>net waste about 740,000× (gross about 450,000×);</li>
+<li>air about 600,000×.</li>
+<li>Only within-group ranking is defensible.</li>
+<li><strong>The same few groups recur at the top.</strong> Power and Steel are in the top three of the climate, energy, water and air ladders, and Cement is in the top three of climate, energy and air. Non-ferrous metals and mining tops waste and is second in water.</li>
+<li><strong>Within-filing consistency tests catch errors the outlier tests miss.</strong> The tests are Scope 2 ÷ electricity, CO2 ÷ energy, the water balance and the waste balance. Together they flag:</li>
+<li>42 Scope 2 cases;</li>
+<li>66 water-balance cases;</li>
+<li>72 waste-balance cases;</li>
+<li>almost all of them inside the 300× hold-back line, and many of them ranked. The final build's new rules (Scope 2 above 1.5× energy; Scope 1 above 0.12 t/GJ) now catch part of the first two families.</li>
+<li><strong>The fields a nature index most needs are absent from the structured XBRL headline.</strong> These are location (facility coordinates), water source and stress, hazard class and land area. Where they do exist in the filing, they sit in sub-tables or free text.</li>
+</ul></div><p class="col">What a defensible corporate nature index would need, parameter by parameter, is set out in <a href="data-needs.html">the data needs page</a>.</p>
+</div></article>
+</main>
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-title">Corporate Nature Pressure Index (CNPI), v1.2</p>
+      <p>Reported pressure on nature by India’s 500 largest listed companies, compared within peer groups.</p>
+      <p>Urvara.Life with Landstack, prepared for ILDC 2026. <strong>Draft, not for publication.</strong></p>
+    </div>
+    <div>
+      <p>Data: Business Responsibility and Sustainability Reports for FY2025-26 (1 April 2025 to 31 March 2026), annual financial filings and company reports. Every value is the company’s own disclosure unless marked otherwise.</p>
+      <p>Built 28 October 2026. <a href="method.html">Method</a> · <a href="data-quality.html">Data quality</a> · <a href="downloads.html">Downloads</a></p>
+    </div>
+  </div>
+</footer>
+<script src="assets/companies.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>
