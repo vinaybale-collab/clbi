@@ -30,7 +30,7 @@ We could not find the data to do it.
 
 - The BRSR, the sustainability report SEBI requires of large listed companies, has no field for hectares, coordinates, land-use change or restoration. It asks for the *number* of plants and offices and for a free-text table of operations in or near ecologically sensitive areas (Section 10.1).
 - An independent search of annual reports, mining-lease tables and environmental-clearance letters for all 500 companies found a company-wide figure for land held for **13 companies (2.6%)**, after we checked each figure by hand. It found printed coordinates for **10 of 326** named sites.
-- Of 87 statements about operating near a sensitive area, 18 from 14 companies say yes. None gives coordinates.
+- Of 87 statements about operating near a sensitive area, 18 from 13 companies say yes or hedge (15 affirmative from 12 companies; 3 hedged from one). None gives coordinates.
 
 A land or biodiversity score built on 13 companies would rank disclosure, and only for a handful of firms. In version 1.1, restoration, recycling and renewable electricity earned up to 10 bonus points on top of the pressure score. With so little land evidence to stand on, and with recycling and renewables now netted inside their own pressures, we set that bonus to zero in version 1.2.
 
@@ -99,7 +99,7 @@ We hold back a value that looks wrong, even if the filing prints it, until the c
 | V6 Water | consumption above 10 times withdrawal | 4 companies |
 | V8 Waste | recovered above 1.5 times generated | 4 companies |
 | V11 Revenue | revenue year or boundary does not match the BRSR | 13 companies |
-| V12 Scope 1 and fuel | Scope 1 above 0.12 t per GJ of fossil energy, outside process-emission groups | caution, rank kept; 15 companies |
+| V12 Scope 1 and fuel | Scope 1 above 0.12 t per GJ of fossil energy, outside process-emission groups | caution, rank kept; 15 companies, 14 of them ranked |
 | V13 Naming caution | unusual business model or boundary, or a value 100 to 300 times from the peer median | caution, rank kept; 31 ranked companies |
 
 A naming caution leaves the rank alone. It tells you not to single the company out by name, for example as a sector leader, until someone checks it.
@@ -145,7 +145,7 @@ The **pressure index** ranks physical quantities. The **illustrative nature cost
 | Pressures | three (climate, water, waste), gross, plus up to 10 bonus points for restoration, recycling and renewable electricity | four (climate, energy, water, pollution), net: each offset reduces its own pressure; bonus retired |
 | Land | restoration bonus; land priced in a pilot | evidence only, no score and no price |
 | Peer groups | NSE sectors, financial services split; at least 10 complete companies; 373 ranked in 16 groups | 29 groups by main activity; at least 8; 409 ranked in 24 groups |
-| Validation | 300× rule, zero check, Scope 2 bill test | adds V2, V5, V7, V9 (pollution unscored in four groups) and V12; the NIC-based "trading" flag retired |
+| Validation | 300× rule, zero check, Scope 2 bill test | adds V2, V5, V6, V7, V8, V9 (pollution unscored in four groups), V10 and V12; the NIC-based "trading" flag retired |
 | Nature cost | carbon at the global social cost (₹22,600 per t), about 98% of the total; water ₹40 per kL; waste not priced | carbon at the India-borne share (₹5,400 per t); water at scarcity value (₹358 per kL); energy depletion and waste priced; shown as a share of EBITDA; seawater removed |
 
 # 1. Summary
@@ -264,7 +264,7 @@ The parser converts declared units to the base unit with fixed multipliers (for 
 
 ## 3.3 PDF reconciliation
 
-Where the parser could not resolve an XBRL unit, we compared the value with the same column of the filed BRSR PDF. We accepted it if the PDF printed the unit and the number matched (`validated_pdf_unit_overrides.json` and two adjudication files). This route supplies 499 values, 352 of them in the nine core fields (tier 2).
+Where the parser could not resolve an XBRL unit, we compared the value with the same column of the filed BRSR PDF. We accepted it if the PDF printed the unit and the number matched (`validated_pdf_unit_overrides.json` and two adjudication files). This route supplies 410 values for 163 companies, 352 of them in the nine core fields (tier 2). A further 89 records note that the PDF, once checked, gives no figure.
 
 ## 3.4 Gap-fill from public reports
 
@@ -406,7 +406,7 @@ The offsets matter for the 409 ranked companies. 59 of them get at least half th
 
 # 5. Peer groups
 
-**Principle.** We compare a company with companies whose main business is of the same kind. Intensities differ by three to four orders of magnitude between sectors: median Scope 1 + 2 per ₹ crore in cement is about 5,300 times that in insurance (`insights/pressures/PRESSURES.md`). A cross-sector rank would rank sectors.
+**Principle.** We compare a company with companies whose main business is of the same kind. Intensities differ by three to four orders of magnitude between sectors: median Scope 1 + 2 per ₹ crore in cement is 5,242 times that in insurance (`insights/pressures/PRESSURES.md`). A cross-sector rank would rank sectors.
 
 **Method.**
 
@@ -499,15 +499,15 @@ $$G^{\mathrm{S2}}_i = \frac{S2_i}{0.71} \times 3.6\ \tfrac{\mathrm{GJ}}{\mathrm{
 
 (`scope2_energy_ratio_max = 1.5`). *Rationale:* grid electricity is part of total energy consumed, so Scope 2 cannot imply much more grid electricity than all the energy the company used; the margin of 1.5 allows for a different grid factor. **We run the test against a credible energy total**: one within the 300× band of its peers that passes V10. A tiny, implausible energy total would otherwise make a normal Scope 2 look inconsistent. *Effect:* 7 companies exceed 1.5×. One already fails V4, and we do not test three whose energy total is itself held back (THERMAX, KPITTECH, GALLANTT). We hold three: COALINDIA, CANHLIFE and INGERRAND.
 
-**V6. Water consumption above withdrawal.** When a company reports consumption more than 5% above withdrawal, but no more than 10 times it, it has in most cases counted recycled water as consumed. Freshwater drawn is the upper bound, so we score withdrawal (the "capped" case in Section 4.3). *Effect:* 15 companies (all ranked), with consumption 1.05 to 4.12 times withdrawal. Above **10 times** withdrawal, we hold the value as a probable unit error. *Effect:* 4 companies held (BAJFINANCE and BAJAJFINSV, which report zero withdrawal; BEML; PRIVISCL).
+**V6. Water consumption above withdrawal (new in v1.2).** When a company reports consumption more than 5% above withdrawal, but no more than 10 times it, it has in most cases counted recycled water as consumed. Freshwater drawn is the upper bound, so we score withdrawal (the "capped" case in Section 4.3). *Effect:* 15 companies (all ranked), with consumption 1.05 to 4.12 times withdrawal. Above **10 times** withdrawal, we hold the value as a probable unit error. *Effect:* 4 companies held (BAJFINANCE and BAJAJFINSV, which report zero withdrawal; BEML; PRIVISCL).
 
 **V7. Consumption at 20% of withdrawal: scored on withdrawal (new in v1.2).** When reported consumption equals 20% of withdrawal to within 0.05 percentage points (`assumed_consumption_share = 0.20`), the company has applied an assumed 80% discharge in place of a measurement. We credit no offset, score water on withdrawal, and set the flag `water_discharge_assumed`. *Effect:* 30 companies, 24 of them ranked; most are banks, lenders and other office-based businesses. We decided on 28 October to keep the rule. Its narrow reach is a limitation (Section 13): it catches a ratio of 0.20 and no other round ratio, and no one has read the 30 filings for the word "assumed".
 
-**V8. Waste recovered more than 1.5× waste generated.** We hold the value as an inconsistent table, or a stock movement too large to count as current-year recovery. *Effect:* 4 companies (TVSMOTOR, METROBRAND, IGL, PRIVISCL). We accept recovery between 1.0 and 1.5 times generation and set $P_i = 0$.
+**V8. Waste recovered more than 1.5× waste generated (new in v1.2).** We hold the value as an inconsistent table, or a stock movement too large to count as current-year recovery. *Effect:* 4 companies (TVSMOTOR, METROBRAND, IGL, PRIVISCL). We accept recovery between 1.0 and 1.5 times generation and set $P_i = 0$.
 
-**V9. Pollution unscored in four groups.** In power, non-ferrous metals and mining, construction and engineering, and real estate, some companies put their largest waste streams (fly ash; overburden and tailings; construction and demolition debris) inside the BRSR waste table and others leave them out (`pollution_not_comparable`). The filings show the spread. Coal India reports 5,345,920,956 t generated, 91.3% of all waste reported by the 500 companies, and 5,345,918,279 t recovered, a net of about 2,676 t. GMDC, a lignite miner, reports 69 t generated. NTPC reports 57,193 t and Reliance Power 106,741,115 t. Larsen & Toubro reports 596,194 t against 9.7 t for IRCON and 24 t for NBCC. In real estate, Oberoi Realty reports 333,517.467 t generated and 333,517.46 t recovered, a net of 0.007 t. A waste score in these groups would reward whoever left out, or offset in full, the largest stream. We show pollution for these groups, unscored, with the reason, and rank them on climate, energy and water. We added real estate after the independent review (Appendix F).
+**V9. Pollution unscored in four groups (new in v1.2).** In power, non-ferrous metals and mining, construction and engineering, and real estate, some companies put their largest waste streams (fly ash; overburden and tailings; construction and demolition debris) inside the BRSR waste table and others leave them out (`pollution_not_comparable`). The filings show the spread. Coal India reports 5,345,920,956 t generated, 91.3% of all waste reported by the 500 companies, and 5,345,918,279 t recovered, a net of about 2,676 t. GMDC, a lignite miner, reports 69 t generated. NTPC reports 57,193 t and Reliance Power 106,741,115 t. Larsen & Toubro reports 596,194 t against 9.7 t for IRCON and 24 t for NBCC. In real estate, Oberoi Realty reports 333,517.467 t generated and 333,517.46 t recovered, a net of 0.007 t. A waste score in these groups would reward whoever left out, or offset in full, the largest stream. We show pollution for these groups, unscored, with the reason, and rank them on climate, energy and water. We added real estate after the independent review (Appendix F).
 
-**V10. Non-renewable energy above total energy.** We hold the value if $E^{\mathrm{NR}}_i > 1.01\,E^{\mathrm{T}}_i$. *Effect:* none in this build.
+**V10. Non-renewable energy above total energy (new in v1.2).** We hold the value if $E^{\mathrm{NR}}_i > 1.01\,E^{\mathrm{T}}_i$. *Effect:* none in this build.
 
 **V11. Revenue match.** A company without a usable revenue figure (Section 3.6) has no intensity and no rank. *Effect:* 13 companies.
 
@@ -566,7 +566,7 @@ where $E_i$ is its non-renewable energy (`scope1_fuel_max_t_per_gj = 0.12`; colu
 
 
 ::: {.callout .limit}
-**Limitation.** The hold-back rules catch values far from peers or impossible on their face. They miss some inconsistencies inside a filing. A simple cross-table test, Scope 2 divided by purchased non-renewable electricity, falls outside 0.5–1.0 tCO2/MWh for 42 companies, 34 of them ranked, and no rule above holds any of them back (Section 13).
+**Limitation.** The hold-back rules catch values far from peers or impossible on their face. They miss some inconsistencies inside a filing. A simple cross-table test, Scope 2 divided by purchased non-renewable electricity, falls outside 0.5–1.0 tCO2/MWh for 42 companies. Rule V5 holds back three of them (COALINDIA, CANHLIFE, INGERRAND); the other 39, 34 of them ranked, pass every rule above (Section 13).
 :::
 
 # 7. Scoring
@@ -705,7 +705,7 @@ The 13 category A companies are BEL, BHEL, HAL, JSW Steel, Tech Mahindra, Vedant
 **Figure 10.1. Land disclosure across the 500 companies** (categories of Table 10.1).
 :::
 
-**Sites.** 187 companies name at least one site, and 140 give an area for at least one (252 sites, median 21.0 ha). 9 companies print coordinates, for 10 sites. The "near a sensitive area" field holds 87 statements from 59 companies. On reading, 49 are denials and 20 are placeholders. That leaves 18 affirmative statements from 14 companies, none with coordinates (`insights/pressures/PRESSURES.md`, §6). We found a restoration area on own land for 37 companies.
+**Sites.** 187 companies name at least one site, and 140 give an area for at least one (252 sites, median 21.0 ha). 9 companies print coordinates, for 10 sites. The "near a sensitive area" field holds 87 statements from 59 companies. On reading, 49 are denials and 20 are placeholders. That leaves 18 affirmative or hedged statements from 13 companies (15 affirmative from 12; 3 hedged from one), none with coordinates (`insights/pressures/PRESSURES.md`, §6). We found a restoration area on own land for 37 companies.
 
 **Limits of the evidence.** Some category A figures sit on a different boundary from the BRSR. JSW Steel's covers its India operations including subsidiaries, against a standalone BRSR; Tech Mahindra's covers 13 Indian locations, against a consolidated BRSR. Field types differ too: a petroleum mining lease (Oil India, 482,884 ha) or a subsidiary's concession (NAVA, 36,000 ha) is a licence area, so both sit in category B. We publish no ratio of land to revenue.
 
@@ -930,7 +930,7 @@ We computed three alternative constructions for every ranked group (`CLBI_v1_rob
 - **Self-reported data.** We take values as published. Auditors assure many of them under BRSR Core (SEBI 2023), but we do not audit them. More than half the ranked companies (221 of 409) rest on at least one value that needed reconciliation, a unit rule, a correction or a public-report fill.
 - **Revenue as denominator** favours companies that sell high-value products. Cement and power have a physical alternative (Section 9); the other groups have none.
 - **Mixed boundaries.** Standalone and consolidated filers sit in the same groups (312 and 96 among the ranked). With these data you cannot separate the boundary effect from business mix.
-- **Undeclared Scope 2.** In practice most Scope 2 figures are location-based and use the previous year's grid factor (0.710 for FY2024-25; 0.675 for FY2025-26, CEA 2026). A within-filing test (Scope 2 ÷ purchased non-renewable electricity outside 0.5–1.0 tCO2/MWh) flags 42 companies, 34 of them ranked, that no hold-back rule catches.
+- **Undeclared Scope 2.** In practice most Scope 2 figures are location-based and use the previous year's grid factor (0.710 for FY2024-25; 0.675 for FY2025-26, CEA 2026). A within-filing test (Scope 2 ÷ purchased non-renewable electricity outside 0.5–1.0 tCO2/MWh) flags 42 companies. Rule V5 holds back three of them; the other 39, 34 of them ranked, pass every hold-back rule.
 - **Captive power** moves emissions between Scope 1 and Scope 2 according to who owns the plant, whatever it emits.
 - **Unknown water location.** Company totals carry no basin, so a kilolitre in a stressed basin counts the same as one in an abundant basin.
 - **"Recovered" waste** includes fly ash sent to cement and overburden used as backfill. A near-total offset may reward a reporting category as much as a practice; 62 companies have net waste of zero or less before the zero floor.

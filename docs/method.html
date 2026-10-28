@@ -34,14 +34,14 @@
 <p class="standfirst">How the Corporate Nature Pressure Index started as a land and biodiversity index, why it measures reported pressure instead, and how it turns 500 companies’ BRSR filings into 409 ranks in peer groups.</p>
 <div class="dlbox"><p><strong>This page is the short version.</strong> The full methods paper gives every rule, table, test and source, with a worked example, the exclusion lists, the land evidence, the nature-cost prices and the robustness checks. Section numbers below refer to it.</p>
 <p class="dlrow"><a class="dlbtn primary" href="downloads/CNPI_v1.2_Methodology.pdf">Download the full paper (PDF)</a> <a class="dlbtn" href="downloads/CNPI_v1.2_Methodology.html">standalone HTML</a> <a class="dlbtn" href="downloads/CNPI_v1.2_Methodology.md">Markdown</a> <a class="dlbtn" href="method-paper.html">Read the full paper online</a></p></div>
-<p>This chapter gives the whole method in a few pages: the starting idea and the reason for the change of name, the formula, the sources, the adjustments we make to reported figures, the rules that keep companies out of a rank, the path from 500 companies to 409, and the rules that apply to particular sectors. The numbered sections give the detail and the evidence.</p>
+<p>This page gives the whole method in brief: the starting idea and the reason for the change of name, the formula, the sources, the adjustments we make to reported figures, the rules that keep companies out of a rank, the path from 500 companies to 409, and the rules that apply to particular sectors. The numbered sections of the full paper give the detail and the evidence.</p>
 <h2 id="from-land-and-biodiversity-to-nature-pressure">From land and biodiversity to nature pressure</h2>
 <p>We set out to build a <strong>Corporate Land and Biodiversity Index</strong> (CLBI). The aim was to compare India’s largest listed companies on the land they hold, where their sites sit against sensitive habitats, and what their operations do to biodiversity. Land-use change is the largest direct driver of biodiversity loss on land (IPBES 2019), so land was the natural place to start.</p>
 <p>We could not find the data to do it.</p>
 <ul>
 <li>The BRSR, the sustainability report SEBI requires of large listed companies, has no field for hectares, coordinates, land-use change or restoration. It asks for the <em>number</em> of plants and offices and for a free-text table of operations in or near ecologically sensitive areas (Section 10.1).</li>
 <li>An independent search of annual reports, mining-lease tables and environmental-clearance letters for all 500 companies found a company-wide figure for land held for <strong>13 companies (2.6%)</strong>, after we checked each figure by hand. It found printed coordinates for <strong>10 of 326</strong> named sites.</li>
-<li>Of 87 statements about operating near a sensitive area, 18 from 14 companies say yes. None gives coordinates.</li>
+<li>Of 87 statements about operating near a sensitive area, 18 from 13 companies say yes or hedge (15 affirmative from 12 companies; 3 hedged from one). None gives coordinates.</li>
 </ul>
 <p>A land or biodiversity score built on 13 companies would rank disclosure, and only for a handful of firms. In version 1.1, restoration, recycling and renewable electricity earned up to 10 bonus points on top of the pressure score. With so little land evidence to stand on, and with recycling and renewables now netted inside their own pressures, we set that bonus to zero in version 1.2.</p>
 <p>Almost every company does report four quantities in a machine-readable filing: greenhouse-gas emissions, energy from non-renewable sources, water consumed, and waste it did not recover. IPBES (2019) lists climate change, pollution and the use of natural resources among the direct drivers of nature loss, and these four quantities measure them in a company’s own operations. We built the index on them and renamed it the <strong>Corporate Nature Pressure Index</strong> (CNPI). The name states the scope: pressure the company itself reports. CNPI does not measure the state of nature or a company’s biodiversity impact. Land stays in the index as evidence beside the rank (Section 10), with a site-level biodiversity metric ready for the day companies report site areas and coordinates (Section 10.3).</p>
@@ -214,7 +214,7 @@
 <tr class="even">
 <td>V12 Scope 1 and fuel</td>
 <td>Scope 1 above 0.12 t per GJ of fossil energy, outside process-emission groups</td>
-<td>caution, rank kept; 15 companies</td>
+<td>caution, rank kept; 15 companies, 14 of them ranked</td>
 </tr>
 <tr class="odd">
 <td>V13 Naming caution</td>
@@ -363,7 +363,7 @@
 <tr class="odd">
 <td>Validation</td>
 <td>300× rule, zero check, Scope 2 bill test</td>
-<td>adds V2, V5, V7, V9 (pollution unscored in four groups) and V12; the NIC-based “trading” flag retired</td>
+<td>adds V2, V5, V6, V7, V8, V9 (pollution unscored in four groups), V10 and V12; the NIC-based “trading” flag retired</td>
 </tr>
 <tr class="even">
 <td>Nature cost</td>
